@@ -1137,7 +1137,12 @@ if page == "Executive Overview":
             cols = st.columns([0.18, 0.82], vertical_alignment="center")
             with cols[0]:
                 if "image_url" in r and pd.notna(r.get("image_url")):
-                    st.image(str(r["image_url"]), width=58)
+                    img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+                    if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
+                        try:
+                            st.image(img_url, width=135)
+                        except Exception:
+                            pass
             with cols[1]:
                 st.markdown(
                     f"""<div class="card" style="padding:12px 14px;margin-bottom:8px;">
@@ -1206,7 +1211,12 @@ elif page == "Current ST Assessment":
         s1, s2 = st.columns([0.38, 0.62], vertical_alignment="center")
         with s1:
             if "image_url" in cur_row.index and pd.notna(cur_row.get("image_url")) and str(cur_row.get("image_url")).strip():
-                st.image(str(cur_row.get("image_url")), width=140)
+                img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+                if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
+                    try:
+                        st.image(img_url, width=135)
+                    except Exception:
+                        pass
             elif LOGO_PATH.exists():
                 st.image(str(LOGO_PATH), width=140)
             st.markdown(f"### {cur_row['Name']}")
@@ -1260,7 +1270,12 @@ elif page == "Hidden Gems Discovery":
         c_img, c_profile, c_radar = st.columns([0.16, 0.34, 0.50], vertical_alignment="center")
         with c_img:
             if "image_url" in selected_row and pd.notna(selected_row.get("image_url")) and str(selected_row.get("image_url")).strip():
-                st.image(str(selected_row["image_url"]), width=120)
+                img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+                if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
+                    try:
+                        st.image(img_url, width=135)
+                    except Exception:
+                        pass
             elif LOGO_PATH.exists():
                 st.image(str(LOGO_PATH), width=120)
         with c_profile:
@@ -1301,7 +1316,12 @@ elif page == "Player Card":
     top_cols = st.columns([0.18, 0.42, 0.40], vertical_alignment="center")
     with top_cols[0]:
         if "image_url" in row and pd.notna(row.get("image_url")):
-            st.image(str(row["image_url"]), width=135)
+            img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+            if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
+                try:
+                    st.image(img_url, width=135)
+                except Exception:
+                    pass
         elif LOGO_PATH.exists():
             st.image(str(LOGO_PATH), width=135)
     with top_cols[1]:
@@ -1551,7 +1571,12 @@ elif page == "Similarity Scouting":
     b1, b2 = st.columns([0.36, 0.64], vertical_alignment="center")
     with b1:
         if "image_url" in benchmark_row.index and pd.notna(benchmark_row.get("image_url")) and str(benchmark_row.get("image_url")).strip():
-            st.image(str(benchmark_row.get("image_url")), width=145)
+            img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+            if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
+                try:
+                    st.image(img_url, width=135)
+                except Exception:
+                    pass
         elif LOGO_PATH.exists():
             st.image(str(LOGO_PATH), width=145)
         st.markdown(f"### Benchmark: {benchmark_row['Name']}")
@@ -1595,4 +1620,3 @@ elif page == "Similarity Scouting":
             filename="al_gharafa_similarity_scouting_report.html",
             key="similarity_report_download",
         )
-
