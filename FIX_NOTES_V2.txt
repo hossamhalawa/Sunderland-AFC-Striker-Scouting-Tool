@@ -1,0 +1,1 @@
+Fixed pandas setitem error by reading CSV as strings and assigning scalar Nationalities values. Rebuilt final package.

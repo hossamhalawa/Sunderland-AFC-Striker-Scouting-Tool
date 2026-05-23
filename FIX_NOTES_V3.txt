@@ -1,0 +1,4 @@
+V3 update:
+- Added one year to every current Al Gharafa striker age in data/strikers.csv.
+- Kept all previous V2 fixes: nationality/country display, current ST assessment, HTML reports, hidden gems, player card, compare players and similarity scouting.
+- No changes to market value; it remains removed.
