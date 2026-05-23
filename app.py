@@ -1136,8 +1136,8 @@ if page == "Executive Overview":
         for _, r in top.iterrows():
             cols = st.columns([0.18, 0.82], vertical_alignment="center")
             with cols[0]:
-                if "image_url" in r and pd.notna(r.get("image_url")):
-                    img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+                if "image_url" in r.index:
+                    img_url = "" if pd.isna(r.get("image_url", "")) else str(r.get("image_url", "")).strip()
                     if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
                         try:
                             st.image(img_url, width=135)
@@ -1210,13 +1210,16 @@ elif page == "Current ST Assessment":
         cur_row = current[current["Name"].astype(str) == selected_current].iloc[0]
         s1, s2 = st.columns([0.38, 0.62], vertical_alignment="center")
         with s1:
-            if "image_url" in cur_row.index and pd.notna(cur_row.get("image_url")) and str(cur_row.get("image_url")).strip():
-                img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+            if "image_url" in cur_row.index:
+                img_url = "" if pd.isna(cur_row.get("image_url", "")) else str(cur_row.get("image_url", "")).strip()
                 if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
                     try:
                         st.image(img_url, width=135)
                     except Exception:
-                        pass
+                        if LOGO_PATH.exists():
+                            st.image(str(LOGO_PATH), width=140)
+                elif LOGO_PATH.exists():
+                    st.image(str(LOGO_PATH), width=140)
             elif LOGO_PATH.exists():
                 st.image(str(LOGO_PATH), width=140)
             st.markdown(f"### {cur_row['Name']}")
@@ -1269,13 +1272,16 @@ elif page == "Hidden Gems Discovery":
         selected_row = inspect_pool[inspect_pool["Name"].astype(str) == selected_hidden].iloc[0]
         c_img, c_profile, c_radar = st.columns([0.16, 0.34, 0.50], vertical_alignment="center")
         with c_img:
-            if "image_url" in selected_row and pd.notna(selected_row.get("image_url")) and str(selected_row.get("image_url")).strip():
-                img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+            if "image_url" in selected_row.index:
+                img_url = "" if pd.isna(selected_row.get("image_url", "")) else str(selected_row.get("image_url", "")).strip()
                 if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
                     try:
                         st.image(img_url, width=135)
                     except Exception:
-                        pass
+                        if LOGO_PATH.exists():
+                            st.image(str(LOGO_PATH), width=120)
+                elif LOGO_PATH.exists():
+                    st.image(str(LOGO_PATH), width=120)
             elif LOGO_PATH.exists():
                 st.image(str(LOGO_PATH), width=120)
         with c_profile:
@@ -1570,13 +1576,16 @@ elif page == "Similarity Scouting":
 
     b1, b2 = st.columns([0.36, 0.64], vertical_alignment="center")
     with b1:
-        if "image_url" in benchmark_row.index and pd.notna(benchmark_row.get("image_url")) and str(benchmark_row.get("image_url")).strip():
-            img_url = "" if pd.isna(row.get("image_url", "")) else str(row.get("image_url", "")).strip()
+        if "image_url" in benchmark_row.index:
+            img_url = "" if pd.isna(benchmark_row.get("image_url", "")) else str(benchmark_row.get("image_url", "")).strip()
             if img_url and img_url.lower() not in ["nan", "none", "unknown", "-", ""]:
                 try:
                     st.image(img_url, width=135)
                 except Exception:
-                    pass
+                    if LOGO_PATH.exists():
+                        st.image(str(LOGO_PATH), width=145)
+            elif LOGO_PATH.exists():
+                st.image(str(LOGO_PATH), width=145)
         elif LOGO_PATH.exists():
             st.image(str(LOGO_PATH), width=145)
         st.markdown(f"### Benchmark: {benchmark_row['Name']}")
