@@ -8,6 +8,7 @@ import re
 import unicodedata
 from pathlib import Path
 from typing import Iterable, List, Optional
+from urllib.parse import unquote
 
 import numpy as np
 import pandas as pd
@@ -366,14 +367,18 @@ def clean_positions(value: object) -> str:
 
 
 def player_image_url(value: object) -> str:
-    """Request the highest available portrait resolution without dropping any image."""
+    """Use the original portrait URL where available, avoiding a fragile image proxy."""
     if pd.isna(value):
         return ""
     url = str(value).strip()
     if not url or url.lower() in {"nan", "none", "unknown", "-"}:
         return ""
     if "efem.club/_next/image" in url:
-        url = re.sub(r"([?&]w=)\d+", r"\g<1>256", url)
+        source_match = re.search(r"[?&]url=([^&]+)", url)
+        if source_match:
+            source_url = unquote(source_match.group(1)).strip()
+            if source_url.startswith(("https://", "http://")):
+                return source_url
     return url
 
 
@@ -446,14 +451,14 @@ def fig_layout(fig: go.Figure, height: int = 430, bottom_legend: bool = True) ->
 
 
 def relative_band(value: float) -> str:
-    """Human-readable league-relative band; avoids leading with a raw score."""
+    """Short visual label for non-comparison charts."""
     if value >= 75:
-        return "Strong league profile"
+        return "High"
     if value >= 55:
-        return "Above the middle band"
+        return "Above average"
     if value >= 40:
-        return "Middle band"
-    return "Developing profile"
+        return "Balanced"
+    return "Lower"
 
 
 def passmap_percentile(teams: pd.DataFrame, row: pd.Series, metric: str) -> float:
@@ -1044,7 +1049,7 @@ def radar_chart(row: pd.Series, title: str = "Player phase profile") -> go.Figur
         line=dict(color=GOLD, width=3),
         marker=dict(size=7, color=GOLD),
         customdata=details + [details[0]],
-        hovertemplate="<b>%{theta}</b><br>EFEM attribute level: %{r:.1f}/100<br><span style='font-size:11px'>%{customdata}</span><extra></extra>",
+        hovertemplate="<b>%{theta}</b><br>Attribute level: %{r:.1f}/100<br><span style='font-size:11px'>%{customdata}</span><extra></extra>",
     ))
     fig.update_layout(
         polar=dict(
@@ -1082,7 +1087,7 @@ def multi_radar(rows: pd.DataFrame, title: str) -> go.Figure:
             radialaxis=dict(visible=True, range=[0, 100], gridcolor="#D7DEE9"),
             angularaxis=dict(gridcolor="#D7DEE9", tickfont=dict(color=NAVY)),
         ),
-        title=dict(text=f"{title} · {'Verified EFEM attributes' if full_only else 'Legacy phase model (mixed data availability)'}", font=dict(size=20, color=NAVY)),
+        title=dict(text=title, font=dict(size=20, color=NAVY)),
     )
     return fig_layout(fig, 520)
 
@@ -1105,7 +1110,7 @@ def phase_bar(row: pd.Series) -> go.Figure:
             y=labels, orientation="h",
             marker=dict(color=[GOLD if value >= baseline else "#70757A" for value, baseline in zip(vals, baselines)]),
             customdata=[[value, baseline, detail] for value, baseline, detail in zip(vals, baselines, details)],
-            hovertemplate="<b>%{y}</b><br>EFEM attribute level: %{customdata[0]:.0f}/100<br>Universe median: %{customdata[1]:.0f}<br><span style='font-size:11px'>%{customdata[2]}</span><extra></extra>",
+            hovertemplate="<b>%{y}</b><br>Attribute level: %{customdata[0]:.0f}/100<br>Universe median: %{customdata[1]:.0f}<br><span style='font-size:11px'>%{customdata[2]}</span><extra></extra>",
             showlegend=False,
         ))
         fig.add_trace(go.Scatter(
@@ -1115,7 +1120,7 @@ def phase_bar(row: pd.Series) -> go.Figure:
         ))
         fig.update_xaxes(
             range=[0, 110], tickvals=[0, 25, 50, 75, 100],
-            gridcolor="rgba(0,0,0,0)", title="EFEM attribute level (0–100)",
+            gridcolor="rgba(0,0,0,0)", title="Attribute level (0–100)",
         )
         fig.update_yaxes(autorange="reversed", showgrid=False)
         fig.update_layout(title="What the radar means", barmode="overlay", showlegend=False)
@@ -1184,7 +1189,7 @@ def player_report_visual(row: pd.Series) -> str:
             <div class="spr-value">{safe_value:.0f}</div>
           </div>'''
 
-    status = "Verified attribute data" if verified else "Legacy phase model"
+    status = "Detailed attributes" if verified else "Phase profile"
     return """<style>
     #sunderland-player-report { margin: 6px 0 18px; color: #111111; }
     #sunderland-player-report * { box-sizing: border-box; }
@@ -1237,14 +1242,14 @@ def player_report_visual(row: pd.Series) -> str:
       <div class="spr-shell">
         <div class="spr-topline"></div>
         <div class="spr-header">
-          <div><div class="spr-eyebrow">Sunderland AFC · Player report</div><div class="spr-heading">Striker profile</div><div class="spr-context">EFEM attribute level (0–100) against the full striker universe</div></div>
+          <div><div class="spr-eyebrow">Sunderland AFC · Player report</div><div class="spr-heading">Striker profile</div><div class="spr-context">Attribute level (0–100) against the striker universe</div></div>
           <div class="spr-tag">{status}</div>
         </div>
         <div class="spr-grid-layout">
           <section aria-label="Radar overview"><div class="spr-panel-title"><span>Radar overview</span><span class="spr-panel-note">Raw level · 0–100</span></div><div class="spr-radar-wrap"><svg class="spr-radar" viewBox="0 0 460 410" role="img" aria-label="Seven-axis striker attribute radar"><title>Striker attribute radar</title>{grids}{axes}<polygon points="{median_points}" class="spr-median-ring" /><polygon points="{profile_points}" class="spr-profile" />{dots}{axis_labels}<text x="235" y="71" class="spr-tick">100</text><text x="235" y="136" class="spr-tick">50</text><text x="235" y="201" class="spr-tick">0</text></svg></div></section>
           <section aria-label="Radar explanation"><div class="spr-panel-title"><span>What the radar means</span><span class="spr-panel-note">Line = universe median</span></div><div class="spr-bars">{bars}</div><div class="spr-legend"><span class="spr-legend-item"><span class="spr-swatch"></span>Player attribute level</span><span class="spr-legend-item"><span class="spr-swatch spr-swatch-mid"></span>Striker-universe median</span></div></section>
         </div>
-        <div class="spr-footer"><strong>Scout read:</strong> the radar shows raw EFEM levels; the aligned bars show the exact distance from the striker-universe median.</div>
+        <div class="spr-footer"><strong>Scout read:</strong> the radar shows raw attribute levels; the aligned bars show the distance from the striker-universe median.</div>
       </div>
     </section>'''
 
@@ -1258,7 +1263,7 @@ def detailed_attribute_group_chart(row: pd.Series, group: str) -> go.Figure:
         marker=dict(color=[GOLD if value >= 75 else NAVY if value >= 50 else "#9CA3AF" for value in percentiles]),
         text=[f"Raw {raw:.0f}" for raw in raw_values], textposition="outside",
         customdata=raw_values,
-        hovertemplate="<b>%{y}</b><br>Striker-universe percentile: %{x:.0f}<br>Raw EFEM attribute: %{customdata:.0f}<extra></extra>",
+        hovertemplate="<b>%{y}</b><br>Striker-universe percentile: %{x:.0f}<br>Raw attribute: %{customdata:.0f}<extra></extra>",
     ))
     fig.add_vline(x=50, line_color="#AEB6C2", line_width=1.5, line_dash="dot", annotation_text="middle of striker universe", annotation_font_color=MUTED)
     fig.update_xaxes(range=[0, 108], gridcolor="#E5E7EB", title="Percentile across all strikers")
@@ -1328,7 +1333,7 @@ def difference_bars(rows: pd.DataFrame) -> go.Figure:
         color_discrete_sequence=[GOLD, NAVY, BLUE, RED, "#7C3AED"],
     )
     fig.add_vline(x=0, line_width=2, line_dash="dash", line_color="#9CA3AF")
-    fig.update_layout(title="Where each player is stronger/weaker than the comparison group" + (" · verified EFEM profile" if full_only else " · legacy phase model"))
+    fig.update_layout(title="Where each player is stronger or weaker than the comparison group")
     fig.update_xaxes(gridcolor="#E5E7EB")
     return fig_layout(fig, 460)
 
@@ -1412,12 +1417,11 @@ def profile_strip_chart(rows: pd.DataFrame, title: str) -> go.Figure:
         return go.Figure()
     values = np.asarray([profile_phase_values(row) for _, row in rows.iterrows()], dtype=float)
     labels = [str(name) for name in rows["Name"].tolist()]
-    bands = np.vectorize(lambda value: relative_band(float(value)).replace(" profile", ""))(values)
     fig = go.Figure(go.Heatmap(
         z=values,
         x=PHASES,
         y=labels,
-        text=bands,
+        text=[["" for _ in PHASES] for _ in labels],
         texttemplate="%{text}",
         textfont=dict(size=11),
         colorscale=[[0.0, "#D8DDE3"], [0.48, "#A5AEBB"], [0.67, "#677487"], [0.82, GOLD], [1.0, "#9C0009"]],
@@ -1465,7 +1469,7 @@ def similarity_alignment_chart(benchmark: pd.Series, candidates: pd.DataFrame) -
 
 
 def profile_reading(rows: pd.DataFrame) -> str:
-    """One human decision cue from the selected profiles, not a replacement for scouting."""
+    """One direct decision cue from the selected profiles."""
     if rows.empty:
         return ""
     strengths = {phase: float(pd.to_numeric(rows[phase], errors="coerce").mean()) for phase in PHASES}
@@ -1474,8 +1478,8 @@ def profile_reading(rows: pd.DataFrame) -> str:
     clearest_split = max(spread, key=spread.get)
     return (
         f"<div class='scout-reading'><div class='eyebrow'>Scout canvas · reading</div>"
-        f"Across this group, <strong>{html.escape(strongest)}</strong> is the shared strength. "
-        f"The clearest separator is <strong>{html.escape(clearest_split)}</strong> — use the map and profile strips to identify whether the preferred option is a connector, a vertical runner or a more physical box profile."
+        f"Shared strength: <strong>{html.escape(strongest)}</strong><br>"
+        f"Biggest difference: <strong>{html.escape(clearest_split)}</strong>"
         f"</div>"
     )
 
@@ -2253,7 +2257,7 @@ elif page == "Player Card":
 
 elif page == "Compare Players":
     st.markdown('<div class="section-header">Compare Players</div>', unsafe_allow_html=True)
-    st.caption("Use the scout canvas to identify role families first; open the radar only when you need the familiar shape view.")
+    st.caption("Compare role family, phase profile and the key difference between players.")
     pool = df if not df.empty else players.sort_values("Scouting Opportunity", ascending=False)
     default_names = pool.head(3)["Name"].tolist()
     selected_names = st.multiselect("Choose 2 to 5 players", pool["Name"].astype(str).tolist(), default=default_names, max_selections=5)
@@ -2262,35 +2266,33 @@ elif page == "Compare Players":
     else:
         comp = pool[pool["Name"].isin(selected_names)].drop_duplicates("Name").head(5)
         st.plotly_chart(scout_canvas_figure(pool, comp, "Scout canvas · selected role families"), width="stretch")
-        st.markdown('<div class="visual-caption">The grey field is the available player pool. Selected profiles sit above it, so spacing reads as role family rather than a misleading “better / worse” ranking. Hover any point for identity and fit.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="visual-caption">Grey points are the available pool. Selected players are highlighted. Hover a point for player details.</div>', unsafe_allow_html=True)
 
         c1, c2 = st.columns([0.68, 0.32], vertical_alignment="top")
         with c1:
             st.plotly_chart(profile_strip_chart(comp, "Selected profile fingerprints"), width="stretch")
         with c2:
             st.markdown(profile_reading(comp), unsafe_allow_html=True)
-            st.markdown('<div class="small-note">Each tile is on the same 0–100 phase scale. Exact values are available on hover; the visual stays clean enough to make differences visible immediately.</div>', unsafe_allow_html=True)
+            st.markdown('<div class="small-note">Each tile uses the same 0–100 phase scale. Hover for the exact value.</div>', unsafe_allow_html=True)
 
-        if comp.apply(has_full_efem_attributes, axis=1).all():
-            comparison_lens = st.selectbox("Compare an exact attribute group", list(EFEM_ATTRIBUTE_GROUPS), key="comparison_attribute_lens")
-            comparison_rows = []
-            for _, candidate in comp.iterrows():
-                for attribute in EFEM_ATTRIBUTE_GROUPS[comparison_lens]:
-                    comparison_rows.append({"Player": candidate["Name"], "Attribute": attribute, "Percentile": float(candidate[f"EFEM percentile · {attribute}"]), "Raw value": float(candidate[attribute])})
-            comparison_detail = px.bar(
-                pd.DataFrame(comparison_rows), x="Percentile", y="Attribute", color="Player", barmode="group", orientation="h",
-                color_discrete_sequence=[GOLD, NAVY, BLUE, RED, "#7C3AED"],
-                hover_data={"Percentile": ":.0f", "Raw value": ":.0f"},
-            )
-            comparison_detail.add_vline(x=50, line_color="#AEB6C2", line_width=1.5, line_dash="dot")
-            comparison_detail.update_layout(title=f"{comparison_lens} · exact EFEM attributes", xaxis=dict(range=[0, 105], gridcolor="#E5E7EB", title="Percentile across all strikers"), yaxis=dict(autorange="reversed"))
-            st.plotly_chart(fig_layout(comparison_detail, 470), width="stretch")
-        else:
-            st.info("This comparison includes a player without the detailed attribute profile, so the fingerprint uses the shared six-phase view for a fair comparison.")
-        comp_cols = ["Name","Club","Age","Best Role","Scout Tag","Scouting Opportunity","Sunderland AFC ST Fit","Hidden Gem Opportunity","Under-the-Radar Score","Best System","Box Threat","Link-up Play","Channel Running","Wide Combination","Aerial Outlet","Defensive Work"]
-        with st.expander("Open supporting views and exact comparison data"):
-            st.plotly_chart(multi_radar(comp, "Comparison radar · supporting view"), width="stretch")
-            st.plotly_chart(difference_bars(comp), width="stretch")
+        with st.expander("Open detailed attributes and exact comparison data"):
+            if comp.apply(has_full_efem_attributes, axis=1).all():
+                comparison_lens = st.selectbox("Attribute group", list(EFEM_ATTRIBUTE_GROUPS), key="comparison_attribute_lens")
+                comparison_rows = []
+                for _, candidate in comp.iterrows():
+                    for attribute in EFEM_ATTRIBUTE_GROUPS[comparison_lens]:
+                        comparison_rows.append({"Player": candidate["Name"], "Attribute": attribute, "Percentile": float(candidate[f"EFEM percentile · {attribute}"]), "Raw value": float(candidate[attribute])})
+                comparison_detail = px.bar(
+                    pd.DataFrame(comparison_rows), x="Percentile", y="Attribute", color="Player", barmode="group", orientation="h",
+                    color_discrete_sequence=[GOLD, NAVY, BLUE, RED, "#7C3AED"],
+                    hover_data={"Percentile": ":.0f", "Raw value": ":.0f"},
+                )
+                comparison_detail.add_vline(x=50, line_color="#AEB6C2", line_width=1.5, line_dash="dot")
+                comparison_detail.update_layout(title=f"{comparison_lens} · attributes", xaxis=dict(range=[0, 105], gridcolor="#E5E7EB", title="Percentile across all strikers"), yaxis=dict(autorange="reversed"))
+                st.plotly_chart(fig_layout(comparison_detail, 470), width="stretch")
+            else:
+                st.info("Detailed attributes are not available for every selected player, so the comparison above uses the shared phase profile.")
+            comp_cols = ["Name","Club","Age","Best Role","Scout Tag","Scouting Opportunity","Sunderland AFC ST Fit","Hidden Gem Opportunity","Under-the-Radar Score","Best System","Box Threat","Link-up Play","Channel Running","Wide Combination","Aerial Outlet","Defensive Work"]
             st.dataframe(comp[[c for c in comp_cols if c in comp.columns]].round(2), width="stretch", hide_index=True)
 
         page_report_download(
@@ -2606,7 +2608,7 @@ Sunderland AFC tactical fit
 
 elif page == "Similarity Scouting":
     st.markdown('<div class="section-header">Similarity Scouting</div>', unsafe_allow_html=True)
-    st.caption("Choose a benchmark striker, then the tool recommends similar profiles using role scores, phase DNA and system-fit behaviour.")
+    st.caption("Choose a benchmark player. The tool returns the closest profiles in the current pool.")
 
     benchmark_pool = players.sort_values("Sunderland AFC ST Fit", ascending=False).copy()
     benchmark_names = benchmark_pool["Name"].astype(str).tolist()
@@ -2643,7 +2645,7 @@ elif page == "Similarity Scouting":
         sim_comp = pd.concat([benchmark_row.to_frame().T, sims.head(4)], ignore_index=True)
         st.markdown("### Similarity canvas")
         st.plotly_chart(scout_canvas_figure(candidate_pool, sim_comp, "Benchmark and closest role families", benchmark_name=str(benchmark_row["Name"])), width="stretch")
-        st.markdown('<div class="visual-caption">The map is a visual orientation layer, not the similarity calculation. The recommendation score still uses the existing role, phase and system-fit model; hover candidates to inspect their profile context.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="visual-caption">The map shows role context. Hover a player to inspect the profile.</div>', unsafe_allow_html=True)
 
         alignment_left, alignment_right = st.columns([0.54, 0.46], vertical_alignment="top")
         with alignment_left:
@@ -2655,8 +2657,8 @@ elif page == "Similarity Scouting":
         st.markdown(
             f"""
             <div class="navy-card">
-            <b>Similarity interpretation:</b> the closest profile to <b>{benchmark_row['Name']}</b> under the current filters is <b>{top_match['Name']}</b> with a similarity score of <b>{top_match['Similarity Score']:.1f}%</b>.<br><br>
-            This does not mean he is better. It means his role/phase/system profile is close enough to justify video review as a comparable or replacement-style profile.
+            <b>Closest match:</b> <b>{top_match['Name']}</b> · <b>{top_match['Similarity Score']:.1f}%</b><br>
+            {similarity_trait_reading(benchmark_row, top_match)}
             </div>
             """,
             unsafe_allow_html=True,
@@ -2689,9 +2691,7 @@ elif page == "Similarity Scouting":
                             unsafe_allow_html=True,
                         )
 
-        with st.expander("Open supporting views and exact ranked data"):
-            st.plotly_chart(radar_chart(benchmark_row, "Benchmark radar · supporting view"), width="stretch")
-            st.plotly_chart(multi_radar(sim_comp, "Benchmark vs closest profiles · supporting view"), width="stretch")
+        with st.expander("Open exact ranked data"):
             st.dataframe(report_table(sims, sim_cols, top_n), width="stretch", hide_index=True)
 
         page_report_download(
