@@ -1,0 +1,10 @@
+{
+  "source": "https://efem.club",
+  "imported_at_utc": "2026-10-29T22:37:25.295282+00:00",
+  "source_records": 50076,
+  "completed_before_run": 5,
+  "failed_before_run": 0,
+  "pending_this_run": 50071,
+  "delay_seconds": 1.0,
+  "status": "running"
+}

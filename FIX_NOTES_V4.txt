@@ -1,9 +1,0 @@
-V4 Zaid Faisal Ktit update
-
-Changes:
-- Removed Nasser Al-Kaabi from the full data file.
-- Removed Abdulrahman Al-Abdulrahman from the full data file.
-- Added Zaid Faisal Ktit as an Al-Gharafa current striker benchmark.
-- Zaid role scores were estimated from the uploaded Player stats Zaid Ktit.xlsx sample: 414 minutes, 1 goal, 1 assist, 3.40 xG, 15 shots, 6 shots on target, 19 aerial duels, 8 aerial duels won and 16 touches in the penalty area.
-- Zaid profile is treated as a U18 Qatar CF / development striker with strong box threat for age, moderate aerial outlet, and limited link-play evidence in the sample.
-- Current ST Assessment now contains Joselu, Mohammed Muntari, Isslam El Awwad and Zaid Faisal Ktit only.

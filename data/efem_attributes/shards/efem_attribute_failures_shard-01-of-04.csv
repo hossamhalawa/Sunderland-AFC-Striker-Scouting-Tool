@@ -1,0 +1,4 @@
+row_id,Name,Club,player_url,reason,retrieved_at_utc
+2000527202,Doniyorbek O'ktamov,Jizzax FA,https://efem.club/players/2000527202-Doniyorbek-O'ktamov/,"Name mismatch: source=""Doniyorbek O'ktamov""; page='Doniyorbek O&#x27;ktamov'",2026-10-30T02:16:50.113360+00:00
+2000517718,Matteo D'Amato,Lykos,https://efem.club/players/2000517718-Matteo-D'Amato/,"Name mismatch: source=""Matteo D'Amato""; page='Matteo D&#x27;Amato'",2026-10-30T02:24:06.971352+00:00
+2000442206,Akobir Mo'minov,Olmaliq,https://efem.club/players/2000442206-Akobir-Mo'minov/,"Name mismatch: source=""Akobir Mo'minov""; page='Akobir Mo&#x27;minov'",2026-10-30T02:28:13.015179+00:00

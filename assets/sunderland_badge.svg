@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="320" viewBox="0 0 256 320" role="img" aria-label="Sunderland AFC scouting badge">
+  <path d="M18 18h220v162c0 65-45 104-110 122C63 284 18 245 18 180Z" fill="#e30613" stroke="#111" stroke-width="10"/>
+  <path d="M44 42h168v132c0 48-31 76-84 96-53-20-84-48-84-96Z" fill="#fff"/>
+  <path d="M91 43h28v210c-31-13-49-38-49-79V43Zm46 0h28v131c0 41-18 66-49 79Z" fill="#e30613"/>
+  <rect x="48" y="112" width="160" height="64" rx="6" fill="#111"/>
+  <text x="128" y="153" fill="#fff" font-family="Arial, sans-serif" font-size="31" font-weight="800" text-anchor="middle">SAFC</text>
+  <text x="128" y="205" fill="#111" font-family="Arial, sans-serif" font-size="16" font-weight="800" text-anchor="middle">SCOUTING</text>
+</svg>

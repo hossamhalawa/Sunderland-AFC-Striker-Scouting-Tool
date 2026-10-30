@@ -1,0 +1,12 @@
+{
+  "source": "withqwerty public pass-map data (source page describes WhoScored/Opta event data)",
+  "retrieved_at_utc": "2026-10-29T21:33:27+00:00",
+  "source_root": "https://withqwerty.com/stories/sunderland/passmaps/",
+  "teams_downloaded": 20,
+  "failures": {},
+  "limits": [
+    "No carries or progressive carries",
+    "No duels, aerials, recoveries or PPDA",
+    "Use one cached refresh rather than high-frequency polling"
+  ]
+}

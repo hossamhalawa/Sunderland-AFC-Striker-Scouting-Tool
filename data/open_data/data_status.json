@@ -1,0 +1,17 @@
+{
+  "retrieved_at_utc": "2026-10-29T14:05:45+00:00",
+  "source": "Statz public web pages",
+  "source_urls": {
+    "team": "https://statz.ai/team/sunderland",
+    "squad": "https://statz.ai/team/sunderland/squad",
+    "league_attacking": "https://statz.ai/competitions/premier-league/stats/players?group=attacking",
+    "league_defending": "https://statz.ai/competitions/premier-league/stats/players?group=defending",
+    "league_possession": "https://statz.ai/competitions/premier-league/stats/players?group=possession"
+  },
+  "limitations": [
+    "The DNA snapshot is match-level public data and uses labelled proxies.",
+    "The league leaders file is a partial top-10 leaderboard union, not a complete recruitment database.",
+    "No pressing-event, player-location, contract, injury, or transfer-fee data is supplied.",
+    "Validate names, season scope and unusual values before any decision."
+  ]
+}

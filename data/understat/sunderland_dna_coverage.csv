@@ -1,0 +1,6 @@
+DNA pillar,League percentile,Free-data input,Coverage
+Build-up Control,50.0,xG Buildup (team sum),partial
+Progression,50.0,xG Chain (team sum),partial
+Final Third Access,27.5,xG + deep completions,supported
+Pressing / Regain,40.0,PPDA (lower is more intense),supported
+Defensive Control,15.0,xGA against + deep completions allowed,supported

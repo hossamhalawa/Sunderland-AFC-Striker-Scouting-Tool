@@ -1,0 +1,12 @@
+{
+  "source": "https://efem.club",
+  "imported_at_utc": "2026-10-30T02:09:45.487711+00:00",
+  "source_records": 50076,
+  "completed_before_run": 225,
+  "failed_before_run": 2,
+  "pending_this_run": 12462,
+  "delay_seconds": 1.0,
+  "shard_index": 2,
+  "shard_count": 4,
+  "status": "running"
+}

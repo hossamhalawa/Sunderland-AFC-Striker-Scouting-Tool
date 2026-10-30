@@ -1,0 +1,886 @@
+row_id,Name,Club,player_url,efem_name,Playmaking,Shooting,Defending,Ball Control,Mental,Personality,Aerial,Physical,Set Piece,retrieved_at_utc
+2000475000,Nicolas Zenclussen,Unión (SF),https://efem.club/players/2000475000-Nicolas-Zenclussen/,Nicolas Zenclussen,41,68,30,67,55,77,76,64,50,2026-10-30T02:09:45.299179+00:00
+2000477207,Moha Touray,Girona,https://efem.club/players/2000477207-Moha-Touray/,Moha Touray,55,65,31,69,58,79,61,69,54,2026-10-30T02:09:48.475705+00:00
+2000493511,Sam van de Camp,PSV,https://efem.club/players/2000493511-Sam-van-de-Camp/,Sam van de Camp,49,62,36,68,50,69,68,63,38,2026-10-30T02:09:49.882588+00:00
+2000498401,Aarón Soriano,Espanyol,https://efem.club/players/2000498401-Aar%C3%B3n-Soriano/,Aarón Soriano,57,68,43,68,63,72,64,68,56,2026-10-30T02:09:51.458019+00:00
+2000506808,Dayvi Busby,FC Den Bosch,https://efem.club/players/2000506808-Dayvi-Busby/,Dayvi Busby,51,69,36,72,57,69,58,58,38,2026-10-30T02:09:52.969451+00:00
+2000514910,Dejan Aćimović,Celje,https://efem.club/players/2000514910-Dejan-A%C4%87imovi%C4%87/,Dejan Aćimović,62,63,37,70,60,67,48,66,45,2026-10-30T02:09:54.657212+00:00
+2000531483,Frank Egwuatu,FC Bayern,https://efem.club/players/2000531483-Frank-Egwuatu/,Frank Egwuatu,39,58,39,67,52,68,60,63,47,2026-10-30T02:09:56.485636+00:00
+2000446119,Jose-Andrei Rostaş,Kapfenberger SV,https://efem.club/players/2000446119-Jose-Andrei-Rosta%C5%9F/,Jose-Andrei Rostaş,58,59,38,63,57,68,59,72,47,2026-10-30T02:09:58.209398+00:00
+2000489383,Andrija Tasić,Jagodina,https://efem.club/players/2000489383-Andrija-Tasi%C4%87/,Andrija Tasić,51,63,29,56,58,69,67,62,41,2026-10-30T02:09:59.710250+00:00
+2000506226,Asilbek Aliev,Andijon,https://efem.club/players/2000506226-Asilbek-Aliev/,Asilbek Aliev,63,72,46,65,65,71,73,72,61,2026-10-30T02:10:01.227302+00:00
+2000518962,Anas Ahmed,FC Masar,https://efem.club/players/2000518962-Anas-Ahmed/,Anas Ahmed,45,65,32,67,41,71,59,66,30,2026-10-30T02:10:02.578678+00:00
+2000418840,Bruno Mišura,Hajduk,https://efem.club/players/2000418840-Bruno-Mi%C5%A1ura/,Bruno Mišura,51,65,39,65,64,75,67,71,49,2026-10-30T02:10:03.829188+00:00
+2000348501,Yusuf Faghir,Vejle,https://efem.club/players/2000348501-Yusuf-Faghir/,Yusuf Faghir,67,70,38,64,68,72,68,63,61,2026-10-30T02:10:05.124608+00:00
+2000527380,Julio Sinisterra,Fortaleza C.E.I.F.,https://efem.club/players/2000527380-Julio-Sinisterra/,Julio Sinisterra,53,77,34,70,58,69,64,60,54,2026-10-30T02:10:06.372920+00:00
+2000368416,Nemanja Krstović,SCR Altach,https://efem.club/players/2000368416-Nemanja-Krstovi%C4%87/,Nemanja Krstović,38,68,27,70,57,67,58,64,42,2026-10-30T02:10:07.656304+00:00
+2000504047,Markus Østerud,HamKam,https://efem.club/players/2000504047-Markus-%C3%98sterud/,Markus Østerud,57,55,44,69,59,65,56,68,45,2026-10-30T02:10:08.888515+00:00
+2000495779,Pasquale Esposito,U.S. Lecce,https://efem.club/players/2000495779-Pasquale-Esposito/,Pasquale Esposito,44,67,30,64,65,64,60,62,39,2026-10-30T02:10:10.105566+00:00
+2000523241,Elliot Lavlund,Sandefjord,https://efem.club/players/2000523241-Elliot-Lavlund/,Elliot Lavlund,49,56,52,66,67,66,68,71,51,2026-10-30T02:10:11.280699+00:00
+2000456221,Adnel Mahic,SCR Altach,https://efem.club/players/2000456221-Adnel-Mahic/,Adnel Mahic,50,70,33,67,52,73,58,66,42,2026-10-30T02:10:12.540739+00:00
+2000475818,Afonso Ferreirinha,Benfica,https://efem.club/players/2000475818-Afonso-Ferreirinha/,Afonso Ferreirinha,54,65,48,66,67,75,69,71,48,2026-10-30T02:10:13.806121+00:00
+2000503578,Maxim Magada,Slavia Prague,https://efem.club/players/2000503578-Maxim-Magada/,Maxim Magada,61,43,34,65,49,75,59,67,38,2026-10-30T02:10:15.086378+00:00
+12094272,Abdul Odjewola,US Kozah,https://efem.club/players/12094272-Abdul-Odjewola/,Abdul Odjewola,35,63,28,67,48,75,52,68,32,2026-10-30T02:10:16.450507+00:00
+2000393896,Gennaro van der Sluis,Young Boys,https://efem.club/players/2000393896-Gennaro-van-der-Sluis/,Gennaro van der Sluis,71,57,44,69,56,71,53,63,49,2026-10-30T02:10:17.696343+00:00
+2000455097,Valentino Lussakueno,Antwerp,https://efem.club/players/2000455097-Valentino-Lussakueno/,Valentino Lussakueno,54,69,32,58,57,74,55,65,46,2026-10-30T02:10:25.116137+00:00
+2000472440,Ismael Ziani,Barcelona,https://efem.club/players/2000472440-Ismael-Ziani/,Ismael Ziani,58,67,45,70,65,74,65,58,54,2026-10-30T02:10:26.637482+00:00
+2000480088,Mohammad Fawaz,Ahed,https://efem.club/players/2000480088-Mohammad-Fawaz/,Mohammad Fawaz,36,58,25,62,50,70,58,70,45,2026-10-30T02:10:27.804485+00:00
+2000489260,Maxence Soulet,Clermont,https://efem.club/players/2000489260-Maxence-Soulet/,Maxence Soulet,45,65,28,69,52,72,62,64,41,2026-10-30T02:10:32.197868+00:00
+2000490613,Matěj Klepáč,Viktoria Žižkov,https://efem.club/players/2000490613-Mat%C4%9Bj-Klep%C3%A1%C4%8D/,Matěj Klepáč,55,58,42,65,58,74,57,70,39,2026-10-30T02:10:33.483361+00:00
+2000493091,Léo Frechingues,Toulouse FC,https://efem.club/players/2000493091-L%C3%A9o-Frechingues/,Léo Frechingues,35,55,20,62,52,70,62,65,39,2026-10-30T02:10:34.725114+00:00
+2000497962,Santino Santillán,River,https://efem.club/players/2000497962-Santino-Santill%C3%A1n/,Santino Santillán,50,69,32,70,57,67,46,53,51,2026-10-30T02:10:35.929818+00:00
+2000504543,Pavel Budil,Vlašim,https://efem.club/players/2000504543-Pavel-Budil/,Pavel Budil,45,58,34,64,53,65,56,66,43,2026-10-30T02:10:37.125748+00:00
+2000417749,Doudou Ndiaye,Westerlo,https://efem.club/players/2000417749-Doudou-Ndiaye/,Doudou Ndiaye,63,70,53,66,56,67,56,71,50,2026-10-30T02:10:38.326034+00:00
+2000493321,Emil Leó Jónþórsson,Vestri,https://efem.club/players/2000493321-Emil-Le%C3%B3-J%C3%B3n%C3%BE%C3%B3rsson/,Emil Leó Jónþórsson,46,58,30,63,55,68,70,68,49,2026-10-30T02:10:39.578538+00:00
+2000516144,Joaquín Varela,Albion,https://efem.club/players/2000516144-Joaqu%C3%ADn-Varela/,Joaquín Varela,38,68,19,63,60,70,59,61,46,2026-10-30T02:10:40.800851+00:00
+2000408340,Juan Gabriel,Palmeiras,https://efem.club/players/2000408340-Juan-Gabriel/,Juan Gabriel,64,63,36,68,58,73,63,59,41,2026-10-30T02:10:42.007874+00:00
+2000485994,Oliver Boast,Tottenham,https://efem.club/players/2000485994-Oliver-Boast/,Oliver Boast,61,74,30,65,57,73,54,64,43,2026-10-30T02:10:43.267752+00:00
+2000514932,Pino Žeželj,Bravo,https://efem.club/players/2000514932-Pino-%C5%BDe%C5%BEelj/,Pino Žeželj,49,53,25,64,56,69,66,60,39,2026-10-30T02:10:44.583398+00:00
+2000332510,Tim Boldt,Karlsruhe,https://efem.club/players/2000332510-Tim-Boldt/,Tim Boldt,51,62,42,67,55,74,62,68,44,2026-10-30T02:10:45.833986+00:00
+2000449285,Amos Mpanzu,Standard,https://efem.club/players/2000449285-Amos-Mpanzu/,Amos Mpanzu,37,65,30,67,51,75,59,66,45,2026-10-30T02:10:47.091332+00:00
+2000464116,Miqueas Pintos,All Boys,https://efem.club/players/2000464116-Miqueas-Pintos/,Miqueas Pintos,48,65,34,72,52,72,59,61,34,2026-10-30T02:10:48.314329+00:00
+2000458770,Horacio Ali-Sticca,Watford,https://efem.club/players/2000458770-Horacio-Ali-Sticca/,Horacio Ali-Sticca,51,47,37,68,46,73,52,68,33,2026-10-30T02:10:49.603624+00:00
+2000483881,Mario Fernández,Sporting Gijón,https://efem.club/players/2000483881-Mario-Fern%C3%A1ndez/,Mario Fernández,40,65,34,65,59,74,62,56,34,2026-10-30T02:10:50.747830+00:00
+2000488630,Riccardo Paonessa,Juventus,https://efem.club/players/2000488630-Riccardo-Paonessa/,Riccardo Paonessa,55,66,26,60,68,73,57,68,43,2026-10-30T02:10:51.926292+00:00
+2000494883,Ethan Ndiweni,Newcastle,https://efem.club/players/2000494883-Ethan-Ndiweni/,Ethan Ndiweni,30,65,29,72,53,66,51,62,34,2026-10-30T02:10:53.072789+00:00
+2000501952,Mike Arana,Real España,https://efem.club/players/2000501952-Mike-Arana/,Mike Arana,56,64,22,58,51,70,46,66,36,2026-10-30T02:10:54.211090+00:00
+2000515256,Théo Pungu Mangala,RWD Molenbeek,https://efem.club/players/2000515256-Th%C3%A9o-Pungu-Mangala/,Théo Pungu Mangala,42,70,35,68,55,72,63,60,42,2026-10-30T02:10:55.433316+00:00
+2000519081,Miguel Antonio,Cruzeiro,https://efem.club/players/2000519081-Miguel-Antonio/,Miguel Antonio,41,60,35,67,54,69,61,70,39,2026-10-30T02:10:56.654634+00:00
+2000449563,Thomas Kiegerl,TuS Gross St. Florian,https://efem.club/players/2000449563-Thomas-Kiegerl/,Thomas Kiegerl,42,63,32,62,49,69,47,60,33,2026-10-30T02:10:57.874934+00:00
+2000459926,Severin Stettes,FC Viktoria Köln,https://efem.club/players/2000459926-Severin-Stettes/,Severin Stettes,57,48,39,57,51,73,55,67,44,2026-10-30T02:10:59.185698+00:00
+2000507263,Birkir Þorsteinsson,Breiðablik,https://efem.club/players/2000507263-Birkir-%C3%9Eorsteinsson/,Birkir Þorsteinsson,58,60,28,55,56,72,65,70,30,2026-10-30T02:11:00.414355+00:00
+2000511586,Tyris Dong,Dijon FCO,https://efem.club/players/2000511586-Tyris-Dong/,Tyris Dong,56,39,31,64,57,69,64,63,42,2026-10-30T02:11:01.653530+00:00
+2000518653,Ermal Ymeri,IF Brommapojkarna,https://efem.club/players/2000518653-Ermal-Ymeri/,Ermal Ymeri,43,67,35,65,54,74,56,60,38,2026-10-30T02:11:02.897274+00:00
+2000520113,Emin Eren Sayar,Fenerbahçe,https://efem.club/players/2000520113-Emin-Eren-Sayar/,Emin Eren Sayar,54,76,31,70,61,69,74,64,57,2026-10-30T02:11:04.143227+00:00
+2000523989,Daniel Reine-Haraldseide,Haugesund,https://efem.club/players/2000523989-Daniel-Reine-Haraldseide/,Daniel Reine-Haraldseide,67,66,48,68,62,69,54,69,57,2026-10-30T02:11:05.356656+00:00
+2000528816,Quimey Zarza,Tigre,https://efem.club/players/2000528816-Quimey-Zarza/,Quimey Zarza,41,64,28,64,52,70,57,66,38,2026-10-30T02:11:06.609112+00:00
+2000530938,Ali Ben Hassine,ES Hammam-Sousse,https://efem.club/players/2000530938-Ali-Ben-Hassine/,Ali Ben Hassine,52,67,31,59,49,68,54,61,34,2026-10-30T02:11:07.900043+00:00
+2000320102,Hassan Hadi,Coal City,https://efem.club/players/2000320102-Hassan-Hadi/,Hassan Hadi,36,67,26,66,55,74,47,70,34,2026-10-30T02:11:09.098042+00:00
+2000369373,Marcel Griebus,Wiener Sport-Club,https://efem.club/players/2000369373-Marcel-Griebus/,Marcel Griebus,32,69,30,60,57,69,55,74,45,2026-10-30T02:11:10.425558+00:00
+2000360840,Abass Olasunkanmi,Remo Stars,https://efem.club/players/2000360840-Abass-Olasunkanmi/,Abass Olasunkanmi,53,69,30,72,48,67,54,68,34,2026-10-30T02:11:11.753547+00:00
+2000450319,Thiago Sieber,ASV Spratzern,https://efem.club/players/2000450319-Thiago-Sieber/,Thiago Sieber,35,59,26,58,49,72,53,64,37,2026-10-30T02:11:13.018498+00:00
+2000461477,Neal Afriyie,SV Werder,https://efem.club/players/2000461477-Neal-Afriyie/,Neal Afriyie,36,64,34,62,54,71,51,58,42,2026-10-30T02:11:14.285026+00:00
+2000474062,Rami Lougmani,RSC Anderlecht,https://efem.club/players/2000474062-Rami-Lougmani/,Rami Lougmani,42,55,29,68,58,65,56,66,35,2026-10-30T02:11:15.664026+00:00
+2000482371,Manuel Simões,Sporting CP,https://efem.club/players/2000482371-Manuel-Sim%C3%B5es/,Manuel Simões,40,64,28,70,47,73,57,67,31,2026-10-30T02:11:16.887318+00:00
+2000488616,Tin Bojadžija,Brežice,https://efem.club/players/2000488616-Tin-Bojad%C5%BEija/,Tin Bojadžija,56,53,42,64,61,70,55,69,40,2026-10-30T02:11:18.112000+00:00
+2000503284,Fabian Graf,Fürth,https://efem.club/players/2000503284-Fabian-Graf/,Fabian Graf,40,70,31,62,58,72,62,61,38,2026-10-30T02:11:19.458750+00:00
+2000531048,Yanis Dubois,Standard,https://efem.club/players/2000531048-Yanis-Dubois/,Yanis Dubois,41,64,26,62,42,69,50,62,44,2026-10-30T02:11:20.668991+00:00
+2000368807,Ryan Sonck,AA Gent,https://efem.club/players/2000368807-Ryan-Sonck/,Ryan Sonck,33,72,47,62,63,70,51,66,44,2026-10-30T02:11:21.876915+00:00
+2000481394,Gökdeniz Karakilic,Charleroi,https://efem.club/players/2000481394-G%C3%B6kdeniz-Karakilic/,Gökdeniz Karakilic,56,66,29,60,54,67,58,66,45,2026-10-30T02:11:23.099128+00:00
+2000489035,Yılmaz Cin,Sivasspor,https://efem.club/players/2000489035-Y%C4%B1lmaz-Cin/,Yılmaz Cin,46,60,30,65,50,75,63,72,52,2026-10-30T02:11:24.308109+00:00
+2000491788,Daniel Galitchi,OGC Nice,https://efem.club/players/2000491788-Daniel-Galitchi/,Daniel Galitchi,63,57,26,67,52,68,52,69,40,2026-10-30T02:11:25.570960+00:00
+2000493915,Jamil Ahmed,SC Cambuur,https://efem.club/players/2000493915-Jamil-Ahmed/,Jamil Ahmed,53,60,26,66,55,71,46,64,38,2026-10-30T02:11:26.798803+00:00
+2000497278,Wojciech Golak,Cracovia,https://efem.club/players/2000497278-Wojciech-Golak/,Wojciech Golak,37,65,19,56,51,67,49,66,43,2026-10-30T02:11:28.071980+00:00
+2000501334,Thato Moalusi,Sundowns,https://efem.club/players/2000501334-Thato-Moalusi/,Thato Moalusi,43,64,26,68,57,71,56,63,40,2026-10-30T02:11:29.276602+00:00
+2000505632,Mateusz Posmyk,Górnik,https://efem.club/players/2000505632-Mateusz-Posmyk/,Mateusz Posmyk,45,64,37,54,47,68,66,65,39,2026-10-30T02:11:30.476441+00:00
+2000508943,Juanma Reyes,Real Betis,https://efem.club/players/2000508943-Juanma-Reyes/,Juanma Reyes,44,62,35,63,67,68,72,56,47,2026-10-30T02:11:31.683101+00:00
+2000513413,Jamie Spencer,Huddersfield,https://efem.club/players/2000513413-Jamie-Spencer/,Jamie Spencer,47,68,29,65,52,69,49,58,56,2026-10-30T02:11:32.847743+00:00
+2000519936,Elion Imeri,Kalmar FF,https://efem.club/players/2000519936-Elion-Imeri/,Elion Imeri,58,64,44,69,59,72,63,71,53,2026-10-30T02:11:34.029974+00:00
+2000530396,Tyrell Dendoe,FC Utrecht,https://efem.club/players/2000530396-Tyrell-Dendoe/,Tyrell Dendoe,45,57,20,67,50,70,64,60,32,2026-10-30T02:11:35.285845+00:00
+2000391212,Ditmir Hoxha,Rabotnički,https://efem.club/players/2000391212-Ditmir-Hoxha/,Ditmir Hoxha,39,62,18,58,51,72,52,64,26,2026-10-30T02:11:36.521191+00:00
+2000460024,Mathis Gabriel Nkouna Nje,Sandhausen,https://efem.club/players/2000460024-Mathis-Gabriel-Nkouna-Nje/,Mathis Gabriel Nkouna Nje,53,59,37,60,52,68,54,70,36,2026-10-30T02:11:37.732471+00:00
+2000482372,Rodrigo Correia,Sporting CP,https://efem.club/players/2000482372-Rodrigo-Correia/,Rodrigo Correia,38,66,26,59,52,69,62,64,36,2026-10-30T02:11:38.941041+00:00
+2000510051,Marco Giugliano,Benevento,https://efem.club/players/2000510051-Marco-Giugliano/,Marco Giugliano,42,63,24,66,48,66,53,62,37,2026-10-30T02:11:40.288248+00:00
+2000505285,Manuel Valenti,Trastevere,https://efem.club/players/2000505285-Manuel-Valenti/,Manuel Valenti,49,62,23,59,44,69,55,50,22,2026-10-30T02:11:41.478849+00:00
+2000512583,Rahmatulla Amangeldiyev,Aral Akademiya,https://efem.club/players/2000512583-Rahmatulla-Amangeldiyev/,Rahmatulla Amangeldiyev,23,60,17,49,44,74,47,56,32,2026-10-30T02:11:42.644533+00:00
+2000513785,Abubakr Halokov,Paxtakor,https://efem.club/players/2000513785-Abubakr-Halokov/,Abubakr Halokov,27,52,22,51,39,68,55,58,30,2026-10-30T02:11:43.895228+00:00
+2000520133,Blaise Weller,Dorking,https://efem.club/players/2000520133-Blaise-Weller/,Blaise Weller,31,63,25,56,48,70,51,46,32,2026-10-30T02:11:45.255270+00:00
+2000531188,Andria Chkhaidze,Gagra,https://efem.club/players/2000531188-Andria-Chkhaidze/,Andria Chkhaidze,27,64,23,54,48,70,54,60,25,2026-10-30T02:11:46.527093+00:00
+2000476754,Erjon Memaj,Schaan,https://efem.club/players/2000476754-Erjon-Memaj/,Erjon Memaj,26,60,17,53,55,69,50,68,24,2026-10-30T02:11:47.811347+00:00
+2000500388,William Hansen,Hobro IK,https://efem.club/players/2000500388-William-Hansen/,William Hansen,34,57,15,50,48,69,59,64,24,2026-10-30T02:11:49.100300+00:00
+2000509253,Woody Cole,Bristol Rovers,https://efem.club/players/2000509253-Woody-Cole/,Woody Cole,25,55,22,59,45,65,44,63,23,2026-10-30T02:11:50.366453+00:00
+2000524796,Lorenzo Mori,Pontedera,https://efem.club/players/2000524796-Lorenzo-Mori/,Lorenzo Mori,22,63,23,61,50,67,58,52,36,2026-10-30T02:11:51.578436+00:00
+2000454674,Aydin Jasika,Malvern City,https://efem.club/players/2000454674-Aydin-Jasika/,Aydin Jasika,30,61,22,50,50,72,50,57,30,2026-10-30T02:11:52.734698+00:00
+2000481862,Marko Jankovic,SV Grödig,https://efem.club/players/2000481862-Marko-Jankovic/,Marko Jankovic,42,48,22,54,44,69,39,57,22,2026-10-30T02:11:53.976910+00:00
+2000521590,Frederik Nielsen,Ringsted,https://efem.club/players/2000521590-Frederik-Nielsen/,Frederik Nielsen,27,37,17,44,41,67,53,56,20,2026-10-30T02:11:55.210985+00:00
+2000465195,Ralfs Blūms,Alberts,https://efem.club/players/2000465195-Ralfs-Bl%C5%ABms/,Ralfs Blūms,17,61,20,51,43,69,63,62,31,2026-10-30T02:11:56.472059+00:00
+2000469962,Theron Niglas,Vaprus (P),https://efem.club/players/2000469962-Theron-Niglas/,Theron Niglas,23,60,24,54,49,72,54,60,37,2026-10-30T02:11:57.716533+00:00
+2000471277,Asger Grunnet,Hellerup IK,https://efem.club/players/2000471277-Asger-Grunnet/,Asger Grunnet,52,64,26,51,50,69,41,65,34,2026-10-30T02:11:58.930174+00:00
+2000476209,Tom Hewson,York,https://efem.club/players/2000476209-Tom-Hewson/,Tom Hewson,45,65,23,45,44,66,45,63,35,2026-10-30T02:12:00.176252+00:00
+2000528603,Kenoy Banton,Elite Academy (JAM),https://efem.club/players/2000528603-Kenoy-Banton/,Kenoy Banton,50,67,23,58,42,65,43,55,31,2026-10-30T02:12:01.467453+00:00
+23393382,Gary Epesso,Free Agent,https://efem.club/players/23393382-Gary-Epesso/,Gary Epesso,29,56,18,60,46,72,51,56,36,2026-10-30T02:12:02.767119+00:00
+2000390062,Istan Henry,Colchester,https://efem.club/players/2000390062-Istan-Henry/,Istan Henry,34,59,26,55,53,68,45,50,35,2026-10-30T02:12:03.984900+00:00
+2000403523,Menan Velić,Esbjerg fB,https://efem.club/players/2000403523-Menan-Veli%C4%87/,Menan Velić,32,65,23,58,44,71,53,59,33,2026-10-30T02:12:05.140019+00:00
+2000424873,Tristan Sinclair,Cockburn City,https://efem.club/players/2000424873-Tristan-Sinclair/,Tristan Sinclair,34,60,29,55,53,66,62,51,40,2026-10-30T02:12:06.370668+00:00
+2000438830,Nikoloz Tsiklauri,Rustavi,https://efem.club/players/2000438830-Nikoloz-Tsiklauri/,Nikoloz Tsiklauri,46,56,24,58,40,70,37,57,29,2026-10-30T02:12:07.576421+00:00
+2000462488,Charlie Robinson,Sheffield Wednesday,https://efem.club/players/2000462488-Charlie-Robinson/,Charlie Robinson,38,64,23,52,49,71,62,52,27,2026-10-30T02:12:08.810523+00:00
+2000463227,Noah Manata,OB,https://efem.club/players/2000463227-Noah-Manata/,Noah Manata,48,62,39,56,55,72,62,58,28,2026-10-30T02:12:09.985333+00:00
+2000463984,Thor Jensen,Randers FC,https://efem.club/players/2000463984-Thor-Jensen/,Thor Jensen,31,59,24,49,45,76,49,57,28,2026-10-30T02:12:11.215401+00:00
+2000471259,Jerimo Rock,Marisca Mersch,https://efem.club/players/2000471259-Jerimo-Rock/,Jerimo Rock,23,52,19,58,48,74,49,68,28,2026-10-30T02:12:12.453124+00:00
+2000475342,Alfie Jones,Stockport,https://efem.club/players/2000475342-Alfie-Jones/,Alfie Jones,39,59,27,60,47,72,46,62,30,2026-10-30T02:12:13.647186+00:00
+2000489223,Aamos Arola,Valtti,https://efem.club/players/2000489223-Aamos-Arola/,Aamos Arola,34,68,24,49,50,69,54,48,46,2026-10-30T02:12:14.855192+00:00
+2000499244,Andrej Markovski,Mogila,https://efem.club/players/2000499244-Andrej-Markovski/,Andrej Markovski,24,55,25,45,40,68,46,62,25,2026-10-30T02:12:16.070694+00:00
+2000500826,Greg Ferguson,Ross County,https://efem.club/players/2000500826-Greg-Ferguson/,Greg Ferguson,29,63,25,60,47,73,60,61,27,2026-10-30T02:12:17.330876+00:00
+2000501005,Frederik Tylstrup,Skive IK,https://efem.club/players/2000501005-Frederik-Tylstrup/,Frederik Tylstrup,31,59,22,45,52,69,60,62,25,2026-10-30T02:12:18.542708+00:00
+2000503400,Federico Sangiorgi,Sassuolo,https://efem.club/players/2000503400-Federico-Sangiorgi/,Federico Sangiorgi,34,60,17,57,49,66,47,63,30,2026-10-30T02:12:19.789906+00:00
+2000503419,Pasquale Compagnone,Sassuolo,https://efem.club/players/2000503419-Pasquale-Compagnone/,Pasquale Compagnone,34,44,23,58,52,71,53,63,28,2026-10-30T02:12:21.057425+00:00
+2000528683,Ed Campbell-Baldwin,York,https://efem.club/players/2000528683-Ed-Campbell-Baldwin/,Ed Campbell-Baldwin,38,53,28,57,52,72,47,60,38,2026-10-30T02:12:22.475233+00:00
+2000478405,Joel Spindler-Auer,SV Telfs,https://efem.club/players/2000478405-Joel-Spindler-Auer/,Joel Spindler-Auer,31,60,27,55,60,65,40,53,37,2026-10-30T02:12:23.701007+00:00
+2000499777,Amedeo Rossi,Tuttocuoio,https://efem.club/players/2000499777-Amedeo-Rossi/,Amedeo Rossi,54,62,28,58,53,68,48,53,37,2026-10-30T02:12:24.916689+00:00
+2000422147,Angelo Napodano,Sant’Angelo,https://efem.club/players/2000422147-Angelo-Napodano/,Angelo Napodano,29,72,17,59,51,71,36,55,32,2026-10-30T02:12:26.081788+00:00
+2000481807,Alichan Schajchiev,Salzburger AK 1914,https://efem.club/players/2000481807-Alichan-Schajchiev/,Alichan Schajchiev,29,57,18,47,49,71,49,53,26,2026-10-30T02:12:27.434935+00:00
+2000492018,Preston Kedwell,AFC Wimbledon,https://efem.club/players/2000492018-Preston-Kedwell/,Preston Kedwell,41,38,32,54,44,73,52,55,27,2026-10-30T02:12:28.669247+00:00
+2000526269,Ajwani Bennett,Greater Portmore,https://efem.club/players/2000526269-Ajwani-Bennett/,Ajwani Bennett,25,63,23,48,48,71,54,57,29,2026-10-30T02:12:29.839226+00:00
+2000400195,Muhd Adib Rashidi,AMD U17s,https://efem.club/players/2000400195-Muhd-Adib-Rashidi/,Muhd Adib Rashidi,16,58,16,45,44,65,52,55,22,2026-10-30T02:12:31.170547+00:00
+2000466795,Jack May,Larne,https://efem.club/players/2000466795-Jack-May/,Jack May,27,63,32,50,51,73,50,52,34,2026-10-30T02:12:32.455982+00:00
+2000500117,Nguyen Le Quang Khoi,Ho Chi Minh City,https://efem.club/players/2000500117-Nguyen-Le-Quang-Khoi/,Nguyen Le Quang Khoi,38,63,24,52,48,74,35,57,22,2026-10-30T02:12:33.734312+00:00
+2000395330,Lennart Lumi,Nõmme Utd,https://efem.club/players/2000395330-Lennart-Lumi/,Lennart Lumi,52,58,28,60,54,73,49,51,37,2026-10-30T02:12:34.982371+00:00
+2000461751,Samuel Eshja,Accademia Pavese,https://efem.club/players/2000461751-Samuel-Eshja/,Samuel Eshja,33,57,29,57,42,66,54,57,26,2026-10-30T02:12:36.291324+00:00
+2000464756,Afope Jimoh,HB Køge,https://efem.club/players/2000464756-Afope-Jimoh/,Afope Jimoh,35,67,23,45,46,75,54,58,36,2026-10-30T02:12:37.492172+00:00
+2000469190,Alfie McDonough,Workington,https://efem.club/players/2000469190-Alfie-McDonough/,Alfie McDonough,39,62,26,49,56,65,46,55,32,2026-10-30T02:12:38.856765+00:00
+2000470154,Mads Hodal,Næsby,https://efem.club/players/2000470154-Mads-Hodal/,Mads Hodal,27,58,19,50,41,72,49,62,29,2026-10-30T02:12:40.131021+00:00
+2000480616,Christoph Stocker,FC Schladming,https://efem.club/players/2000480616-Christoph-Stocker/,Christoph Stocker,29,57,25,48,41,68,41,56,26,2026-10-30T02:12:41.405868+00:00
+2000489595,Bertram Raalund,Nykøbing FC,https://efem.club/players/2000489595-Bertram-Raalund/,Bertram Raalund,35,41,20,47,38,64,39,60,21,2026-10-30T02:12:42.637907+00:00
+2000497686,Leo Tandy,Portadown,https://efem.club/players/2000497686-Leo-Tandy/,Leo Tandy,33,61,24,43,46,72,52,51,27,2026-10-30T02:12:43.989228+00:00
+2000502587,Ben Mensah,Altrincham,https://efem.club/players/2000502587-Ben-Mensah/,Ben Mensah,25,58,16,46,51,71,33,62,29,2026-10-30T02:12:45.254263+00:00
+2000506749,Josh James,Salford,https://efem.club/players/2000506749-Josh-James/,Josh James,20,58,19,51,51,70,47,59,32,2026-10-30T02:12:46.532177+00:00
+2000509583,Troy Russell,Slough,https://efem.club/players/2000509583-Troy-Russell/,Troy Russell,34,63,21,55,46,69,47,58,24,2026-10-30T02:12:47.691007+00:00
+2000512538,Denis Tînjală,FC Bacău,https://efem.club/players/2000512538-Denis-T%C3%AEnjal%C4%83/,Denis Tînjală,20,55,16,52,44,65,53,58,28,2026-10-30T02:12:49.312231+00:00
+2000513319,Asrorbek Tojiddinov,Farg'ona FA,https://efem.club/players/2000513319-Asrorbek-Tojiddinov/,Asrorbek Tojiddinov,25,39,20,54,41,69,49,59,23,2026-10-30T02:12:50.535465+00:00
+2000514979,Frankie Baughen,Ebbsfleet,https://efem.club/players/2000514979-Frankie-Baughen/,Frankie Baughen,26,59,26,56,41,71,56,57,22,2026-10-30T02:12:51.748710+00:00
+2000515623,Kian Osborne,MK Dons,https://efem.club/players/2000515623-Kian-Osborne/,Kian Osborne,24,56,24,56,51,71,44,58,23,2026-10-30T02:12:52.972086+00:00
+2000516782,Silviu Tănase,Unirea Slobozia,https://efem.club/players/2000516782-Silviu-T%C4%83nase/,Silviu Tănase,28,56,26,52,51,65,56,56,30,2026-10-30T02:12:54.131148+00:00
+2000524095,Filippo Castellan,Vittorio Falmec,https://efem.club/players/2000524095-Filippo-Castellan/,Filippo Castellan,25,52,20,53,37,65,47,53,17,2026-10-30T02:12:55.361622+00:00
+2000527693,Viggo von Schlebrügge,Österåker United,https://efem.club/players/2000527693-Viggo-von-Schlebr%C3%BCgge/,Viggo von Schlebrügge,33,54,20,46,44,68,52,61,26,2026-10-30T02:12:56.547040+00:00
+2000522289,Marko Bosisio,Union Trento,https://efem.club/players/2000522289-Marko-Bosisio/,Marko Bosisio,22,55,16,50,47,67,61,61,16,2026-10-30T02:12:57.892861+00:00
+2000454203,Tobias Bergkvist,SfB-Oure FA,https://efem.club/players/2000454203-Tobias-Bergkvist/,Tobias Bergkvist,41,34,23,45,42,71,52,63,26,2026-10-30T02:12:59.291874+00:00
+2000462509,Farhad Behishti,Melbourne City FC,https://efem.club/players/2000462509-Farhad-Behishti/,Farhad Behishti,43,53,26,51,47,68,42,60,30,2026-10-30T02:13:00.491842+00:00
+2000496577,Mads Niss Johannsen,Kolding IF,https://efem.club/players/2000496577-Mads-Niss-Johannsen/,Mads Niss Johannsen,38,65,25,49,52,69,54,55,35,2026-10-30T02:13:01.831901+00:00
+2000521967,Alexandr Shuvalov,Yenisey,https://efem.club/players/2000521967-Alexandr-Shuvalov/,Alexandr Shuvalov,24,59,21,58,42,66,48,54,26,2026-10-30T02:13:03.120724+00:00
+2000471035,Nikita Scherbiy,Kvant,https://efem.club/players/2000471035-Nikita-Scherbiy/,Nikita Scherbiy,34,44,28,57,56,72,54,54,31,2026-10-30T02:13:04.373245+00:00
+2000506007,Taylor Daly,Bangor Swifts,https://efem.club/players/2000506007-Taylor-Daly/,Taylor Daly,19,49,17,46,39,68,38,60,21,2026-10-30T02:13:05.686897+00:00
+2000452435,Caleb Haas,Olympia Warriors,https://efem.club/players/2000452435-Caleb-Haas/,Caleb Haas,22,52,17,55,43,66,53,53,26,2026-10-30T02:13:06.976790+00:00
+2000479620,Anton Steiner,TSU Matrei,https://efem.club/players/2000479620-Anton-Steiner/,Anton Steiner,20,55,17,42,37,70,56,58,18,2026-10-30T02:13:08.250147+00:00
+2000497504,Yoann Prigent,Coleraine,https://efem.club/players/2000497504-Yoann-Prigent/,Yoann Prigent,24,55,18,44,38,73,56,61,26,2026-10-30T02:13:09.488229+00:00
+2000509257,Dexter McCrone,Orkney,https://efem.club/players/2000509257-Dexter-McCrone/,Dexter McCrone,28,58,24,45,38,72,49,58,26,2026-10-30T02:13:10.760731+00:00
+2000372713,Tudor Vlăduţescu,Universitatea Craiova,https://efem.club/players/2000372713-Tudor-Vl%C4%83du%C5%A3escu/,Tudor Vlăduţescu,26,59,22,50,46,61,44,60,16,2026-10-30T02:13:11.982138+00:00
+2000430543,Jathan Duarte,Lincoln (GIB),https://efem.club/players/2000430543-Jathan-Duarte/,Jathan Duarte,22,53,23,46,49,71,49,59,29,2026-10-30T02:13:13.257082+00:00
+2000433719,James Lennox,Free Agent,https://efem.club/players/2000433719-James-Lennox/,James Lennox,28,59,19,57,49,70,55,54,21,2026-10-30T02:13:14.554792+00:00
+2000467751,Diaz McMullan,Coleraine,https://efem.club/players/2000467751-Diaz-McMullan/,Diaz McMullan,23,53,16,46,41,72,55,54,26,2026-10-30T02:13:15.784895+00:00
+2000472834,Oliver De Pizzol,Viimsi,https://efem.club/players/2000472834-Oliver-De-Pizzol/,Oliver De Pizzol,24,60,20,46,44,71,49,50,30,2026-10-30T02:13:17.003164+00:00
+2000488703,Patrick Cabezutto,Europa FC,https://efem.club/players/2000488703-Patrick-Cabezutto/,Patrick Cabezutto,30,55,15,50,34,69,40,61,31,2026-10-30T02:13:18.245143+00:00
+2000495966,Felix Hills,Aldershot,https://efem.club/players/2000495966-Felix-Hills/,Felix Hills,28,58,27,52,41,70,46,52,34,2026-10-30T02:13:19.475641+00:00
+2000502255,Ashton Mitford,Maidstone,https://efem.club/players/2000502255-Ashton-Mitford/,Ashton Mitford,23,55,18,42,46,69,43,55,31,2026-10-30T02:13:20.681338+00:00
+2000511591,Addis Adore,Gateshead,https://efem.club/players/2000511591-Addis-Adore/,Addis Adore,18,58,15,39,40,69,52,56,25,2026-10-30T02:13:21.885181+00:00
+2000446145,Cameron Maciejewski-Healy,Crusaders,https://efem.club/players/2000446145-Cameron-Maciejewski-Healy/,Cameron Maciejewski-Healy,26,49,20,43,41,73,55,61,25,2026-10-30T02:13:23.106037+00:00
+2000472812,Steven-Eric Orgmets,Nõmme Utd,https://efem.club/players/2000472812-Steven-Eric-Orgmets/,Steven-Eric Orgmets,27,42,19,50,40,74,49,59,15,2026-10-30T02:13:24.323982+00:00
+2000507363,Daniel Simmonds,Goytre United,https://efem.club/players/2000507363-Daniel-Simmonds/,Daniel Simmonds,36,31,17,51,42,66,36,61,19,2026-10-30T02:13:25.526504+00:00
+2000464850,Sebastian Frittum,SC Oberpullendorf,https://efem.club/players/2000464850-Sebastian-Frittum/,Sebastian Frittum,22,36,16,57,44,66,47,50,22,2026-10-30T02:13:26.886106+00:00
+23452400,Watchala Othisumongkkon,Loei City,https://efem.club/players/23452400-Watchala-Othisumongkkon/,Watchala Othisumongkkon,30,57,25,43,46,74,42,53,23,2026-10-30T02:13:28.114155+00:00
+2000433616,Bernardo Araujo,Miami FC Academy,https://efem.club/players/2000433616-Bernardo-Araujo/,Bernardo Araujo,44,48,19,54,39,69,52,63,18,2026-10-30T02:13:29.468956+00:00
+2000486456,Eric Piri Piri,Riverside Olympic,https://efem.club/players/2000486456-Eric-Piri-Piri/,Eric Piri Piri,44,56,19,44,47,71,52,55,30,2026-10-30T02:13:30.752802+00:00
+88029059,Fili Faoagali,Vaivase-Tai,https://efem.club/players/88029059-Fili-Faoagali/,Fili Faoagali,20,57,18,38,33,65,49,59,18,2026-10-30T02:13:32.087529+00:00
+2000524300,Lucas Garmey,Holyhead,https://efem.club/players/2000524300-Lucas-Garmey/,Lucas Garmey,18,36,20,55,40,72,41,62,17,2026-10-30T02:13:33.308665+00:00
+2000400210,Muhd Bilal Benyamin Mat Sakri,AMD U17s,https://efem.club/players/2000400210-Muhd-Bilal-Benyamin-Mat-Sakri/,Muhd Bilal Benyamin Mat Sakri,15,52,16,40,44,68,31,65,16,2026-10-30T02:13:34.525799+00:00
+2000410933,Scott Moncrieff,Newtown,https://efem.club/players/2000410933-Scott-Moncrieff/,Scott Moncrieff,21,22,17,43,44,67,61,58,23,2026-10-30T02:13:35.808891+00:00
+2000455524,Arel Liderman,North Caulfield Maccabi,https://efem.club/players/2000455524-Arel-Liderman/,Arel Liderman,26,57,15,53,39,66,48,58,23,2026-10-30T02:13:37.127804+00:00
+2000469165,Louie Doleman,Holywell,https://efem.club/players/2000469165-Louie-Doleman/,Louie Doleman,21,36,20,37,48,68,46,55,23,2026-10-30T02:13:38.379554+00:00
+2000510128,Louis Eyschen,SC Ell,https://efem.club/players/2000510128-Louis-Eyschen/,Louis Eyschen,19,53,17,41,36,73,44,59,16,2026-10-30T02:13:39.595816+00:00
+2000526040,Kayron Joyce,Europa FC,https://efem.club/players/2000526040-Kayron-Joyce/,Kayron Joyce,21,45,20,44,45,65,41,64,20,2026-10-30T02:13:40.825535+00:00
+2000531334,Ethan Hardy,Cheltenham,https://efem.club/players/2000531334-Ethan-Hardy/,Ethan Hardy,57,46,17,45,49,70,23,53,18,2026-10-30T02:13:41.966250+00:00
+2000522197,Oliver Tikerpuu,Hiiumaa,https://efem.club/players/2000522197-Oliver-Tikerpuu/,Oliver Tikerpuu,25,59,17,48,42,71,34,58,18,2026-10-30T02:13:43.147811+00:00
+2000454645,Martim Nobre,MUST IPO,https://efem.club/players/2000454645-Martim-Nobre/,Martim Nobre,21,49,17,50,46,70,37,54,27,2026-10-30T02:13:44.409016+00:00
+2000466969,Kristian Majurovski,Broadmeadow Magic,https://efem.club/players/2000466969-Kristian-Majurovski/,Kristian Majurovski,17,45,18,48,49,74,43,60,17,2026-10-30T02:13:45.731847+00:00
+2000529392,Joe Townsend,Guisborough,https://efem.club/players/2000529392-Joe-Townsend/,Joe Townsend,18,46,17,41,43,71,33,58,20,2026-10-30T02:13:47.015436+00:00
+2000529407,Morgan Mahtani,College '75,https://efem.club/players/2000529407-Morgan-Mahtani/,Morgan Mahtani,23,54,21,48,39,73,54,50,20,2026-10-30T02:13:48.312807+00:00
+7400083,Chan Kam Pui,White Youth,https://efem.club/players/7400083-Chan-Kam-Pui/,Chan Kam Pui,17,55,20,42,44,67,33,58,30,2026-10-30T02:13:49.731304+00:00
+2000457297,Ethan Brincat Winters,St. Andrews FC,https://efem.club/players/2000457297-Ethan-Brincat-Winters/,Ethan Brincat Winters,20,50,17,40,41,65,36,60,28,2026-10-30T02:13:50.978775+00:00
+2000483091,Moritz Schindl,USC Hadersdorf,https://efem.club/players/2000483091-Moritz-Schindl/,Moritz Schindl,21,51,17,46,44,69,45,61,17,2026-10-30T02:13:52.294443+00:00
+2000486665,Jayden McConnell,Airbus UK,https://efem.club/players/2000486665-Jayden-McConnell/,Jayden McConnell,20,53,18,43,39,71,46,50,24,2026-10-30T02:13:53.511232+00:00
+2000501078,Innocent Duru,Southend,https://efem.club/players/2000501078-Innocent-Duru/,Innocent Duru,28,53,17,43,46,70,53,51,24,2026-10-30T02:13:54.819367+00:00
+2000518619,Robert Ostrovski,Welco,https://efem.club/players/2000518619-Robert-Ostrovski/,Robert Ostrovski,35,60,22,54,46,64,50,64,34,2026-10-30T02:13:56.042160+00:00
+2000450566,Alex Raloka,Llanrwst,https://efem.club/players/2000450566-Alex-Raloka/,Alex Raloka,32,38,24,40,46,66,53,60,19,2026-10-30T02:13:57.273430+00:00
+2000400652,Mohd Irfan Khairi Mohd Fitri,Singa Muda Perlis,https://efem.club/players/2000400652-Mohd-Irfan-Khairi-Mohd-Fitri/,Mohd Irfan Khairi Mohd Fitri,20,54,16,42,42,71,48,58,31,2026-10-30T02:13:58.543006+00:00
+2000412509,Michael Wrzesinski,NFA FC,https://efem.club/players/2000412509-Michael-Wrzesinski/,Michael Wrzesinski,23,31,23,47,40,70,41,61,19,2026-10-30T02:13:59.982287+00:00
+2000400706,Muhd Adam Muqriz Mohd Saifol,SSTMI,https://efem.club/players/2000400706-Muhd-Adam-Muqriz-Mohd-Saifol/,Muhd Adam Muqriz Mohd Saifol,20,61,19,40,46,69,38,58,24,2026-10-30T02:14:01.224261+00:00
+23342451,Mohd Hamirul Hashim Hassan,Setia Perdana,https://efem.club/players/23342451-Mohd-Hamirul-Hashim-Hassan/,Mohd Hamirul Hashim Hassan,27,44,20,35,45,65,40,61,24,2026-10-30T02:14:02.562060+00:00
+2000479735,James Cadmore,Builth Wells,https://efem.club/players/2000479735-James-Cadmore/,James Cadmore,19,30,17,42,40,69,44,56,18,2026-10-30T02:14:03.899691+00:00
+2000486612,Ciaran Roberts,Ruthin,https://efem.club/players/2000486612-Ciaran-Roberts/,Ciaran Roberts,20,61,18,46,37,73,42,60,21,2026-10-30T02:14:05.452867+00:00
+2000487247,Alex Whalley,Porthmadog,https://efem.club/players/2000487247-Alex-Whalley/,Alex Whalley,31,27,21,51,43,71,33,56,25,2026-10-30T02:14:06.735384+00:00
+2000492462,Cj Richardson,Brickfield,https://efem.club/players/2000492462-Cj-Richardson/,Cj Richardson,29,36,21,48,45,70,45,57,21,2026-10-30T02:14:07.974507+00:00
+2000494088,Ryan Downes,Llanfair,https://efem.club/players/2000494088-Ryan-Downes/,Ryan Downes,47,42,25,44,46,74,41,51,27,2026-10-30T02:14:09.348864+00:00
+2000520434,Will Schrimshaw,Denbigh,https://efem.club/players/2000520434-Will-Schrimshaw/,Will Schrimshaw,25,23,15,38,50,71,43,62,20,2026-10-30T02:14:10.664659+00:00
+2000396805,Cole Bagnall,Penycae,https://efem.club/players/2000396805-Cole-Bagnall/,Cole Bagnall,34,40,25,44,38,71,43,64,19,2026-10-30T02:14:12.073780+00:00
+2000520484,Abdullah Khan,Konter,https://efem.club/players/2000520484-Abdullah-Khan/,Abdullah Khan,20,58,18,40,37,73,42,64,21,2026-10-30T02:14:13.321123+00:00
+2000454977,Alfian Gharsiyah,Sporting Westlake,https://efem.club/players/2000454977-Alfian-Gharsiyah/,Alfian Gharsiyah,18,35,18,40,34,70,40,55,16,2026-10-30T02:14:14.562630+00:00
+2000492285,Sam Vernon,Gresford,https://efem.club/players/2000492285-Sam-Vernon/,Sam Vernon,17,54,16,46,37,74,45,53,18,2026-10-30T02:14:15.832955+00:00
+2000268397,Muhd Nazierwan Nazib,Free Agent,https://efem.club/players/2000268397-Muhd-Nazierwan-Nazib/,Muhd Nazierwan Nazib,25,59,16,51,38,69,34,57,31,2026-10-30T02:14:17.092703+00:00
+2000444143,Fung Tik Chi,Tsuen Wan,https://efem.club/players/2000444143-Fung-Tik-Chi/,Fung Tik Chi,39,47,20,52,43,72,46,56,22,2026-10-30T02:14:18.339277+00:00
+2000489624,Ieong Cheng Hou,Lun Lok,https://efem.club/players/2000489624-Ieong-Cheng-Hou/,Ieong Cheng Hou,18,56,14,41,45,71,35,51,20,2026-10-30T02:14:19.560377+00:00
+2000443386,Mak Shu Cheung,KCDRSC,https://efem.club/players/2000443386-Mak-Shu-Cheung/,Mak Shu Cheung,19,31,17,46,39,62,36,54,18,2026-10-30T02:14:20.771888+00:00
+23048733,Bui Van Tan Tai,Free Agent,https://efem.club/players/23048733-Bui-Van-Tan-Tai/,Bui Van Tan Tai,19,54,16,34,34,65,39,54,17,2026-10-30T02:14:21.994693+00:00
+2000265394,Mohd Shariee Shukran,Pusak,https://efem.club/players/2000265394-Mohd-Shariee-Shukran/,Mohd Shariee Shukran,20,49,19,42,45,69,45,56,18,2026-10-30T02:14:23.299506+00:00
+2000431567,Auwal Bello,Free Agent,https://efem.club/players/2000431567-Auwal-Bello/,Auwal Bello,45,54,20,44,39,78,48,53,32,2026-10-30T02:14:24.532420+00:00
+2000450267,Dominik Beck,SK Rapid,https://efem.club/players/2000450267-Dominik-Beck/,Dominik Beck,35,61,18,64,43,70,62,59,26,2026-10-30T02:14:25.799320+00:00
+2000504239,Marko Zubaj,Osijek,https://efem.club/players/2000504239-Marko-Zubaj/,Marko Zubaj,42,61,29,60,56,67,51,68,30,2026-10-30T02:14:27.077542+00:00
+2000509306,Marino Gudelj,Hajduk,https://efem.club/players/2000509306-Marino-Gudelj/,Marino Gudelj,48,68,31,70,61,69,58,63,50,2026-10-30T02:14:28.465607+00:00
+2000391925,Samuel Spinner,Unterhaching,https://efem.club/players/2000391925-Samuel-Spinner/,Samuel Spinner,55,60,38,62,52,65,62,69,43,2026-10-30T02:14:29.707439+00:00
+2000414270,Toni Brajković,Istra 1961,https://efem.club/players/2000414270-Toni-Brajkovi%C4%87/,Toni Brajković,42,64,21,67,48,68,51,66,37,2026-10-30T02:14:30.940939+00:00
+2000465301,Emiliano Lo Biundo,Padova,https://efem.club/players/2000465301-Emiliano-Lo-Biundo/,Emiliano Lo Biundo,38,66,26,60,44,73,60,64,43,2026-10-30T02:14:32.182699+00:00
+2000481393,Delano Van Den Broucke,Cercle Brugge,https://efem.club/players/2000481393-Delano-Van-Den-Broucke/,Delano Van Den Broucke,51,61,29,58,50,69,52,62,34,2026-10-30T02:14:33.366176+00:00
+2000496409,Andero Kaares,Flora,https://efem.club/players/2000496409-Andero-Kaares/,Andero Kaares,37,58,16,65,46,72,47,62,30,2026-10-30T02:14:34.599133+00:00
+2000506302,Nikola Gutovic,Luzern,https://efem.club/players/2000506302-Nikola-Gutovic/,Nikola Gutovic,24,54,22,55,45,74,56,55,39,2026-10-30T02:14:35.803325+00:00
+2000522873,Fredrik Osmundsen,Madla,https://efem.club/players/2000522873-Fredrik-Osmundsen/,Fredrik Osmundsen,59,65,40,66,65,65,66,69,56,2026-10-30T02:14:37.090271+00:00
+2000450144,Silas Schoppitsch,FK Austria Vienna,https://efem.club/players/2000450144-Silas-Schoppitsch/,Silas Schoppitsch,53,57,33,60,52,70,51,62,28,2026-10-30T02:14:38.372018+00:00
+2000450491,Luka Grabovac,SC/ESV Parndorf,https://efem.club/players/2000450491-Luka-Grabovac/,Luka Grabovac,35,63,20,56,58,72,48,66,34,2026-10-30T02:14:39.587985+00:00
+2000477330,Bolu Shofowoke,Peterborough,https://efem.club/players/2000477330-Bolu-Shofowoke/,Bolu Shofowoke,53,62,40,63,58,68,48,73,52,2026-10-30T02:14:40.908000+00:00
+2000487874,Vsevolod Chalyi,Dynamo Kyiv,https://efem.club/players/2000487874-Vsevolod-Chalyi/,Vsevolod Chalyi,48,58,28,52,55,66,53,64,46,2026-10-30T02:14:42.072517+00:00
+2000509698,Andrea Magli,Union Brescia,https://efem.club/players/2000509698-Andrea-Magli/,Andrea Magli,38,64,28,61,57,75,55,61,35,2026-10-30T02:14:43.329735+00:00
+2000525892,Kamil Opoka,Stal St. Wola,https://efem.club/players/2000525892-Kamil-Opoka/,Kamil Opoka,45,64,31,66,53,71,53,63,41,2026-10-30T02:14:44.496236+00:00
+2000375799,Alessandro Prencipe,Aalen,https://efem.club/players/2000375799-Alessandro-Prencipe/,Alessandro Prencipe,26,65,29,60,57,72,57,64,38,2026-10-30T02:14:45.714788+00:00
+2000446407,Luke Hawe,Southampton,https://efem.club/players/2000446407-Luke-Hawe/,Luke Hawe,34,62,27,65,57,77,64,67,38,2026-10-30T02:14:47.007802+00:00
+2000449203,Patryk Pierzga,Dender EH,https://efem.club/players/2000449203-Patryk-Pierzga/,Patryk Pierzga,48,70,26,62,56,76,54,64,44,2026-10-30T02:14:48.160609+00:00
+2000450795,Berke Halastar,SCR Altach,https://efem.club/players/2000450795-Berke-Halastar/,Berke Halastar,36,64,21,57,49,68,51,64,43,2026-10-30T02:14:49.398303+00:00
+2000459797,Samuel Wolker,Arminia Bielefeld,https://efem.club/players/2000459797-Samuel-Wolker/,Samuel Wolker,59,54,43,58,52,62,50,72,41,2026-10-30T02:14:50.732122+00:00
+2000461476,Ablie Ceesay,SV Werder,https://efem.club/players/2000461476-Ablie-Ceesay/,Ablie Ceesay,39,56,20,65,48,68,50,65,35,2026-10-30T02:14:51.955683+00:00
+2000462644,Matvey Lastochkin,Slutsk,https://efem.club/players/2000462644-Matvey-Lastochkin/,Matvey Lastochkin,59,58,35,46,52,73,60,56,34,2026-10-30T02:14:53.186195+00:00
+2000465009,David Osagie,Union Henndorf,https://efem.club/players/2000465009-David-Osagie/,David Osagie,25,58,23,65,46,74,51,64,29,2026-10-30T02:14:54.410290+00:00
+2000470296,Pablo Aparicio,Celta de Vigo,https://efem.club/players/2000470296-Pablo-Aparicio/,Pablo Aparicio,33,59,31,67,44,68,62,64,35,2026-10-30T02:14:55.698788+00:00
+2000474001,Tuzairo Obia,Geldrop,https://efem.club/players/2000474001-Tuzairo-Obia/,Tuzairo Obia,54,59,24,46,45,70,61,68,32,2026-10-30T02:14:56.893262+00:00
+2000478455,Ben Tree,Norwich,https://efem.club/players/2000478455-Ben-Tree/,Ben Tree,48,66,34,58,46,74,50,75,43,2026-10-30T02:14:58.157455+00:00
+2000481781,Lamine Diackhaby,FC Nantes,https://efem.club/players/2000481781-Lamine-Diackhaby/,Lamine Diackhaby,60,60,26,56,53,74,52,64,41,2026-10-30T02:14:59.335909+00:00
+2000483344,Samuel Kotulak,Energie Cottbus,https://efem.club/players/2000483344-Samuel-Kotulak/,Samuel Kotulak,37,61,21,58,52,68,63,60,45,2026-10-30T02:15:00.998712+00:00
+2000490044,Daniil Yurchenko,Dynamo Kyiv,https://efem.club/players/2000490044-Daniil-Yurchenko/,Daniil Yurchenko,32,59,29,56,53,71,55,64,36,2026-10-30T02:15:02.231648+00:00
+2000494889,Liyon Natnael Estifanos,SV Wehen Wiesbaden,https://efem.club/players/2000494889-Liyon-Natnael-Estifanos/,Liyon Natnael Estifanos,42,65,27,57,55,69,56,57,43,2026-10-30T02:15:03.467020+00:00
+2000498189,Ray Robert,Everton,https://efem.club/players/2000498189-Ray-Robert/,Ray Robert,35,55,21,65,56,72,41,57,32,2026-10-30T02:15:04.814850+00:00
+2000503720,Martín Castro,O'Higgins,https://efem.club/players/2000503720-Mart%C3%ADn-Castro/,Martín Castro,47,58,25,71,53,70,49,58,35,2026-10-30T02:15:05.975447+00:00
+2000506996,Lewis Bailey,Southampton,https://efem.club/players/2000506996-Lewis-Bailey/,Lewis Bailey,26,60,23,58,51,68,47,56,43,2026-10-30T02:15:07.335073+00:00
+2000512572,Matvey Fedorov,Pari NN,https://efem.club/players/2000512572-Matvey-Fedorov/,Matvey Fedorov,36,65,28,60,53,71,67,62,31,2026-10-30T02:15:08.481789+00:00
+2000515847,Alan Lukanin,Jas Qyran,https://efem.club/players/2000515847-Alan-Lukanin/,Alan Lukanin,29,62,15,63,48,63,49,70,32,2026-10-30T02:15:09.678420+00:00
+2000518274,Igor Owczarek,Lech,https://efem.club/players/2000518274-Igor-Owczarek/,Igor Owczarek,28,45,21,65,53,69,56,62,36,2026-10-30T02:15:11.013311+00:00
+2000520215,Cheikh Tidiane Diako,Red Star FC,https://efem.club/players/2000520215-Cheikh-Tidiane-Diako/,Cheikh Tidiane Diako,39,62,36,68,47,76,36,66,46,2026-10-30T02:15:12.300425+00:00
+2000527217,Tunahan Basak,Serik Bld.,https://efem.club/players/2000527217-Tunahan-Basak/,Tunahan Basak,47,63,32,70,44,72,61,57,36,2026-10-30T02:15:13.530080+00:00
+2000529313,Rasmus Mendolin,FC Inter,https://efem.club/players/2000529313-Rasmus-Mendolin/,Rasmus Mendolin,31,65,25,56,56,67,63,63,38,2026-10-30T02:15:14.844191+00:00
+2000529633,Mohamed Yassine Souifi,PS Sakiet Eddaier,https://efem.club/players/2000529633-Mohamed-Yassine-Souifi/,Mohamed Yassine Souifi,45,52,18,69,51,67,58,66,34,2026-10-30T02:15:16.040289+00:00
+2000439419,Aronas Narbekovas,Wolfsberger AC,https://efem.club/players/2000439419-Aronas-Narbekovas/,Aronas Narbekovas,37,62,20,54,52,71,62,62,38,2026-10-30T02:15:17.245416+00:00
+2000450479,Luca Mudir,SVU Kumberg,https://efem.club/players/2000450479-Luca-Mudir/,Luca Mudir,33,61,23,60,50,75,61,54,39,2026-10-30T02:15:18.466001+00:00
+2000469164,Theodoros Iduseri,AIK,https://efem.club/players/2000469164-Theodoros-Iduseri/,Theodoros Iduseri,41,51,34,59,51,64,54,70,42,2026-10-30T02:15:19.811644+00:00
+2000478922,Kaloyan Pulev,CSKA-Sofia,https://efem.club/players/2000478922-Kaloyan-Pulev/,Kaloyan Pulev,48,63,32,56,43,59,56,64,38,2026-10-30T02:15:21.014258+00:00
+2000518689,Adam Nowakowski,Jagiellonia,https://efem.club/players/2000518689-Adam-Nowakowski/,Adam Nowakowski,32,62,25,56,62,69,68,63,34,2026-10-30T02:15:22.369017+00:00
+2000524396,Mathias Mashudu Solberg,Vålerenga,https://efem.club/players/2000524396-Mathias-Mashudu-Solberg/,Mathias Mashudu Solberg,28,66,31,59,54,70,48,63,30,2026-10-30T02:15:23.587294+00:00
+2000368388,David Wallner,Admira/Wacker,https://efem.club/players/2000368388-David-Wallner/,David Wallner,43,65,32,58,39,68,61,65,39,2026-10-30T02:15:24.901361+00:00
+2000450196,Sampson Schmitt,FC Blau-Weiß Linz,https://efem.club/players/2000450196-Sampson-Schmitt/,Sampson Schmitt,29,57,26,57,46,77,43,58,30,2026-10-30T02:15:26.112795+00:00
+2000450826,Nico Grabic,FC Lauterach,https://efem.club/players/2000450826-Nico-Grabic/,Nico Grabic,18,61,18,67,52,72,60,57,21,2026-10-30T02:15:27.330713+00:00
+2000482028,Raffaele Panariello,Sassuolo,https://efem.club/players/2000482028-Raffaele-Panariello/,Raffaele Panariello,40,66,27,64,45,70,65,61,39,2026-10-30T02:15:28.769771+00:00
+2000495371,Otso Vuoti,AC Oulu,https://efem.club/players/2000495371-Otso-Vuoti/,Otso Vuoti,34,56,19,63,50,73,51,57,35,2026-10-30T02:15:29.956547+00:00
+2000512806,Mateus Sousa Alves,KV Mechelen,https://efem.club/players/2000512806-Mateus-Sousa-Alves/,Mateus Sousa Alves,33,68,22,64,56,76,55,60,39,2026-10-30T02:15:31.183724+00:00
+2000525880,Can Naller,FC Ingolstadt 04,https://efem.club/players/2000525880-Can-Naller/,Can Naller,41,66,29,62,51,70,64,54,37,2026-10-30T02:15:32.391498+00:00
+2000447762,Artyom Aleksanyan,Pyunik,https://efem.club/players/2000447762-Artyom-Aleksanyan/,Artyom Aleksanyan,23,54,17,56,40,70,54,60,36,2026-10-30T02:15:33.597203+00:00
+2000451186,Henrik Soos,First Vienna FC,https://efem.club/players/2000451186-Henrik-Soos/,Henrik Soos,43,70,26,55,59,67,48,55,40,2026-10-30T02:15:35.208689+00:00
+2000463025,Mubarak Al-Ajmi,Kuwait SC,https://efem.club/players/2000463025-Mubarak-Al-Ajmi/,Mubarak Al-Ajmi,42,60,20,63,44,72,58,63,30,2026-10-30T02:15:36.429191+00:00
+2000495319,Maksim Kostandinov,Grasshoppers,https://efem.club/players/2000495319-Maksim-Kostandinov/,Maksim Kostandinov,27,53,25,62,45,69,52,67,37,2026-10-30T02:15:37.736013+00:00
+2000510100,Giovanni Raffaelli,Perugia,https://efem.club/players/2000510100-Giovanni-Raffaelli/,Giovanni Raffaelli,40,66,31,63,51,64,64,60,34,2026-10-30T02:15:38.970018+00:00
+2000324700,Selahattin Sevim,Fenerbahçe,https://efem.club/players/2000324700-Selahattin-Sevim/,Selahattin Sevim,69,66,36,70,54,75,36,51,56,2026-10-30T02:15:40.401487+00:00
+2000397112,Dylano Smolders,De Valk,https://efem.club/players/2000397112-Dylano-Smolders/,Dylano Smolders,18,60,18,55,46,71,64,63,26,2026-10-30T02:15:41.667096+00:00
+2000490121,Nico Pantaleoni,Basel,https://efem.club/players/2000490121-Nico-Pantaleoni/,Nico Pantaleoni,37,64,42,59,49,71,55,71,39,2026-10-30T02:15:42.905640+00:00
+2000512016,Senne Van Der Perre,AA Gent,https://efem.club/players/2000512016-Senne-Van-Der-Perre/,Senne Van Der Perre,44,69,32,57,54,68,60,63,39,2026-10-30T02:15:44.107616+00:00
+2000529158,Niko Mandić,Slaven Belupo,https://efem.club/players/2000529158-Niko-Mandi%C4%87/,Niko Mandić,31,61,26,56,44,65,46,65,37,2026-10-30T02:15:45.300712+00:00
+2000369717,Mouhib Jelassi,Stade Tunisien,https://efem.club/players/2000369717-Mouhib-Jelassi/,Mouhib Jelassi,45,68,28,67,48,66,54,57,39,2026-10-30T02:15:46.601415+00:00
+2000450665,Mbu Ebot Tabe,Eidsvold Turn,https://efem.club/players/2000450665-Mbu-Ebot-Tabe/,Mbu Ebot Tabe,50,58,33,62,61,70,60,71,54,2026-10-30T02:15:47.792522+00:00
+2000472537,Álex Abad,Málaga,https://efem.club/players/2000472537-%C3%81lex-Abad/,Álex Abad,42,65,31,63,46,73,53,51,51,2026-10-30T02:15:49.097855+00:00
+2000487846,Alex Chukwuma Uzochukwu,Sarpsborg,https://efem.club/players/2000487846-Alex-Chukwuma-Uzochukwu/,Alex Chukwuma Uzochukwu,46,67,31,52,57,71,55,62,48,2026-10-30T02:15:50.275525+00:00
+2000504216,Patrik Klarić,Osijek,https://efem.club/players/2000504216-Patrik-Klari%C4%87/,Patrik Klarić,44,66,22,59,48,71,57,58,42,2026-10-30T02:15:51.491704+00:00
+2000514101,Lucas De Smet,Cercle Brugge,https://efem.club/players/2000514101-Lucas-De-Smet/,Lucas De Smet,29,61,22,64,44,72,63,58,37,2026-10-30T02:15:53.013097+00:00
+2000500553,Pau Casado,Valencia,https://efem.club/players/2000500553-Pau-Casado/,Pau Casado,49,69,31,55,51,67,48,67,40,2026-10-30T02:15:54.244314+00:00
+2000505705,Kacper Dyduch,Ruch,https://efem.club/players/2000505705-Kacper-Dyduch/,Kacper Dyduch,37,64,34,68,43,73,58,61,33,2026-10-30T02:15:55.402853+00:00
+2000512312,Aidan Evans,Fulham,https://efem.club/players/2000512312-Aidan-Evans/,Aidan Evans,52,60,38,58,57,70,42,63,32,2026-10-30T02:15:56.613868+00:00
+2000519947,Albert Tamoyan,Helsingborgs IF,https://efem.club/players/2000519947-Albert-Tamoyan/,Albert Tamoyan,40,66,24,66,50,65,55,63,41,2026-10-30T02:15:57.773978+00:00
+2000527126,Durbek Husanov,Do'stlik T.,https://efem.club/players/2000527126-Durbek-Husanov/,Durbek Husanov,43,63,33,54,50,70,59,60,35,2026-10-30T02:15:58.992429+00:00
+2000450195,Vito Lang,LASK,https://efem.club/players/2000450195-Vito-Lang/,Vito Lang,47,71,33,59,58,72,62,59,46,2026-10-30T02:16:00.209201+00:00
+2000460817,Abdennour El Quafi,Eilendorf,https://efem.club/players/2000460817-Abdennour-El-Quafi/,Abdennour El Quafi,46,50,37,59,50,64,52,69,40,2026-10-30T02:16:01.473576+00:00
+2000495308,Vigan Fetai,Grasshoppers,https://efem.club/players/2000495308-Vigan-Fetai/,Vigan Fetai,29,55,22,62,48,70,57,54,34,2026-10-30T02:16:02.699285+00:00
+2000531565,Daniel Gray,Partick Thistle,https://efem.club/players/2000531565-Daniel-Gray/,Daniel Gray,55,57,31,50,47,71,49,66,39,2026-10-30T02:16:03.919572+00:00
+2000450190,Felix Hörhager,SV Austria Salzburg,https://efem.club/players/2000450190-Felix-H%C3%B6rhager/,Felix Hörhager,28,56,23,61,40,71,51,63,35,2026-10-30T02:16:05.115972+00:00
+2000455924,Felix Baumgartner,SK Treibach,https://efem.club/players/2000455924-Felix-Baumgartner/,Felix Baumgartner,31,60,29,63,51,66,46,56,40,2026-10-30T02:16:06.315277+00:00
+2000480610,Karl Franz Thaler,Kapfenberger SV,https://efem.club/players/2000480610-Karl-Franz-Thaler/,Karl Franz Thaler,42,65,30,58,52,71,57,58,38,2026-10-30T02:16:07.560231+00:00
+2000501635,Niko Pajvančić,Vukovar 1991,https://efem.club/players/2000501635-Niko-Pajvan%C4%8Di%C4%87/,Niko Pajvančić,28,58,28,64,52,71,56,63,29,2026-10-30T02:16:08.776775+00:00
+2000511776,Gabriel Oluwabusola,QPR,https://efem.club/players/2000511776-Gabriel-Oluwabusola/,Gabriel Oluwabusola,22,52,22,52,46,71,47,58,24,2026-10-30T02:16:09.983973+00:00
+2000382588,Michel Boni,Brentford,https://efem.club/players/2000382588-Michel-Boni/,Michel Boni,52,59,36,57,54,68,58,68,47,2026-10-30T02:16:11.130244+00:00
+2000451010,Luca Ecimovic,NWZ Wiener Sport-Club,https://efem.club/players/2000451010-Luca-Ecimovic/,Luca Ecimovic,52,65,34,54,55,74,47,63,36,2026-10-30T02:16:12.318479+00:00
+2000414334,Ronaldo Almeida Magat,Wil,https://efem.club/players/2000414334-Ronaldo-Almeida-Magat/,Ronaldo Almeida Magat,38,60,23,65,42,70,48,70,30,2026-10-30T02:16:13.517098+00:00
+2000449179,Yanis Di Franco,Union SG,https://efem.club/players/2000449179-Yanis-Di-Franco/,Yanis Di Franco,33,57,30,62,48,71,49,63,41,2026-10-30T02:16:14.745107+00:00
+2000455925,Nicolas Esterl,Wolfsberger AC,https://efem.club/players/2000455925-Nicolas-Esterl/,Nicolas Esterl,34,60,23,59,42,69,63,59,32,2026-10-30T02:16:15.953997+00:00
+2000463700,Odin Alver-Hovland,Levanger,https://efem.club/players/2000463700-Odin-Alver-Hovland/,Odin Alver-Hovland,62,54,49,57,60,71,59,66,49,2026-10-30T02:16:17.163428+00:00
+2000476575,Max Cameron,Rangers,https://efem.club/players/2000476575-Max-Cameron/,Max Cameron,37,62,16,62,50,67,48,68,33,2026-10-30T02:16:18.374002+00:00
+2000481624,Makar Tverdokhlib,Shakhtar,https://efem.club/players/2000481624-Makar-Tverdokhlib/,Makar Tverdokhlib,37,56,32,59,50,65,58,59,42,2026-10-30T02:16:19.587317+00:00
+2000484636,Andrea Bernardi,Cremonese,https://efem.club/players/2000484636-Andrea-Bernardi/,Andrea Bernardi,39,66,24,60,47,73,56,62,33,2026-10-30T02:16:20.799887+00:00
+2000489266,Samuel Salo,HJK,https://efem.club/players/2000489266-Samuel-Salo/,Samuel Salo,41,63,29,62,56,64,58,59,25,2026-10-30T02:16:21.940076+00:00
+2000494964,Hugo Martins Pereira,Servette,https://efem.club/players/2000494964-Hugo-Martins-Pereira/,Hugo Martins Pereira,35,54,24,55,46,71,53,64,36,2026-10-30T02:16:23.146498+00:00
+2000244837,Milad Zafari,Klosterhardt,https://efem.club/players/2000244837-Milad-Zafari/,Milad Zafari,37,54,26,59,50,73,50,64,36,2026-10-30T02:16:24.362475+00:00
+2000391332,Panos Grivas,Dumbarton,https://efem.club/players/2000391332-Panos-Grivas/,Panos Grivas,32,56,20,58,62,69,56,60,40,2026-10-30T02:16:25.638394+00:00
+2000450783,Philipp Kinigadner,SV Kirchbichl,https://efem.club/players/2000450783-Philipp-Kinigadner/,Philipp Kinigadner,36,63,29,66,47,70,47,57,30,2026-10-30T02:16:26.851801+00:00
+2000455748,Vincent Erlacher,USK Anif,https://efem.club/players/2000455748-Vincent-Erlacher/,Vincent Erlacher,30,56,22,68,45,64,55,60,25,2026-10-30T02:16:28.099518+00:00
+2000470299,Isma,Tenerife,https://efem.club/players/2000470299-Isma/,Isma,43,62,30,56,56,70,73,44,38,2026-10-30T02:16:29.329446+00:00
+2000477651,Chrisano Lawrence,Montego Bay Utd,https://efem.club/players/2000477651-Chrisano-Lawrence/,Chrisano Lawrence,26,53,18,49,51,74,46,67,32,2026-10-30T02:16:30.495638+00:00
+2000481517,Matvii Kolotai,Metalist,https://efem.club/players/2000481517-Matvii-Kolotai/,Matvii Kolotai,36,61,28,53,50,67,51,64,32,2026-10-30T02:16:31.808270+00:00
+2000485631,Jayden McDonald,Crystal Palace,https://efem.club/players/2000485631-Jayden-McDonald/,Jayden McDonald,48,58,19,64,50,65,55,64,25,2026-10-30T02:16:33.055923+00:00
+2000489858,Pichaya Chaiwarangkun,BG Pathum Utd,https://efem.club/players/2000489858-Pichaya-Chaiwarangkun/,Pichaya Chaiwarangkun,27,48,24,52,42,69,52,66,28,2026-10-30T02:16:34.203429+00:00
+2000497041,Mattia Barbaro,Varese,https://efem.club/players/2000497041-Mattia-Barbaro/,Mattia Barbaro,48,70,22,64,55,67,48,58,39,2026-10-30T02:16:35.486844+00:00
+2000502373,Jack McArthur,St Johnstone,https://efem.club/players/2000502373-Jack-McArthur/,Jack McArthur,41,64,29,65,40,72,63,55,32,2026-10-30T02:16:36.666982+00:00
+2000507582,Denys Bida,Shakhtar,https://efem.club/players/2000507582-Denys-Bida/,Denys Bida,19,60,26,61,58,69,56,62,30,2026-10-30T02:16:37.894242+00:00
+2000514482,Loric Timmermans,RAAL La Louvière,https://efem.club/players/2000514482-Loric-Timmermans/,Loric Timmermans,38,65,33,54,52,72,58,63,34,2026-10-30T02:16:39.172174+00:00
+2000521909,Ivan Makarov,Rodina,https://efem.club/players/2000521909-Ivan-Makarov/,Ivan Makarov,37,57,21,56,59,71,52,62,32,2026-10-30T02:16:40.404890+00:00
+2000529456,Leonardo Ciani,Catanzaro,https://efem.club/players/2000529456-Leonardo-Ciani/,Leonardo Ciani,37,58,22,61,55,66,49,62,38,2026-10-30T02:16:41.609421+00:00
+2000457716,Dmitry Smirnov,Spartak Kostroma,https://efem.club/players/2000457716-Dmitry-Smirnov/,Dmitry Smirnov,45,44,30,64,46,69,57,60,34,2026-10-30T02:16:42.759549+00:00
+2000478372,David Grütter,Zürich,https://efem.club/players/2000478372-David-Gr%C3%BCtter/,David Grütter,52,73,32,60,55,71,60,54,42,2026-10-30T02:16:43.969967+00:00
+2000494960,Tarik Saletovic,Ulm,https://efem.club/players/2000494960-Tarik-Saletovic/,Tarik Saletovic,25,62,29,60,48,70,49,58,35,2026-10-30T02:16:45.187199+00:00
+2000506603,Tommaso Casagrande,Hellas Verona,https://efem.club/players/2000506603-Tommaso-Casagrande/,Tommaso Casagrande,45,64,34,58,55,67,57,56,41,2026-10-30T02:16:46.393808+00:00
+2000369213,Rareş Mirea,Progresul Spartac,https://efem.club/players/2000369213-Rare%C5%9F-Mirea/,Rareş Mirea,56,60,39,48,52,71,55,67,30,2026-10-30T02:16:47.537194+00:00
+2000450155,Efe Bayram,TWL Elektra,https://efem.club/players/2000450155-Efe-Bayram/,Efe Bayram,40,52,23,55,52,68,53,57,27,2026-10-30T02:16:48.775668+00:00
+2000469431,Jett Murphy,Chelmsford,https://efem.club/players/2000469431-Jett-Murphy/,Jett Murphy,28,59,19,53,49,75,57,64,28,2026-10-30T02:16:50.031504+00:00
+2000483404,Luca Klaukien,Regensburg,https://efem.club/players/2000483404-Luca-Klaukien/,Luca Klaukien,28,62,22,59,42,72,60,54,38,2026-10-30T02:16:51.329264+00:00
+2000496297,Constantin Schönleber,Erzgebirge Aue,https://efem.club/players/2000496297-Constantin-Sch%C3%B6nleber/,Constantin Schönleber,27,55,17,60,48,70,27,64,30,2026-10-30T02:16:52.551112+00:00
+2000509116,Elias Gjestvang,Raufoss,https://efem.club/players/2000509116-Elias-Gjestvang/,Elias Gjestvang,52,67,34,58,62,72,61,58,48,2026-10-30T02:16:53.766360+00:00
+2000455048,Osman Halilovic,FC Lendorf,https://efem.club/players/2000455048-Osman-Halilovic/,Osman Halilovic,29,56,20,48,44,69,52,63,32,2026-10-30T02:16:55.018469+00:00
+2000455685,Yasin Topcu,FC Nenzing,https://efem.club/players/2000455685-Yasin-Topcu/,Yasin Topcu,39,60,30,54,53,71,39,64,36,2026-10-30T02:16:56.292300+00:00
+2000470858,Roman Shmelev,Sochi,https://efem.club/players/2000470858-Roman-Shmelev/,Roman Shmelev,31,60,23,52,52,66,56,54,30,2026-10-30T02:16:57.507555+00:00
+2000504017,Julian Widecki-Estima,Wrexham,https://efem.club/players/2000504017-Julian-Widecki-Estima/,Julian Widecki-Estima,32,63,19,51,59,67,72,51,29,2026-10-30T02:16:58.704782+00:00
+2000362283,Isaac Ahmed,Mighty Jets,https://efem.club/players/2000362283-Isaac-Ahmed/,Isaac Ahmed,45,57,32,64,52,66,46,50,40,2026-10-30T02:16:59.862705+00:00
+2000395891,Ben Farrar,York,https://efem.club/players/2000395891-Ben-Farrar/,Ben Farrar,43,43,31,58,55,67,60,71,31,2026-10-30T02:17:01.163823+00:00
+2000449459,Antonio Blaya,Minera,https://efem.club/players/2000449459-Antonio-Blaya/,Antonio Blaya,40,64,20,65,53,69,58,63,36,2026-10-30T02:17:02.414785+00:00
+2000459754,Bibars Obeid,1. FC Saarbrücken,https://efem.club/players/2000459754-Bibars-Obeid/,Bibars Obeid,50,49,34,54,49,68,52,70,35,2026-10-30T02:17:03.602258+00:00
+2000463698,Isam Al-Sarraj,Levanger,https://efem.club/players/2000463698-Isam-Al-Sarraj/,Isam Al-Sarraj,45,49,32,56,62,71,61,64,40,2026-10-30T02:17:04.838587+00:00
+2000471217,Manuel Lanza,Pisa,https://efem.club/players/2000471217-Manuel-Lanza/,Manuel Lanza,33,67,27,61,54,70,64,54,32,2026-10-30T02:17:06.090847+00:00
+2000476151,Vahe Tovmasyan,Ararat,https://efem.club/players/2000476151-Vahe-Tovmasyan/,Vahe Tovmasyan,49,55,26,64,52,72,47,64,26,2026-10-30T02:17:07.288604+00:00
+2000482595,Lukas Laserer,SV Bad Ischl,https://efem.club/players/2000482595-Lukas-Laserer/,Lukas Laserer,25,60,20,50,42,66,51,62,30,2026-10-30T02:17:08.526373+00:00
+2000484674,Excel Ed-Okungbowa,Luton,https://efem.club/players/2000484674-Excel-Ed-Okungbowa/,Excel Ed-Okungbowa,51,67,31,65,50,67,53,57,35,2026-10-30T02:17:09.746184+00:00
+2000496465,Octavian Dina,Dinamo Bucureşti,https://efem.club/players/2000496465-Octavian-Dina/,Octavian Dina,31,59,20,61,51,64,51,62,28,2026-10-30T02:17:10.911407+00:00
+2000499804,Fabian Frizzi,Lugano,https://efem.club/players/2000499804-Fabian-Frizzi/,Fabian Frizzi,29,50,22,59,55,70,41,65,23,2026-10-30T02:17:12.165334+00:00
+2000512027,Andranik Ervandyan,Pyunik,https://efem.club/players/2000512027-Andranik-Ervandyan/,Andranik Ervandyan,47,61,21,54,44,66,28,56,25,2026-10-30T02:17:13.413963+00:00
+2000478087,Rino Straforini,Bologna,https://efem.club/players/2000478087-Rino-Straforini/,Rino Straforini,50,53,21,51,47,73,44,55,30,2026-10-30T02:17:14.640076+00:00
+2000492801,Ksawery Wiśniewski,Odra Opole,https://efem.club/players/2000492801-Ksawery-Wi%C5%9Bniewski/,Ksawery Wiśniewski,38,55,33,54,41,71,54,56,28,2026-10-30T02:17:15.814573+00:00
+2000369426,Koohyar Karimi,SK Austria Klagenfurt,https://efem.club/players/2000369426-Koohyar-Karimi/,Koohyar Karimi,30,58,22,53,39,71,60,62,18,2026-10-30T02:17:17.085539+00:00
+2000452830,Alessandro Marchesse,Wellington Phoenix,https://efem.club/players/2000452830-Alessandro-Marchesse/,Alessandro Marchesse,54,52,31,55,55,72,52,61,30,2026-10-30T02:17:18.385684+00:00
+2000464215,Harry Stephenson,Northampton,https://efem.club/players/2000464215-Harry-Stephenson/,Harry Stephenson,39,66,38,56,59,54,65,70,43,2026-10-30T02:17:19.649276+00:00
+2000503936,Nicolò Danilo Benatelli,Venezia,https://efem.club/players/2000503936-Nicol%C3%B2-Danilo-Benatelli/,Nicolò Danilo Benatelli,29,59,21,62,44,65,56,60,32,2026-10-30T02:17:20.814711+00:00
+2000513023,Denzil Uchenna,Birmingham,https://efem.club/players/2000513023-Denzil-Uchenna/,Denzil Uchenna,35,70,27,58,61,69,67,52,45,2026-10-30T02:17:21.978702+00:00
+2000372346,Amenallah Ben Moussa,ES Jerba,https://efem.club/players/2000372346-Amenallah-Ben-Moussa/,Amenallah Ben Moussa,18,60,16,41,47,65,50,62,32,2026-10-30T02:17:23.130342+00:00
+2000429121,Marko Mišikj,Ljuboten,https://efem.club/players/2000429121-Marko-Mi%C5%A1ikj/,Marko Mišikj,28,52,21,52,42,70,53,60,29,2026-10-30T02:17:24.345303+00:00
+2000431602,Ogunleye Samuel,Stormers S.C.,https://efem.club/players/2000431602-Ogunleye-Samuel/,Ogunleye Samuel,34,59,19,62,41,73,67,53,32,2026-10-30T02:17:25.569829+00:00
+2000508719,Rodrigo Nascimento,Sp. Covilhã,https://efem.club/players/2000508719-Rodrigo-Nascimento/,Rodrigo Nascimento,28,59,25,58,51,69,34,64,31,2026-10-30T02:17:26.788013+00:00
+2000435991,Sargis Gasparyan,Urartu Ye.,https://efem.club/players/2000435991-Sargis-Gasparyan/,Sargis Gasparyan,23,59,16,44,42,70,51,62,30,2026-10-30T02:17:28.018483+00:00
+2000450932,Eldar Hodzic,1. SC Felixdorf,https://efem.club/players/2000450932-Eldar-Hodzic/,Eldar Hodzic,32,60,20,53,40,67,57,57,24,2026-10-30T02:17:29.250662+00:00
+2000493336,Sebastian Uth,FC Fredericia,https://efem.club/players/2000493336-Sebastian-Uth/,Sebastian Uth,20,58,16,47,44,69,48,63,35,2026-10-30T02:17:30.534680+00:00
+2000506699,Marko Jankovski,Borec,https://efem.club/players/2000506699-Marko-Jankovski/,Marko Jankovski,34,64,20,66,49,71,44,56,27,2026-10-30T02:17:31.731192+00:00
+2000429226,Slave Mitev,Belasica,https://efem.club/players/2000429226-Slave-Mitev/,Slave Mitev,37,47,36,53,47,69,55,66,31,2026-10-30T02:17:32.930287+00:00
+2000470970,Daniil Valkov,Yenisey,https://efem.club/players/2000470970-Daniil-Valkov/,Daniil Valkov,29,57,21,57,50,71,53,61,25,2026-10-30T02:17:34.186880+00:00
+2000480493,David Zajkov,Pobeda (V),https://efem.club/players/2000480493-David-Zajkov/,David Zajkov,27,63,27,56,43,67,47,58,35,2026-10-30T02:17:35.403531+00:00
+2000353176,Adamu Zakari,Sporting Lagos,https://efem.club/players/2000353176-Adamu-Zakari/,Adamu Zakari,33,58,23,61,43,69,44,56,30,2026-10-30T02:17:36.624409+00:00
+2000476619,Jake Drewett,Bournemouth,https://efem.club/players/2000476619-Jake-Drewett/,Jake Drewett,42,56,16,60,44,68,42,53,31,2026-10-30T02:17:37.855791+00:00
+2000500564,Jackson Raitt,Hartlepool,https://efem.club/players/2000500564-Jackson-Raitt/,Jackson Raitt,42,49,20,55,53,68,47,59,37,2026-10-30T02:17:39.009194+00:00
+2000516859,Jacopo Ceccolini,Spezia,https://efem.club/players/2000516859-Jacopo-Ceccolini/,Jacopo Ceccolini,40,59,17,59,41,64,55,58,31,2026-10-30T02:17:40.215081+00:00
+2000521950,Konstantin Kuzmichev,Torpedo Vladimir,https://efem.club/players/2000521950-Konstantin-Kuzmichev/,Konstantin Kuzmichev,26,55,19,53,41,71,46,60,25,2026-10-30T02:17:41.371679+00:00
+2000450882,Kilian Franzel,SK Lenzing,https://efem.club/players/2000450882-Kilian-Franzel/,Kilian Franzel,25,50,21,53,42,67,54,56,26,2026-10-30T02:17:42.698721+00:00
+2000474512,Matvii Hryshyn,Shevchenkiv Krai,https://efem.club/players/2000474512-Matvii-Hryshyn/,Matvii Hryshyn,32,58,22,60,48,66,45,50,25,2026-10-30T02:17:43.971706+00:00
+2000492701,Niccolò Borracchini,Tau,https://efem.club/players/2000492701-Niccol%C3%B2-Borracchini/,Niccolò Borracchini,34,60,19,58,38,70,56,50,31,2026-10-30T02:17:45.252712+00:00
+2000510453,Justin Seven-Seven,West Brom,https://efem.club/players/2000510453-Justin-Seven-Seven/,Justin Seven-Seven,35,61,24,60,55,72,56,63,27,2026-10-30T02:17:46.411276+00:00
+2000513262,Nodir Rahmonov,Do'stlik T.,https://efem.club/players/2000513262-Nodir-Rahmonov/,Nodir Rahmonov,29,59,18,49,56,75,56,58,34,2026-10-30T02:17:47.589264+00:00
+2000515939,Cian Wilson,Drogheda Utd,https://efem.club/players/2000515939-Cian-Wilson/,Cian Wilson,36,55,27,62,54,73,46,61,43,2026-10-30T02:17:48.843514+00:00
+2000525667,Alikhan Dinia,Jetisu,https://efem.club/players/2000525667-Alikhan-Dinia/,Alikhan Dinia,34,62,23,58,40,68,52,63,34,2026-10-30T02:17:50.058559+00:00
+2000527197,Dilshod Sharipov,Ishtixon,https://efem.club/players/2000527197-Dilshod-Sharipov/,Dilshod Sharipov,32,58,26,63,42,74,45,61,29,2026-10-30T02:17:51.323075+00:00
+2000529778,Shahriyor Mahmudov,Istaravshan,https://efem.club/players/2000529778-Shahriyor-Mahmudov/,Shahriyor Mahmudov,31,61,18,50,57,67,61,61,32,2026-10-30T02:17:52.544823+00:00
+2000378683,Kieran Mboma,Bradford City,https://efem.club/players/2000378683-Kieran-Mboma/,Kieran Mboma,41,58,26,58,53,69,56,60,31,2026-10-30T02:17:53.765348+00:00
+2000451037,Daniel Ljugbunari,SV Bad Schallerbach,https://efem.club/players/2000451037-Daniel-Ljugbunari/,Daniel Ljugbunari,26,49,17,50,45,74,63,59,30,2026-10-30T02:17:54.927649+00:00
+2000458704,Oscar Gonzalez,APIA Leichhardt,https://efem.club/players/2000458704-Oscar-Gonzalez/,Oscar Gonzalez,30,64,16,60,49,76,45,65,27,2026-10-30T02:17:56.138692+00:00
+2000462466,Luke Becvinovski,Melbourne City FC,https://efem.club/players/2000462466-Luke-Becvinovski/,Luke Becvinovski,28,60,21,62,41,71,44,66,23,2026-10-30T02:17:57.361430+00:00
+2000483987,Dexter Lee,Portsmouth,https://efem.club/players/2000483987-Dexter-Lee/,Dexter Lee,25,56,25,61,50,66,56,55,32,2026-10-30T02:17:58.583725+00:00
+2000508548,Mattia Cipriani,Sanremese,https://efem.club/players/2000508548-Mattia-Cipriani/,Mattia Cipriani,55,58,45,62,49,67,58,64,50,2026-10-30T02:17:59.733653+00:00
+2000510718,Mario Markovski,Detonit Plačkovica,https://efem.club/players/2000510718-Mario-Markovski/,Mario Markovski,24,59,24,44,47,70,59,58,32,2026-10-30T02:18:00.894331+00:00
+2000521897,Vadim Kondrashov,Dinamo Bryansk,https://efem.club/players/2000521897-Vadim-Kondrashov/,Vadim Kondrashov,35,46,23,64,49,67,52,66,26,2026-10-30T02:18:02.206522+00:00
+2000528640,Cyril Dufétel,Racing FC Luxembourg,https://efem.club/players/2000528640-Cyril-Duf%C3%A9tel/,Cyril Dufétel,47,47,21,52,49,72,51,62,26,2026-10-30T02:18:03.516695+00:00
+2000535157,Yordanos Tsegaye,Hawassa,https://efem.club/players/2000535157-Yordanos-Tsegaye/,Yordanos Tsegaye,35,55,28,54,45,69,45,66,32,2026-10-30T02:18:04.784977+00:00
+2000532742,Artem Plysiuk,Karpaty,https://efem.club/players/2000532742-Artem-Plysiuk/,Artem Plysiuk,29,58,27,65,55,73,58,62,40,2026-10-30T02:18:06.014298+00:00
+2000532126,Artem Pylypei,FC LNZ,https://efem.club/players/2000532126-Artem-Pylypei/,Artem Pylypei,39,59,26,62,52,72,46,60,38,2026-10-30T02:18:07.331786+00:00
+2000534488,Alhamdu Negash,Ethio Electric,https://efem.club/players/2000534488-Alhamdu-Negash/,Alhamdu Negash,26,56,19,57,47,72,41,60,34,2026-10-30T02:18:08.611598+00:00
+2000532459,Clinton Abongmese,Fortuna Mfou,https://efem.club/players/2000532459-Clinton-Abongmese/,Clinton Abongmese,37,62,27,58,51,70,44,62,33,2026-10-30T02:18:09.889010+00:00
+2000533421,Vincent Bovbjerg,FK Karlskrona,https://efem.club/players/2000533421-Vincent-Bovbjerg/,Vincent Bovbjerg,31,64,20,63,44,72,45,63,31,2026-10-30T02:18:11.171846+00:00
+2000410472,Sora Isogo,Free Agent,https://efem.club/players/2000410472-Sora-Isogo/,Sora Isogo,22,57,18,53,51,69,40,59,22,2026-10-30T02:18:12.450454+00:00
+2000534996,Harry Clark,Consett,https://efem.club/players/2000534996-Harry-Clark/,Harry Clark,21,50,18,43,44,66,36,54,20,2026-10-30T02:18:13.666667+00:00
+2000533425,Chan U Chin,Chiba (MAC),https://efem.club/players/2000533425-Chan-U-Chin/,Chan U Chin,20,48,18,34,41,66,47,58,21,2026-10-30T02:18:15.005771+00:00
+2000369468,Paul Antić,SV Ried,https://efem.club/players/2000369468-Paul-Anti%C4%87/,Paul Antić,36,63,26,66,44,69,49,70,37,2026-10-30T02:18:16.290594+00:00
+2000455128,Dalil Ouadrassi,Charleroi,https://efem.club/players/2000455128-Dalil-Ouadrassi/,Dalil Ouadrassi,60,69,31,68,64,68,58,59,41,2026-10-30T02:18:17.502208+00:00
+2000466550,Erik Kovács,Honvéd,https://efem.club/players/2000466550-Erik-Kov%C3%A1cs/,Erik Kovács,68,66,32,68,59,66,53,59,42,2026-10-30T02:18:18.742330+00:00
+2000482406,Sandro Ferreira,Sporting CP,https://efem.club/players/2000482406-Sandro-Ferreira/,Sandro Ferreira,53,64,37,67,57,68,57,65,44,2026-10-30T02:18:19.942887+00:00
+2000492316,Kacper Rzepka,Hutnik Kraków,https://efem.club/players/2000492316-Kacper-Rzepka/,Kacper Rzepka,48,74,37,63,55,67,58,66,51,2026-10-30T02:18:21.160107+00:00
+2000506793,Lucca Kakai,Middlesbrough,https://efem.club/players/2000506793-Lucca-Kakai/,Lucca Kakai,44,71,33,57,55,71,50,60,41,2026-10-30T02:18:22.386125+00:00
+2000356783,Lorenzo Corral,Dep. Riestra,https://efem.club/players/2000356783-Lorenzo-Corral/,Lorenzo Corral,56,71,52,63,69,74,70,56,52,2026-10-30T02:18:23.552097+00:00
+2000378249,Luís Gustavo,CA Bragantino,https://efem.club/players/2000378249-Lu%C3%ADs-Gustavo/,Luís Gustavo,65,61,46,70,64,72,63,69,53,2026-10-30T02:18:24.778234+00:00
+2000412543,Andrei Roateș,Levante,https://efem.club/players/2000412543-Andrei-Roate%C8%99/,Andrei Roateș,61,70,34,61,56,74,57,68,48,2026-10-30T02:18:26.021512+00:00
+2000346819,Dávid Reynheim,KÍ,https://efem.club/players/2000346819-D%C3%A1vid-Reynheim/,Dávid Reynheim,55,61,53,77,65,75,54,70,62,2026-10-30T02:18:27.193008+00:00
+2000380855,Mannie Barton,Cardiff,https://efem.club/players/2000380855-Mannie-Barton/,Mannie Barton,66,71,54,68,60,70,45,65,61,2026-10-30T02:18:28.451033+00:00
+2000401841,Mirko Franchi,Inter,https://efem.club/players/2000401841-Mirko-Franchi/,Mirko Franchi,47,61,31,65,51,68,65,65,45,2026-10-30T02:18:29.615302+00:00
+2000384882,Thiago Villordo,Dock Sud,https://efem.club/players/2000384882-Thiago-Villordo/,Thiago Villordo,59,67,32,68,57,70,43,62,34,2026-10-30T02:18:30.761330+00:00
+2000519337,Abdelaziz El Zoghbi,ENPPI,https://efem.club/players/2000519337-Abdelaziz-El-Zoghbi/,Abdelaziz El Zoghbi,47,66,33,68,48,66,57,70,35,2026-10-30T02:18:31.985845+00:00
+2000528815,Ignacio Letizia,Tigre,https://efem.club/players/2000528815-Ignacio-Letizia/,Ignacio Letizia,47,66,31,66,55,73,61,65,39,2026-10-30T02:18:33.205664+00:00
+2000531160,Obiri Martin,JS Kairouan,https://efem.club/players/2000531160-Obiri-Martin/,Obiri Martin,44,65,31,72,61,72,68,60,34,2026-10-30T02:18:34.455485+00:00
+2000479536,William Lopes,Boston City (MG),https://efem.club/players/2000479536-William-Lopes/,William Lopes,56,67,40,67,63,72,70,66,53,2026-10-30T02:18:35.650478+00:00
+2000523436,Camilo Cuello,Miramar Misiones,https://efem.club/players/2000523436-Camilo-Cuello/,Camilo Cuello,45,65,21,69,48,67,57,57,31,2026-10-30T02:18:36.907091+00:00
+2000261763,Aboubacar Bangoura,EM United,https://efem.club/players/2000261763-Aboubacar-Bangoura/,Aboubacar Bangoura,57,55,25,59,64,69,50,74,47,2026-10-30T02:18:38.089167+00:00
+2000364896,Marcus Neill,Sunderland,https://efem.club/players/2000364896-Marcus-Neill/,Marcus Neill,57,70,32,58,58,69,61,65,50,2026-10-30T02:18:39.334687+00:00
+2000401275,Robin Thiland-Hérard,Montpellier,https://efem.club/players/2000401275-Robin-Thiland-H%C3%A9rard/,Robin Thiland-Hérard,37,58,30,65,50,72,61,66,30,2026-10-30T02:18:40.488467+00:00
+2000408032,Jonny Day,Bournemouth,https://efem.club/players/2000408032-Jonny-Day/,Jonny Day,51,64,36,67,60,72,51,63,43,2026-10-30T02:18:41.733177+00:00
+2000425815,Sahin Balta,Eintracht Frankfurt,https://efem.club/players/2000425815-Sahin-Balta/,Sahin Balta,42,66,34,62,65,71,36,69,42,2026-10-30T02:18:42.918688+00:00
+2000427355,Emil Nahmmacher,1. FC Köln,https://efem.club/players/2000427355-Emil-Nahmmacher/,Emil Nahmmacher,42,59,38,63,48,73,49,69,38,2026-10-30T02:18:44.292470+00:00
+2000447832,Marek Lašák,Slovácko,https://efem.club/players/2000447832-Marek-La%C5%A1%C3%A1k/,Marek Lašák,47,65,33,68,62,71,67,55,44,2026-10-30T02:18:45.568550+00:00
+2000459808,Mattia Giambarveri,Perugia,https://efem.club/players/2000459808-Mattia-Giambarveri/,Mattia Giambarveri,56,66,38,68,55,70,59,61,44,2026-10-30T02:18:46.774607+00:00
+2000472391,Alan Arboleda,Puebla,https://efem.club/players/2000472391-Alan-Arboleda/,Alan Arboleda,51,58,43,66,60,74,48,65,35,2026-10-30T02:18:47.932895+00:00
+2000483138,Gael Gutiérrez,Cancún,https://efem.club/players/2000483138-Gael-Guti%C3%A9rrez/,Gael Gutiérrez,52,67,36,68,54,73,55,58,38,2026-10-30T02:18:49.122829+00:00
+2000491841,Edoardo Zanaga,Empoli,https://efem.club/players/2000491841-Edoardo-Zanaga/,Edoardo Zanaga,43,64,37,65,54,68,52,62,38,2026-10-30T02:18:50.331488+00:00
+2000531094,Christian Silva,Stgo Wanderers,https://efem.club/players/2000531094-Christian-Silva/,Christian Silva,52,62,29,64,50,69,56,65,27,2026-10-30T02:18:51.504165+00:00
+2000269417,Selvin Sagastume,Antigua,https://efem.club/players/2000269417-Selvin-Sagastume/,Selvin Sagastume,48,58,35,70,53,67,59,64,39,2026-10-30T02:18:52.704310+00:00
+2000366530,Stan Sieuw,Zulte Waregem,https://efem.club/players/2000366530-Stan-Sieuw/,Stan Sieuw,56,63,46,63,66,74,55,64,41,2026-10-30T02:18:53.931614+00:00
+2000299932,Ollie Dewsbury,Bristol Rovers,https://efem.club/players/2000299932-Ollie-Dewsbury/,Ollie Dewsbury,50,49,38,60,58,74,67,65,32,2026-10-30T02:18:55.155658+00:00
+2000353864,Rayen Harbaoui,US Monastir,https://efem.club/players/2000353864-Rayen-Harbaoui/,Rayen Harbaoui,37,65,29,66,48,66,56,64,32,2026-10-30T02:18:56.327801+00:00
+2000368376,Clemens Kerschbaumer,WSG Tirol,https://efem.club/players/2000368376-Clemens-Kerschbaumer/,Clemens Kerschbaumer,49,62,28,62,53,72,57,61,42,2026-10-30T02:18:57.541391+00:00
+2000376361,Luis Cabrera,Universitario,https://efem.club/players/2000376361-Luis-Cabrera/,Luis Cabrera,36,63,27,69,53,71,59,63,34,2026-10-30T02:18:58.768560+00:00
+2000389373,Ronal Guerrero,Atlético Grau,https://efem.club/players/2000389373-Ronal-Guerrero/,Ronal Guerrero,33,66,29,67,55,68,57,61,33,2026-10-30T02:19:00.089275+00:00
+2000396704,Robin Björkman,AFC Eskilstuna,https://efem.club/players/2000396704-Robin-Bj%C3%B6rkman/,Robin Björkman,41,52,26,69,54,70,51,68,37,2026-10-30T02:19:01.337187+00:00
+2000416008,Johann Kramer,Grasshoppers,https://efem.club/players/2000416008-Johann-Kramer/,Johann Kramer,44,66,29,54,54,72,57,65,34,2026-10-30T02:19:02.560366+00:00
+2000295870,Alexander Resner,FC Deutschkreutz,https://efem.club/players/2000295870-Alexander-Resner/,Alexander Resner,34,64,23,62,52,71,53,65,26,2026-10-30T02:19:03.794247+00:00
+2000325637,Bjørnar Tobiassen,Notodden,https://efem.club/players/2000325637-Bj%C3%B8rnar-Tobiassen/,Bjørnar Tobiassen,50,66,36,62,63,72,61,71,58,2026-10-30T02:19:05.092561+00:00
+2000510043,Alessandro Shehaj,Pescara,https://efem.club/players/2000510043-Alessandro-Shehaj/,Alessandro Shehaj,42,64,24,64,58,65,52,64,29,2026-10-30T02:19:06.318030+00:00
+2000513788,Amirsaid Kamolxonov,Paxtakor,https://efem.club/players/2000513788-Amirsaid-Kamolxonov/,Amirsaid Kamolxonov,35,61,35,65,58,70,63,63,38,2026-10-30T02:19:07.500387+00:00
+2000519961,Youssef Seddik,AS Marsa,https://efem.club/players/2000519961-Youssef-Seddik/,Youssef Seddik,48,64,41,68,48,68,53,58,38,2026-10-30T02:19:08.767643+00:00
+2000526170,Niilo Martikainen,FC Haka,https://efem.club/players/2000526170-Niilo-Martikainen/,Niilo Martikainen,38,63,19,58,55,75,64,66,38,2026-10-30T02:19:09.974445+00:00
+2000271926,Giulio Vinciati,Udinese,https://efem.club/players/2000271926-Giulio-Vinciati/,Giulio Vinciati,60,63,29,61,56,69,57,70,53,2026-10-30T02:19:11.338552+00:00
+2000375846,Iván Chicaiza,El Nacional,https://efem.club/players/2000375846-Iv%C3%A1n-Chicaiza/,Iván Chicaiza,38,65,35,59,49,73,60,65,26,2026-10-30T02:19:12.518720+00:00
+2000390773,Seong-hyun Lee,SV Wehen Wiesbaden,https://efem.club/players/2000390773-Seong-hyun-Lee/,Seong-hyun Lee,51,51,36,53,51,69,68,67,38,2026-10-30T02:19:13.722771+00:00
+2000391115,Nicolas Accoroni,Salernitana,https://efem.club/players/2000391115-Nicolas-Accoroni/,Nicolas Accoroni,30,70,26,59,53,72,51,56,29,2026-10-30T02:19:14.930929+00:00
+2000495190,Yaw Annor,Bechem Utd,https://efem.club/players/2000495190-Yaw-Annor/,Yaw Annor,38,69,36,67,50,76,47,61,33,2026-10-30T02:19:16.094162+00:00
+2000507711,Lucas Suárez,Lugo,https://efem.club/players/2000507711-Lucas-Su%C3%A1rez/,Lucas Suárez,31,65,25,65,45,66,65,59,33,2026-10-30T02:19:17.315681+00:00
+2000251599,Ardian Sopjani,FC Blau-Weiß Linz,https://efem.club/players/2000251599-Ardian-Sopjani/,Ardian Sopjani,36,53,17,53,46,69,53,65,29,2026-10-30T02:19:18.480405+00:00
+2000372524,Rareş Marin,Sepsi OSK,https://efem.club/players/2000372524-Rare%C5%9F-Marin/,Rareş Marin,33,52,29,58,44,65,44,64,36,2026-10-30T02:19:19.697589+00:00
+2000411850,Jay Mill,Civil Service,https://efem.club/players/2000411850-Jay-Mill/,Jay Mill,28,63,31,60,49,71,52,61,34,2026-10-30T02:19:20.930526+00:00
+2000450286,Donjae Wright,Wifi Utd,https://efem.club/players/2000450286-Donjae-Wright/,Donjae Wright,31,42,24,49,54,73,49,66,30,2026-10-30T02:19:22.207434+00:00
+2000462245,Amer Kjazimoski,Struga,https://efem.club/players/2000462245-Amer-Kjazimoski/,Amer Kjazimoski,37,59,22,56,53,68,55,57,26,2026-10-30T02:19:23.494320+00:00
+2000494229,Will Baily-Jones,Braintree,https://efem.club/players/2000494229-Will-Baily-Jones/,Will Baily-Jones,23,60,18,62,50,68,52,60,34,2026-10-30T02:19:24.770089+00:00
+2000509540,Sidy Diop,Breno,https://efem.club/players/2000509540-Sidy-Diop/,Sidy Diop,40,61,23,60,44,71,50,57,26,2026-10-30T02:19:25.968567+00:00
+2000525329,Alessio Infrano,Lecco,https://efem.club/players/2000525329-Alessio-Infrano/,Alessio Infrano,29,58,16,52,43,70,45,66,24,2026-10-30T02:19:27.140118+00:00
+2000270723,Francesco Summa,Avigliano,https://efem.club/players/2000270723-Francesco-Summa/,Francesco Summa,28,54,16,56,46,64,56,61,23,2026-10-30T02:19:28.303525+00:00
+2000373775,Joshua Amoah,Tigers FC,https://efem.club/players/2000373775-Joshua-Amoah/,Joshua Amoah,32,59,25,56,44,70,53,56,32,2026-10-30T02:19:29.478157+00:00
+2000432054,Martin Fryda,Free Agent,https://efem.club/players/2000432054-Martin-Fryda/,Martin Fryda,18,50,16,59,47,71,49,62,24,2026-10-30T02:19:30.704167+00:00
+2000459531,Marcus Papadimitriou,Vis Pesaro,https://efem.club/players/2000459531-Marcus-Papadimitriou/,Marcus Papadimitriou,35,40,32,54,50,66,56,58,26,2026-10-30T02:19:31.928434+00:00
+2000469612,Miko Enula,Flora,https://efem.club/players/2000469612-Miko-Enula/,Miko Enula,29,53,15,58,38,73,39,57,30,2026-10-30T02:19:33.096138+00:00
+2000521043,Federico Socco,Asti,https://efem.club/players/2000521043-Federico-Socco/,Federico Socco,39,49,18,54,44,67,36,59,26,2026-10-30T02:19:34.309964+00:00
+2000435775,Amedeo Angheloni,Trestina,https://efem.club/players/2000435775-Amedeo-Angheloni/,Amedeo Angheloni,29,51,16,54,45,69,41,58,22,2026-10-30T02:19:35.476503+00:00
+2000462004,Ilyas Orozbekov,AsiaGoal,https://efem.club/players/2000462004-Ilyas-Orozbekov/,Ilyas Orozbekov,47,57,22,57,46,72,53,55,36,2026-10-30T02:19:36.641230+00:00
+2000469652,Johannes Alemaa,Flora,https://efem.club/players/2000469652-Johannes-Alemaa/,Johannes Alemaa,35,59,20,57,48,67,39,58,27,2026-10-30T02:19:37.897354+00:00
+2000478863,Moritz Müller,SK Slovan HAC,https://efem.club/players/2000478863-Moritz-M%C3%BCller/,Moritz Müller,51,41,32,59,46,75,55,63,33,2026-10-30T02:19:39.116069+00:00
+2000525276,Enea Tanku,Accademia Borgomanero,https://efem.club/players/2000525276-Enea-Tanku/,Enea Tanku,33,57,18,54,48,66,51,56,29,2026-10-30T02:19:40.315183+00:00
+2000528833,Riccardo Garbisi,BSV Garda,https://efem.club/players/2000528833-Riccardo-Garbisi/,Riccardo Garbisi,28,53,23,49,46,72,44,56,23,2026-10-30T02:19:41.479549+00:00
+2000351620,Dallo Sandy,Western Sydney Wanderers,https://efem.club/players/2000351620-Dallo-Sandy/,Dallo Sandy,31,60,24,46,47,75,48,62,28,2026-10-30T02:19:42.652427+00:00
+2000364348,Emerson Koenig,Adelaide United,https://efem.club/players/2000364348-Emerson-Koenig/,Emerson Koenig,42,56,16,48,45,74,45,56,29,2026-10-30T02:19:43.857719+00:00
+2000377493,Salvador Pateiro,Arneiros,https://efem.club/players/2000377493-Salvador-Pateiro/,Salvador Pateiro,32,58,19,59,47,70,46,60,26,2026-10-30T02:19:45.064837+00:00
+2000467369,Alekss Petrovskis,FK Tukums 2000/Telms,https://efem.club/players/2000467369-Alekss-Petrovskis/,Alekss Petrovskis,25,52,22,38,46,69,50,62,21,2026-10-30T02:19:46.362563+00:00
+2000470120,Mairon Nõgu,Kuressaare,https://efem.club/players/2000470120-Mairon-N%C3%B5gu/,Mairon Nõgu,37,66,27,49,51,70,49,53,39,2026-10-30T02:19:47.608927+00:00
+2000476717,Fadal Sall,Green Boys,https://efem.club/players/2000476717-Fadal-Sall/,Fadal Sall,19,56,16,56,49,78,47,60,23,2026-10-30T02:19:48.845206+00:00
+2000492959,Iacopo Pelletti,Cenaia,https://efem.club/players/2000492959-Iacopo-Pelletti/,Iacopo Pelletti,27,59,29,58,49,70,42,51,27,2026-10-30T02:19:50.063844+00:00
+2000501938,Krystian Woods,Weston-super-Mare,https://efem.club/players/2000501938-Krystian-Woods/,Krystian Woods,27,55,23,48,46,75,56,55,27,2026-10-30T02:19:51.236599+00:00
+2000522985,Pietro Rizzi,Oppeano,https://efem.club/players/2000522985-Pietro-Rizzi/,Pietro Rizzi,28,55,15,56,46,68,48,56,32,2026-10-30T02:19:52.444914+00:00
+2000445435,Donatas Jermakovas,Linfield,https://efem.club/players/2000445435-Donatas-Jermakovas/,Donatas Jermakovas,21,51,17,54,37,70,49,60,18,2026-10-30T02:19:53.613709+00:00
+2000463585,George Alamu,Midleton,https://efem.club/players/2000463585-George-Alamu/,George Alamu,33,58,18,45,50,67,39,58,33,2026-10-30T02:19:54.845650+00:00
+2000470950,Alexandr Besstrashnikov,Kolomna,https://efem.club/players/2000470950-Alexandr-Besstrashnikov/,Alexandr Besstrashnikov,20,53,15,46,43,67,41,59,27,2026-10-30T02:19:56.134076+00:00
+2000498394,Alberto Barbieri,Fossolo,https://efem.club/players/2000498394-Alberto-Barbieri/,Alberto Barbieri,20,53,17,52,31,67,54,57,17,2026-10-30T02:19:57.366842+00:00
+2000500981,Anders Madsen,FA 2000,https://efem.club/players/2000500981-Anders-Madsen/,Anders Madsen,40,37,27,53,49,75,36,63,24,2026-10-30T02:19:58.693188+00:00
+2000512546,Paul Harpa,FC Bacău,https://efem.club/players/2000512546-Paul-Harpa/,Paul Harpa,22,55,16,48,41,64,45,63,30,2026-10-30T02:19:59.973848+00:00
+2000514503,Leyton Read,Eastleigh,https://efem.club/players/2000514503-Leyton-Read/,Leyton Read,21,55,16,44,50,69,46,60,19,2026-10-30T02:20:01.292306+00:00
+2000256415,Ethelbert Edward,Lepea,https://efem.club/players/2000256415-Ethelbert-Edward/,Ethelbert Edward,23,58,17,49,43,65,51,56,20,2026-10-30T02:20:02.573530+00:00
+2000363058,Enda Smyth,Armagh,https://efem.club/players/2000363058-Enda-Smyth/,Enda Smyth,25,54,17,52,40,73,42,51,26,2026-10-30T02:20:03.829483+00:00
+2000480320,Shehab Rahma,Modbury Jets,https://efem.club/players/2000480320-Shehab-Rahma/,Shehab Rahma,30,61,24,49,47,71,44,60,35,2026-10-30T02:20:05.087590+00:00
+2000521695,Sten Marten Soopalu,Tabasalu,https://efem.club/players/2000521695-Sten-Marten-Soopalu/,Sten Marten Soopalu,19,57,16,44,37,67,37,51,28,2026-10-30T02:20:06.311995+00:00
+2000338305,Matthew Armstrong,Ballinamallard Utd,https://efem.club/players/2000338305-Matthew-Armstrong/,Matthew Armstrong,23,44,21,42,37,71,49,60,20,2026-10-30T02:20:07.517196+00:00
+2000370921,Prem Hansdak,Zinc FA,https://efem.club/players/2000370921-Prem-Hansdak/,Prem Hansdak,29,62,21,50,41,70,36,48,22,2026-10-30T02:20:08.795934+00:00
+2000449598,Vishal Yadav,Punjab FC,https://efem.club/players/2000449598-Vishal-Yadav/,Vishal Yadav,20,32,18,48,37,70,46,48,26,2026-10-30T02:20:10.026016+00:00
+2000467185,Jacob Curry,Edgeworth,https://efem.club/players/2000467185-Jacob-Curry/,Jacob Curry,20,51,18,40,46,68,55,59,22,2026-10-30T02:20:11.235458+00:00
+2000520103,Jake Borg,Pietà H.,https://efem.club/players/2000520103-Jake-Borg/,Jake Borg,40,62,20,55,45,67,37,60,26,2026-10-30T02:20:12.441379+00:00
+2000404083,Dominik Ambroziewicz,Loughgall,https://efem.club/players/2000404083-Dominik-Ambroziewicz/,Dominik Ambroziewicz,21,57,20,50,36,71,57,57,22,2026-10-30T02:20:18.144539+00:00
+2000498095,Raoul Hadid Akbar,Geylang Int.,https://efem.club/players/2000498095-Raoul-Hadid-Akbar/,Raoul Hadid Akbar,20,61,22,48,50,69,43,54,27,2026-10-30T02:20:19.348971+00:00
+2000309245,Tunar Səlimov,Free Agent,https://efem.club/players/2000309245-Tunar-S%C9%99limov/,Tunar Səlimov,28,60,16,44,50,70,38,62,32,2026-10-30T02:20:20.550214+00:00
+2000338322,Adam Cathcart,Ballinamallard Utd,https://efem.club/players/2000338322-Adam-Cathcart/,Adam Cathcart,22,54,16,49,41,70,48,58,22,2026-10-30T02:20:21.768843+00:00
+2000307093,Mohd Ryady Raziq Abdul Rashid,Selangor,https://efem.club/players/2000307093-Mohd-Ryady-Raziq-Abdul-Rashid/,Mohd Ryady Raziq Abdul Rashid,29,34,29,58,46,70,35,49,24,2026-10-30T02:20:22.999430+00:00
+2000412540,Thomas Vaughan,Llandudno Junction,https://efem.club/players/2000412540-Thomas-Vaughan/,Thomas Vaughan,23,56,17,47,47,72,32,49,26,2026-10-30T02:20:24.219274+00:00
+2000474350,Serhad Kanli,Denbigh,https://efem.club/players/2000474350-Serhad-Kanli/,Serhad Kanli,21,55,19,41,52,66,57,49,32,2026-10-30T02:20:25.426502+00:00
+2000486784,Warren Leech,Buckley,https://efem.club/players/2000486784-Warren-Leech/,Warren Leech,30,39,27,38,39,72,45,60,22,2026-10-30T02:20:26.641987+00:00
+2000223618,Fernandez Casey,Singapore Sports School,https://efem.club/players/2000223618-Fernandez-Casey/,Fernandez Casey,34,52,20,49,43,71,44,53,25,2026-10-30T02:20:27.845716+00:00
+2000445876,Tanapat Kaewthong,Lex,https://efem.club/players/2000445876-Tanapat-Kaewthong/,Tanapat Kaewthong,35,39,38,50,38,72,36,62,21,2026-10-30T02:20:29.089926+00:00
+2000354415,Francis Idorenyin,Free Agent,https://efem.club/players/2000354415-Francis-Idorenyin/,Francis Idorenyin,38,30,20,46,36,75,27,62,17,2026-10-30T02:20:30.296631+00:00
+2000417867,Alaa Rostom,Kalundborg,https://efem.club/players/2000417867-Alaa-Rostom/,Alaa Rostom,18,51,17,44,34,67,37,60,22,2026-10-30T02:20:31.507418+00:00
+23427446,Tripop Jaroensheep,Free Agent,https://efem.club/players/23427446-Tripop-Jaroensheep/,Tripop Jaroensheep,17,52,15,38,35,67,39,59,26,2026-10-30T02:20:32.704846+00:00
+2000389243,Alfie Jones,Llandudno,https://efem.club/players/2000389243-Alfie-Jones/,Alfie Jones,38,35,28,43,40,73,36,59,27,2026-10-30T02:20:33.928516+00:00
+2000356932,Randel Loorpuu,Free Agent,https://efem.club/players/2000356932-Randel-Loorpuu/,Randel Loorpuu,19,53,17,38,46,71,42,55,21,2026-10-30T02:20:35.168270+00:00
+2000327720,Ashley Cowap,Glais,https://efem.club/players/2000327720-Ashley-Cowap/,Ashley Cowap,23,32,21,46,38,69,42,62,17,2026-10-30T02:20:36.453526+00:00
+2000400814,Cheung Ching Kiu,Hoi King,https://efem.club/players/2000400814-Cheung-Ching-Kiu/,Cheung Ching Kiu,24,42,19,47,39,68,45,57,20,2026-10-30T02:20:37.692747+00:00
+2000466199,Daniel Pek,Balestier,https://efem.club/players/2000466199-Daniel-Pek/,Daniel Pek,19,57,20,48,35,68,49,46,36,2026-10-30T02:20:38.903520+00:00
+2000485309,Ioan Duca,Ştiinţa Miroslava,https://efem.club/players/2000485309-Ioan-Duca/,Ioan Duca,25,62,17,44,41,73,38,59,22,2026-10-30T02:20:40.325466+00:00
+2000486757,Cai Farrell,Holywell,https://efem.club/players/2000486757-Cai-Farrell/,Cai Farrell,44,47,21,45,44,70,47,53,20,2026-10-30T02:20:41.571730+00:00
+2000495782,Danny Ali,Tanjong Pagar,https://efem.club/players/2000495782-Danny-Ali/,Danny Ali,22,51,24,41,39,69,49,62,23,2026-10-30T02:20:42.849233+00:00
+2000206853,R. Refon,Free Agent,https://efem.club/players/2000206853-R.-Refon/,R. Refon,17,30,16,37,34,69,41,54,17,2026-10-30T02:20:44.129224+00:00
+2000445642,Storm Karlsson Knutsen,Aalesund,https://efem.club/players/2000445642-Storm-Karlsson-Knutsen/,Storm Karlsson Knutsen,35,63,30,55,45,70,59,64,38,2026-10-30T02:20:45.414730+00:00
+2000486549,Suber Mohamed Hud,Kråkerøy,https://efem.club/players/2000486549-Suber-Mohamed-Hud/,Suber Mohamed Hud,54,50,47,64,56,66,59,66,47,2026-10-30T02:20:46.686567+00:00
+2000502636,Lovre Travica,Orijent,https://efem.club/players/2000502636-Lovre-Travica/,Lovre Travica,50,61,40,69,55,70,46,64,35,2026-10-30T02:20:47.885428+00:00
+2000517613,Olayiwola Abdulmalik,Kwara Utd,https://efem.club/players/2000517613-Olayiwola-Abdulmalik/,Olayiwola Abdulmalik,36,66,32,68,55,71,52,61,46,2026-10-30T02:20:49.101039+00:00
+2000523731,Dominik Marucha,Olimpia Elbląg,https://efem.club/players/2000523731-Dominik-Marucha/,Dominik Marucha,30,59,26,62,51,77,50,61,29,2026-10-30T02:20:50.293743+00:00
+2000450455,Veljko Rajkovic,SC/ESV Parndorf,https://efem.club/players/2000450455-Veljko-Rajkovic/,Veljko Rajkovic,37,61,27,65,45,69,56,62,36,2026-10-30T02:20:51.655380+00:00
+2000457886,Mikel Prado,Tauro,https://efem.club/players/2000457886-Mikel-Prado/,Mikel Prado,40,67,25,70,40,70,63,64,35,2026-10-30T02:20:52.924445+00:00
+2000465321,Giorgio Pietropoli,Renate,https://efem.club/players/2000465321-Giorgio-Pietropoli/,Giorgio Pietropoli,52,65,29,70,60,70,63,56,40,2026-10-30T02:20:54.152023+00:00
+2000283227,Nicolas Messmer,SV Lochau,https://efem.club/players/2000283227-Nicolas-Messmer/,Nicolas Messmer,52,46,25,58,52,74,50,56,27,2026-10-30T02:20:55.332302+00:00
+2000330510,Luka Jović,Carl Zeiss Jena,https://efem.club/players/2000330510-Luka-Jovi%C4%87/,Luka Jović,57,62,29,60,50,69,55,65,40,2026-10-30T02:20:56.612524+00:00
+2000365564,Ceiran Loney,Everton,https://efem.club/players/2000365564-Ceiran-Loney/,Ceiran Loney,48,59,33,56,60,73,78,66,32,2026-10-30T02:20:57.888301+00:00
+2000472706,Danylo Tarasenko,CSKA 1948,https://efem.club/players/2000472706-Danylo-Tarasenko/,Danylo Tarasenko,56,73,29,67,51,71,56,55,36,2026-10-30T02:20:59.064728+00:00
+2000478418,Rei Zekaj,FK Partizani,https://efem.club/players/2000478418-Rei-Zekaj/,Rei Zekaj,30,58,28,55,43,70,41,60,30,2026-10-30T02:21:00.298396+00:00
+2000491173,Killyan Arragain,Montpellier,https://efem.club/players/2000491173-Killyan-Arragain/,Killyan Arragain,38,59,25,61,43,72,58,68,29,2026-10-30T02:21:01.569151+00:00
+2000496086,Malik Grillon-Delivert,FCSM,https://efem.club/players/2000496086-Malik-Grillon-Delivert/,Malik Grillon-Delivert,66,59,39,67,64,72,63,67,41,2026-10-30T02:21:02.823381+00:00
+2000500048,Emmanuel Arinze Anayo,Oleksandriia,https://efem.club/players/2000500048-Emmanuel-Arinze-Anayo/,Emmanuel Arinze Anayo,33,63,28,62,54,71,60,60,32,2026-10-30T02:21:04.049767+00:00
+2000451445,Christoph Zeibeck,SKN St. Pölten,https://efem.club/players/2000451445-Christoph-Zeibeck/,Christoph Zeibeck,33,57,24,64,56,74,62,62,32,2026-10-30T02:21:05.267477+00:00
+2000498074,Nicolás Calero,Parque del Plata,https://efem.club/players/2000498074-Nicol%C3%A1s-Calero/,Nicolás Calero,32,61,20,64,53,73,56,55,37,2026-10-30T02:21:06.472529+00:00
+2000517574,Amos Aliyu,Plateau Utd,https://efem.club/players/2000517574-Amos-Aliyu/,Amos Aliyu,34,60,28,58,58,70,49,61,26,2026-10-30T02:21:07.692727+00:00
+2000472556,Tamás Kató,Szolnok,https://efem.club/players/2000472556-Tam%C3%A1s-Kat%C3%B3/,Tamás Kató,55,66,28,60,54,70,54,64,41,2026-10-30T02:21:08.891767+00:00
+2000508144,Mousseine Zenati,Ligorna,https://efem.club/players/2000508144-Mousseine-Zenati/,Mousseine Zenati,53,55,30,60,56,71,64,64,39,2026-10-30T02:21:10.110851+00:00
+2000518690,Maciej Kolasa,Jagiellonia,https://efem.club/players/2000518690-Maciej-Kolasa/,Maciej Kolasa,41,59,27,58,51,70,45,60,34,2026-10-30T02:21:11.294666+00:00
+2000523846,Kristoffer Hoddevik,Aalesund,https://efem.club/players/2000523846-Kristoffer-Hoddevik/,Kristoffer Hoddevik,38,29,31,56,49,75,53,63,26,2026-10-30T02:21:12.532328+00:00
+2000313052,Gabriel Simic,Rothrist,https://efem.club/players/2000313052-Gabriel-Simic/,Gabriel Simic,31,59,29,57,60,71,50,65,40,2026-10-30T02:21:13.749082+00:00
+2000364141,Sebastian Juliussen,Rosenborg,https://efem.club/players/2000364141-Sebastian-Juliussen/,Sebastian Juliussen,58,72,43,53,57,59,43,59,51,2026-10-30T02:21:15.000689+00:00
+2000391771,Jhon Pérez,Unión Comercio,https://efem.club/players/2000391771-Jhon-P%C3%A9rez/,Jhon Pérez,27,59,21,61,46,73,64,56,31,2026-10-30T02:21:16.219455+00:00
+2000416017,Noe Linder,Coffrane,https://efem.club/players/2000416017-Noe-Linder/,Noe Linder,41,59,20,55,55,75,55,61,42,2026-10-30T02:21:17.561572+00:00
+2000451317,Valentin Täuber,NWZ SKU Amstetten/AFW,https://efem.club/players/2000451317-Valentin-T%C3%A4uber/,Valentin Täuber,45,68,29,64,42,70,34,58,37,2026-10-30T02:21:18.794086+00:00
+2000456929,Ilja Vsyakikh,Orenburg,https://efem.club/players/2000456929-Ilja-Vsyakikh/,Ilja Vsyakikh,48,60,38,60,52,70,60,63,42,2026-10-30T02:21:20.006452+00:00
+2000473446,Zalán Herczeg,Bicske,https://efem.club/players/2000473446-Zal%C3%A1n-Herczeg/,Zalán Herczeg,46,45,31,66,58,70,56,62,38,2026-10-30T02:21:21.246734+00:00
+2000489732,Siwakorn Ponsan,BG Pathum Utd,https://efem.club/players/2000489732-Siwakorn-Ponsan/,Siwakorn Ponsan,38,57,22,58,47,72,59,61,25,2026-10-30T02:21:22.530579+00:00
+2000503401,Jure Kavelj,Hrvace,https://efem.club/players/2000503401-Jure-Kavelj/,Jure Kavelj,34,58,17,60,43,74,43,67,25,2026-10-30T02:21:23.756328+00:00
+2000518692,Karol Bednarczyk,Jagiellonia,https://efem.club/players/2000518692-Karol-Bednarczyk/,Karol Bednarczyk,24,65,35,63,56,70,62,58,37,2026-10-30T02:21:24.987052+00:00
+2000531645,Martin Stoquiaux,Nancy,https://efem.club/players/2000531645-Martin-Stoquiaux/,Martin Stoquiaux,44,64,36,64,55,73,54,53,26,2026-10-30T02:21:26.210638+00:00
+2000312808,Vardan Tovmasyan,Andranik,https://efem.club/players/2000312808-Vardan-Tovmasyan/,Vardan Tovmasyan,33,58,23,50,52,69,44,66,28,2026-10-30T02:21:27.486178+00:00
+2000331509,Lior Shugar,Hapoel Be'er-Sheva,https://efem.club/players/2000331509-Lior-Shugar/,Lior Shugar,51,62,33,58,53,73,43,66,33,2026-10-30T02:21:28.710510+00:00
+2000371011,Mohammed Fikri,Huddersfield,https://efem.club/players/2000371011-Mohammed-Fikri/,Mohammed Fikri,46,65,32,63,53,73,42,59,33,2026-10-30T02:21:30.050651+00:00
+2000380578,Reiss Bowen,Wolves,https://efem.club/players/2000380578-Reiss-Bowen/,Reiss Bowen,36,65,24,58,47,70,52,62,44,2026-10-30T02:21:31.221106+00:00
+2000388253,Óscar Loureiro,Coruxo FC,https://efem.club/players/2000388253-%C3%93scar-Loureiro/,Óscar Loureiro,34,55,18,53,50,67,45,69,34,2026-10-30T02:21:32.389934+00:00
+2000389729,Aapeli Repo,KajHa,https://efem.club/players/2000389729-Aapeli-Repo/,Aapeli Repo,48,52,31,56,45,69,51,61,31,2026-10-30T02:21:33.542525+00:00
+2000394252,Nils Voitiškis,Riga,https://efem.club/players/2000394252-Nils-Voiti%C5%A1kis/,Nils Voitiškis,42,64,26,57,62,71,61,61,36,2026-10-30T02:21:34.758402+00:00
+2000396879,Kristian Jašović,Lyngby,https://efem.club/players/2000396879-Kristian-Ja%C5%A1ovi%C4%87/,Kristian Jašović,58,62,24,53,50,68,53,65,22,2026-10-30T02:21:35.961877+00:00
+2000404804,Feyi Afuape,Barnsley,https://efem.club/players/2000404804-Feyi-Afuape/,Feyi Afuape,34,66,19,64,51,72,41,58,41,2026-10-30T02:21:37.364578+00:00
+2000407035,Salvatore Parisi,Caldiero,https://efem.club/players/2000407035-Salvatore-Parisi/,Salvatore Parisi,51,60,51,62,58,69,65,66,40,2026-10-30T02:21:38.514567+00:00
+2000388002,Patrik Hanák,Kroměříž,https://efem.club/players/2000388002-Patrik-Han%C3%A1k/,Patrik Hanák,25,49,21,59,48,70,57,68,25,2026-10-30T02:21:39.684380+00:00
+2000392828,Naod Gezahegn,Servette,https://efem.club/players/2000392828-Naod-Gezahegn/,Naod Gezahegn,45,47,24,63,50,75,57,60,20,2026-10-30T02:21:40.916120+00:00
+2000415990,Maurizio Loris Scinta,Rapperswil,https://efem.club/players/2000415990-Maurizio-Loris-Scinta/,Maurizio Loris Scinta,49,67,29,65,48,72,54,61,32,2026-10-30T02:21:42.157099+00:00
+2000433401,Dorian Rostoucher,Elversberg,https://efem.club/players/2000433401-Dorian-Rostoucher/,Dorian Rostoucher,33,64,30,57,53,75,57,62,33,2026-10-30T02:21:43.561463+00:00
+2000424747,Lenny Berte,KV Kortrijk,https://efem.club/players/2000424747-Lenny-Berte/,Lenny Berte,26,53,23,59,55,69,56,68,37,2026-10-30T02:21:44.764310+00:00
+2000452476,Kallum Fuller-Thompson,Reading,https://efem.club/players/2000452476-Kallum-Fuller-Thompson/,Kallum Fuller-Thompson,37,58,23,57,55,65,53,56,37,2026-10-30T02:21:46.009150+00:00
+2000489856,Itthimon Tippanet,BG Pathum Utd,https://efem.club/players/2000489856-Itthimon-Tippanet/,Itthimon Tippanet,30,66,32,57,65,73,50,57,43,2026-10-30T02:21:47.176564+00:00
+2000512362,Ştefan Gheorghică,Oţelul Galaţi,https://efem.club/players/2000512362-%C5%9Etefan-Gheorghic%C4%83/,Ştefan Gheorghică,29,62,24,64,54,64,52,60,38,2026-10-30T02:21:48.439884+00:00
+2000280622,James Sasere,Colchester,https://efem.club/players/2000280622-James-Sasere/,James Sasere,44,62,25,64,57,76,32,61,48,2026-10-30T02:21:49.648666+00:00
+2000457520,Maciej Kłosko,Odra Opole,https://efem.club/players/2000457520-Maciej-K%C5%82osko/,Maciej Kłosko,37,56,18,54,50,70,54,64,32,2026-10-30T02:21:50.808915+00:00
+2000472247,Muhammad Haris,U.C.D.,https://efem.club/players/2000472247-Muhammad-Haris/,Muhammad Haris,37,56,24,64,56,67,47,57,35,2026-10-30T02:21:52.126653+00:00
+2000482978,Niklas Hollerer,FAC Wien,https://efem.club/players/2000482978-Niklas-Hollerer/,Niklas Hollerer,34,62,35,67,49,74,50,61,43,2026-10-30T02:21:53.424827+00:00
+2000492921,Hilaire Nahimana,FC Rouen,https://efem.club/players/2000492921-Hilaire-Nahimana/,Hilaire Nahimana,48,58,25,61,52,73,54,67,34,2026-10-30T02:21:54.642579+00:00
+2000511693,Finn McGreevy,Hampton & Richmond,https://efem.club/players/2000511693-Finn-McGreevy/,Finn McGreevy,43,46,33,57,59,69,56,58,25,2026-10-30T02:21:55.920402+00:00
+2000525722,Dmitrii Kalibekov,Ülytau,https://efem.club/players/2000525722-Dmitrii-Kalibekov/,Dmitrii Kalibekov,32,51,25,60,55,70,48,61,29,2026-10-30T02:21:57.134712+00:00
+2000255470,Alfie Gaston,Coleraine,https://efem.club/players/2000255470-Alfie-Gaston/,Alfie Gaston,38,37,34,64,46,71,59,64,34,2026-10-30T02:21:58.361187+00:00
+2000458198,Zack Damianakis,Ipswich FC,https://efem.club/players/2000458198-Zack-Damianakis/,Zack Damianakis,36,62,23,58,58,64,48,59,35,2026-10-30T02:21:59.585000+00:00
+2000478851,Francesco Neccia,Rovato Vertovese,https://efem.club/players/2000478851-Francesco-Neccia/,Francesco Neccia,45,67,21,60,46,71,45,58,25,2026-10-30T02:22:00.810835+00:00
+2000490474,Igli Xhajollari,KS Pogradeci,https://efem.club/players/2000490474-Igli-Xhajollari/,Igli Xhajollari,34,63,20,51,41,73,62,65,40,2026-10-30T02:22:01.985441+00:00
+2000492532,Shayron Bredic,Imolese,https://efem.club/players/2000492532-Shayron-Bredic/,Shayron Bredic,44,65,30,60,58,69,71,54,42,2026-10-30T02:22:03.238268+00:00
+2000500620,Elmar Örn Daníelsson,Fram,https://efem.club/players/2000500620-Elmar-%C3%96rn-Dan%C3%ADelsson/,Elmar Örn Daníelsson,47,59,34,56,46,70,58,62,26,2026-10-30T02:22:04.392934+00:00
+2000502994,George Geraghty,Yeovil,https://efem.club/players/2000502994-George-Geraghty/,George Geraghty,25,60,27,61,46,74,45,57,37,2026-10-30T02:22:05.601901+00:00
+2000505519,Mattia Bellini,Mantova,https://efem.club/players/2000505519-Mattia-Bellini/,Mattia Bellini,44,57,33,65,50,68,55,59,24,2026-10-30T02:22:06.805355+00:00
+2000509072,Mattia Mauri,Vis Nova Giussano,https://efem.club/players/2000509072-Mattia-Mauri/,Mattia Mauri,39,60,24,54,56,70,65,50,34,2026-10-30T02:22:07.950806+00:00
+2000517981,Akmal Doğan,Alanya Kestelspor,https://efem.club/players/2000517981-Akmal-Do%C4%9Fan/,Akmal Doğan,39,62,22,58,43,72,63,64,41,2026-10-30T02:22:09.137372+00:00
+2000521420,Dominik Holec,Jihlava,https://efem.club/players/2000521420-Dominik-Holec/,Dominik Holec,36,57,22,54,52,72,50,60,31,2026-10-30T02:22:10.344795+00:00
+2000524513,Chadrick McLeod,Chapelton Maroons,https://efem.club/players/2000524513-Chadrick-McLeod/,Chadrick McLeod,40,56,22,68,52,70,44,63,38,2026-10-30T02:22:11.614588+00:00
+2000525974,Ämir Anuarbek,Jas Qyran,https://efem.club/players/2000525974-%C3%84mir-Anuarbek/,Ämir Anuarbek,51,59,25,56,57,73,49,66,35,2026-10-30T02:22:12.874217+00:00
+2000265487,Valerio Brutto,Palermo,https://efem.club/players/2000265487-Valerio-Brutto/,Valerio Brutto,25,56,21,63,50,70,49,53,34,2026-10-30T02:22:14.182604+00:00
+2000381329,Marco Castellacci,Ravenna,https://efem.club/players/2000381329-Marco-Castellacci/,Marco Castellacci,33,71,27,56,51,64,47,62,39,2026-10-30T02:22:15.359462+00:00
+2000403388,Dino Dervisevic,SK St. Johann,https://efem.club/players/2000403388-Dino-Dervisevic/,Dino Dervisevic,29,55,21,55,48,67,41,58,33,2026-10-30T02:22:16.532933+00:00
+2000408425,Joel Sula,Reggiana,https://efem.club/players/2000408425-Joel-Sula/,Joel Sula,50,68,25,63,59,70,46,50,40,2026-10-30T02:22:17.747341+00:00
+2000421798,Dario Bisemgambi,RUS Courcelloise,https://efem.club/players/2000421798-Dario-Bisemgambi/,Dario Bisemgambi,52,68,24,61,60,70,50,54,46,2026-10-30T02:22:18.942071+00:00
+2000444191,Christian Piro,Fiorenzuola,https://efem.club/players/2000444191-Christian-Piro/,Christian Piro,49,55,47,54,49,67,64,66,40,2026-10-30T02:22:20.289899+00:00
+2000452409,Frank Norris,Stevenage,https://efem.club/players/2000452409-Frank-Norris/,Frank Norris,32,69,33,52,55,66,67,49,26,2026-10-30T02:22:21.451117+00:00
+2000456905,Oleg Semizarov,Krasnodar,https://efem.club/players/2000456905-Oleg-Semizarov/,Oleg Semizarov,29,65,25,62,58,71,58,55,36,2026-10-30T02:22:22.621696+00:00
+2000497047,Luca Timo Hermasch,Havelse,https://efem.club/players/2000497047-Luca-Timo-Hermasch/,Luca Timo Hermasch,25,60,20,44,46,73,42,66,25,2026-10-30T02:22:23.896637+00:00
+2000506098,Roberto Montervino,Martina,https://efem.club/players/2000506098-Roberto-Montervino/,Roberto Montervino,36,59,19,65,51,69,43,62,34,2026-10-30T02:22:25.123408+00:00
+2000521944,Roman Frolov,Spartak Moscow,https://efem.club/players/2000521944-Roman-Frolov/,Roman Frolov,32,38,32,67,60,68,64,57,33,2026-10-30T02:22:26.316910+00:00
+2000372347,Mohamed Aziz Ghoul,ES Jerba,https://efem.club/players/2000372347-Mohamed-Aziz-Ghoul/,Mohamed Aziz Ghoul,25,54,19,55,42,66,47,66,21,2026-10-30T02:22:27.645372+00:00
+2000391172,Matej Sejmenov,AP Brera,https://efem.club/players/2000391172-Matej-Sejmenov/,Matej Sejmenov,26,60,21,60,50,70,23,59,38,2026-10-30T02:22:28.922896+00:00
+2000451042,Altin Latifi,SPG Wels,https://efem.club/players/2000451042-Altin-Latifi/,Altin Latifi,32,62,24,56,47,70,44,70,28,2026-10-30T02:22:30.124114+00:00
+2000460415,Jake Goodwin,Newcastle Jets,https://efem.club/players/2000460415-Jake-Goodwin/,Jake Goodwin,59,70,39,59,47,71,50,65,34,2026-10-30T02:22:31.329652+00:00
+2000478269,Philipp Schiestl,SV Fügen,https://efem.club/players/2000478269-Philipp-Schiestl/,Philipp Schiestl,29,56,22,57,39,72,57,52,33,2026-10-30T02:22:32.611133+00:00
+2000493817,Sava Slavynskyi,Real Pharma,https://efem.club/players/2000493817-Sava-Slavynskyi/,Sava Slavynskyi,51,63,24,55,50,69,55,63,36,2026-10-30T02:22:33.923392+00:00
+2000509310,Jack Brown,Eastern Suburbs,https://efem.club/players/2000509310-Jack-Brown/,Jack Brown,22,60,16,52,52,69,56,59,32,2026-10-30T02:22:35.164247+00:00
+2000299313,Andreas Riiser,Hobro IK,https://efem.club/players/2000299313-Andreas-Riiser/,Andreas Riiser,43,43,22,59,45,63,41,66,27,2026-10-30T02:22:36.440758+00:00
+2000325657,Artjom Jakovenko,Smsraha,https://efem.club/players/2000325657-Artjom-Jakovenko/,Artjom Jakovenko,30,65,21,53,55,67,47,64,29,2026-10-30T02:22:37.725918+00:00
+2000345129,Mateo Manea,Axiopolis Cernavodă,https://efem.club/players/2000345129-Mateo-Manea/,Mateo Manea,26,62,22,61,46,65,54,58,34,2026-10-30T02:22:39.018588+00:00
+2000358722,Ridas Gramba,Tauras,https://efem.club/players/2000358722-Ridas-Gramba/,Ridas Gramba,37,56,21,63,48,69,61,49,34,2026-10-30T02:22:40.286354+00:00
+2000382977,Martin Gospodinov,Yantra Polski Trambesh,https://efem.club/players/2000382977-Martin-Gospodinov/,Martin Gospodinov,38,66,23,55,55,64,50,58,34,2026-10-30T02:22:41.486325+00:00
+2000401061,Tran Gia Bao,Gia Lai,https://efem.club/players/2000401061-Tran-Gia-Bao/,Tran Gia Bao,38,55,35,64,51,73,49,64,38,2026-10-30T02:22:42.699003+00:00
+2000404937,Edis Amza,CS Agigea,https://efem.club/players/2000404937-Edis-Amza/,Edis Amza,30,53,21,56,47,60,57,64,26,2026-10-30T02:22:43.910826+00:00
+2000421854,Michele Ricchiuti,Bisceglie,https://efem.club/players/2000421854-Michele-Ricchiuti/,Michele Ricchiuti,33,63,19,52,51,69,57,56,26,2026-10-30T02:22:45.125684+00:00
+2000433453,Domas Sinkevičius,Hegelmann,https://efem.club/players/2000433453-Domas-Sinkevi%C4%8Dius/,Domas Sinkevičius,28,60,18,48,48,67,60,52,24,2026-10-30T02:22:46.297734+00:00
+2000441841,Nizom Ahmadov,Toshkent VFA,https://efem.club/players/2000441841-Nizom-Ahmadov/,Nizom Ahmadov,34,64,23,46,52,69,62,61,30,2026-10-30T02:22:47.503515+00:00
+2000447936,Jayden Ogbebor,Stoke,https://efem.club/players/2000447936-Jayden-Ogbebor/,Jayden Ogbebor,26,57,16,62,42,68,52,64,19,2026-10-30T02:22:48.733774+00:00
+2000457063,Aidar Sharshenaliev,Ilbirs Kant,https://efem.club/players/2000457063-Aidar-Sharshenaliev/,Aidar Sharshenaliev,29,57,22,59,42,71,52,50,28,2026-10-30T02:22:49.912760+00:00
+2000464969,Tom Symons,Taunton,https://efem.club/players/2000464969-Tom-Symons/,Tom Symons,34,41,28,46,46,76,57,57,32,2026-10-30T02:22:51.161584+00:00
+2000470152,Lucas Hansborg-Sørensen,Næsby,https://efem.club/players/2000470152-Lucas-Hansborg-S%C3%B8rensen/,Lucas Hansborg-Sørensen,32,63,22,59,48,65,39,60,40,2026-10-30T02:22:52.368790+00:00
+2000477972,Abel Teklehimanot,Jeunesse Esch,https://efem.club/players/2000477972-Abel-Teklehimanot/,Abel Teklehimanot,27,60,24,59,43,68,49,63,34,2026-10-30T02:22:53.719446+00:00
+2000487741,Denis Skuka,Rosport,https://efem.club/players/2000487741-Denis-Skuka/,Denis Skuka,26,60,20,58,50,70,44,66,26,2026-10-30T02:22:55.000276+00:00
+2000491692,Marco Rafanelli,Tricarico,https://efem.club/players/2000491692-Marco-Rafanelli/,Marco Rafanelli,25,61,17,58,39,73,51,59,24,2026-10-30T02:22:56.284041+00:00
+2000496381,Aziz Erbaş,Ümraniyespor,https://efem.club/players/2000496381-Aziz-Erba%C5%9F/,Aziz Erbaş,28,57,22,47,41,71,50,57,34,2026-10-30T02:22:57.431507+00:00
+2000503040,Christian Alongi,Pontedera,https://efem.club/players/2000503040-Christian-Alongi/,Christian Alongi,36,54,17,62,50,73,53,60,36,2026-10-30T02:22:58.704635+00:00
+2000509904,Taylor Wyse,Tamworth,https://efem.club/players/2000509904-Taylor-Wyse/,Taylor Wyse,47,59,25,61,46,72,54,54,39,2026-10-30T02:23:00.045742+00:00
+2000514752,Dias Ibadulla,Ońtústik akademııasy,https://efem.club/players/2000514752-Dias-Ibadulla/,Dias Ibadulla,55,52,34,55,48,73,46,60,31,2026-10-30T02:23:01.419592+00:00
+2000522353,Mateos Uldedaj,FK Veleçiku,https://efem.club/players/2000522353-Mateos-Uldedaj/,Mateos Uldedaj,33,61,22,53,45,68,50,57,41,2026-10-30T02:23:02.697354+00:00
+2000527389,August Gjerström,Örgryte IS,https://efem.club/players/2000527389-August-Gjerstr%C3%B6m/,August Gjerström,50,52,32,63,46,72,51,52,32,2026-10-30T02:23:03.981084+00:00
+2000531347,Adham Slater,Fleetwood,https://efem.club/players/2000531347-Adham-Slater/,Adham Slater,37,59,25,56,56,68,54,54,37,2026-10-30T02:23:05.167813+00:00
+2000329638,Gianluca Cosmo,Atletico Acquaviva,https://efem.club/players/2000329638-Gianluca-Cosmo/,Gianluca Cosmo,46,60,26,67,55,72,45,60,26,2026-10-30T02:23:06.335977+00:00
+2000400431,Haris Rizmani,Melbourne City FC,https://efem.club/players/2000400431-Haris-Rizmani/,Haris Rizmani,32,61,26,52,50,67,60,61,37,2026-10-30T02:23:07.515672+00:00
+2000427503,Michele Sulas,Latte Dolce,https://efem.club/players/2000427503-Michele-Sulas/,Michele Sulas,48,58,29,55,49,65,49,58,36,2026-10-30T02:23:08.769721+00:00
+2000444545,George Evans,Bromley,https://efem.club/players/2000444545-George-Evans/,George Evans,39,60,18,54,38,73,40,57,22,2026-10-30T02:23:09.961928+00:00
+2000451040,Adhurim Nura,ASKÖ Donau Linz,https://efem.club/players/2000451040-Adhurim-Nura/,Adhurim Nura,40,57,32,58,42,72,55,66,35,2026-10-30T02:23:11.130051+00:00
+2000479162,Reiss Webber,Brentwood,https://efem.club/players/2000479162-Reiss-Webber/,Reiss Webber,47,49,41,66,51,73,58,61,40,2026-10-30T02:23:12.440552+00:00
+2000504055,Marco Concu,Monastir,https://efem.club/players/2000504055-Marco-Concu/,Marco Concu,36,68,25,57,60,68,44,46,36,2026-10-30T02:23:13.730052+00:00
+2000514851,Qu Yanheng,Ningbo,https://efem.club/players/2000514851-Qu-Yanheng/,Qu Yanheng,48,52,34,50,56,64,62,61,40,2026-10-30T02:23:14.927280+00:00
+2000400142,Muhd Afiq Hezriq Mohd Sufian,Kuala Lumpur,https://efem.club/players/2000400142-Muhd-Afiq-Hezriq-Mohd-Sufian/,Muhd Afiq Hezriq Mohd Sufian,35,64,23,49,49,65,58,56,31,2026-10-30T02:23:16.151153+00:00
+2000451039,Selim Kurtović,SC Marchtrenk,https://efem.club/players/2000451039-Selim-Kurtovi%C4%87/,Selim Kurtović,28,60,15,51,38,71,40,57,25,2026-10-30T02:23:17.353254+00:00
+2000476458,Gam Joel,Bafmeng,https://efem.club/players/2000476458-Gam-Joel/,Gam Joel,37,58,25,54,42,71,36,59,24,2026-10-30T02:23:18.589087+00:00
+2000494249,Joe Wood,Braintree,https://efem.club/players/2000494249-Joe-Wood/,Joe Wood,34,62,24,54,55,75,59,53,27,2026-10-30T02:23:19.866604+00:00
+2000347831,Nikita Baljabkin,Trans,https://efem.club/players/2000347831-Nikita-Baljabkin/,Nikita Baljabkin,31,59,16,57,40,68,55,58,35,2026-10-30T02:23:21.251549+00:00
+2000390993,Moritz Girgert,SC Hassel,https://efem.club/players/2000390993-Moritz-Girgert/,Moritz Girgert,32,61,24,49,52,69,45,58,25,2026-10-30T02:23:22.464426+00:00
+2000418797,Kristian Petric,FA 2000,https://efem.club/players/2000418797-Kristian-Petric/,Kristian Petric,30,52,18,59,47,65,50,61,26,2026-10-30T02:23:23.667910+00:00
+2000449755,Giacomo Kleffmann,Christchurch United,https://efem.club/players/2000449755-Giacomo-Kleffmann/,Giacomo Kleffmann,28,58,19,55,47,71,49,54,37,2026-10-30T02:23:24.900350+00:00
+2000452662,Haji Ibrahim,SW Bregenz,https://efem.club/players/2000452662-Haji-Ibrahim/,Haji Ibrahim,28,60,20,46,50,67,57,62,27,2026-10-30T02:23:26.098428+00:00
+2000521369,Riccardo Campisi,Chievo,https://efem.club/players/2000521369-Riccardo-Campisi/,Riccardo Campisi,34,48,27,60,46,65,38,62,24,2026-10-30T02:23:27.292764+00:00
+2000279209,Nihat Eser,ASV 13,https://efem.club/players/2000279209-Nihat-Eser/,Nihat Eser,36,52,19,53,46,68,55,59,25,2026-10-30T02:23:28.485907+00:00
+2000347890,Declan Langdon,North Lakes United,https://efem.club/players/2000347890-Declan-Langdon/,Declan Langdon,22,52,21,51,45,73,49,65,22,2026-10-30T02:23:29.628732+00:00
+2000397517,Magnus Ebbesen,Fredericia fF,https://efem.club/players/2000397517-Magnus-Ebbesen/,Magnus Ebbesen,37,54,28,48,53,70,53,61,33,2026-10-30T02:23:30.844543+00:00
+2000461609,Riol Hasani,Shkupi,https://efem.club/players/2000461609-Riol-Hasani/,Riol Hasani,23,54,25,50,33,70,55,59,28,2026-10-30T02:23:32.046156+00:00
+2000470841,Kai Valentini,Partschins,https://efem.club/players/2000470841-Kai-Valentini/,Kai Valentini,52,59,33,62,48,70,59,46,31,2026-10-30T02:23:33.271204+00:00
+2000480811,Jacob Kühner,SV Lebring,https://efem.club/players/2000480811-Jacob-K%C3%BChner/,Jacob Kühner,33,59,15,49,50,72,47,58,34,2026-10-30T02:23:34.423254+00:00
+2000496168,Will Butler,Glenorchy Knights,https://efem.club/players/2000496168-Will-Butler/,Will Butler,36,60,29,48,46,68,41,60,23,2026-10-30T02:23:35.652538+00:00
+2000509403,Enzo Saraiva,Sondrio,https://efem.club/players/2000509403-Enzo-Saraiva/,Enzo Saraiva,23,50,18,58,52,68,56,58,25,2026-10-30T02:23:36.920554+00:00
+2000516682,Anthony Gutierrez,Villa Valle,https://efem.club/players/2000516682-Anthony-Gutierrez/,Anthony Gutierrez,32,61,21,52,46,70,47,59,29,2026-10-30T02:23:38.073243+00:00
+2000526594,Adam Mahammed,Fittja IF,https://efem.club/players/2000526594-Adam-Mahammed/,Adam Mahammed,23,57,19,60,47,66,47,61,32,2026-10-30T02:23:39.312761+00:00
+2000380203,Jael Norville,Watford,https://efem.club/players/2000380203-Jael-Norville/,Jael Norville,30,56,17,68,47,69,44,59,26,2026-10-30T02:23:40.600239+00:00
+2000398851,Mathias Houlind,Holstebro,https://efem.club/players/2000398851-Mathias-Houlind/,Mathias Houlind,39,33,23,54,47,73,62,64,29,2026-10-30T02:23:41.785446+00:00
+2000445253,Matteo Marcomin,Legnano,https://efem.club/players/2000445253-Matteo-Marcomin/,Matteo Marcomin,31,49,18,62,50,71,42,59,34,2026-10-30T02:23:43.044151+00:00
+2000471744,Nicola Rafanelli,Pontedera,https://efem.club/players/2000471744-Nicola-Rafanelli/,Nicola Rafanelli,39,32,22,49,56,71,35,63,19,2026-10-30T02:23:44.201372+00:00
+2000490658,Riccardo Polleggioni,Chieti,https://efem.club/players/2000490658-Riccardo-Polleggioni/,Riccardo Polleggioni,26,49,21,57,36,71,56,53,21,2026-10-30T02:23:45.346316+00:00
+2000457252,Danil Shageev,Chelyabinsk,https://efem.club/players/2000457252-Danil-Shageev/,Danil Shageev,37,63,34,58,44,68,47,61,32,2026-10-30T02:23:46.504206+00:00
+2000492430,Tanaj Kunst,Gold Coast Knights,https://efem.club/players/2000492430-Tanaj-Kunst/,Tanaj Kunst,21,63,20,62,43,75,47,56,30,2026-10-30T02:23:47.728681+00:00
+2000532208,Axel Orrabalis,Racing Club,https://efem.club/players/2000532208-Axel-Orrabalis/,Axel Orrabalis,67,67,35,71,51,69,57,61,46,2026-10-30T02:23:48.932094+00:00
+2000531987,Santiago Lallana,Racing (CB),https://efem.club/players/2000531987-Santiago-Lallana/,Santiago Lallana,63,65,36,62,58,72,52,62,37,2026-10-30T02:23:50.169703+00:00
+2000532441,Dženan Demirović,Tutin,https://efem.club/players/2000532441-D%C5%BEenan-Demirovi%C4%87/,Dženan Demirović,51,73,38,71,54,62,58,67,46,2026-10-30T02:23:51.378100+00:00
+2000533857,Mateo Pérez,Danubio,https://efem.club/players/2000533857-Mateo-P%C3%A9rez/,Mateo Pérez,64,69,34,60,57,73,75,62,35,2026-10-30T02:23:52.580459+00:00
+2000533464,Diego Alarcón,Real Frontera,https://efem.club/players/2000533464-Diego-Alarc%C3%B3n/,Diego Alarcón,41,60,35,69,52,72,56,60,34,2026-10-30T02:23:53.777369+00:00
+2000534695,Dipson Meza,Mineros de Guayana,https://efem.club/players/2000534695-Dipson-Meza/,Dipson Meza,34,67,33,66,60,73,50,58,42,2026-10-30T02:23:54.978733+00:00
+2000533017,Iverson Negouai,Sparta Prague,https://efem.club/players/2000533017-Iverson-Negouai/,Iverson Negouai,34,55,26,64,53,68,65,65,27,2026-10-30T02:23:56.263360+00:00
+2000534549,Makan Kanouté,Paris FC,https://efem.club/players/2000534549-Makan-Kanout%C3%A9/,Makan Kanouté,41,63,26,68,48,74,51,65,35,2026-10-30T02:23:57.930561+00:00
+2000534876,David Adam Dabrowski,Selfoss,https://efem.club/players/2000534876-David-Adam-Dabrowski/,David Adam Dabrowski,30,59,39,57,57,75,68,65,29,2026-10-30T02:23:59.125738+00:00
+2000532814,Gabriel Obama,Atlético Madrid,https://efem.club/players/2000532814-Gabriel-Obama/,Gabriel Obama,28,42,28,57,51,74,60,68,38,2026-10-30T02:24:00.776462+00:00
+2000533811,Ryan Pablo,Santa Clara,https://efem.club/players/2000533811-Ryan-Pablo/,Ryan Pablo,58,70,38,63,52,72,64,60,40,2026-10-30T02:24:01.936074+00:00
+2000533901,Samuel Ayinebire Atubga,Bechem Utd,https://efem.club/players/2000533901-Samuel-Ayinebire-Atubga/,Samuel Ayinebire Atubga,37,59,35,61,59,69,55,63,37,2026-10-30T02:24:03.151476+00:00
+2000534372,Youssef Medani,VAFC,https://efem.club/players/2000534372-Youssef-Medani/,Youssef Medani,40,63,25,64,53,72,40,56,36,2026-10-30T02:24:04.373671+00:00
+2000535235,Eino Salmela,JS Hercules,https://efem.club/players/2000535235-Eino-Salmela/,Eino Salmela,44,57,31,69,44,70,54,62,35,2026-10-30T02:24:05.579209+00:00
+2000362692,Muhammed Ismail,Grafičar,https://efem.club/players/2000362692-Muhammed-Ismail/,Muhammed Ismail,41,68,27,67,50,72,37,59,42,2026-10-30T02:24:06.782539+00:00
+2000440297,Nicholas Zingarelli,Virtus Francavilla,https://efem.club/players/2000440297-Nicholas-Zingarelli/,Nicholas Zingarelli,37,63,25,66,45,69,54,64,34,2026-10-30T02:24:07.995079+00:00
+2000535163,Temam Habib,Mechal,https://efem.club/players/2000535163-Temam-Habib/,Temam Habib,29,65,23,53,49,75,55,59,43,2026-10-30T02:24:09.213343+00:00
+2000409029,Yuito Kuwabara,Free Agent,https://efem.club/players/2000409029-Yuito-Kuwabara/,Yuito Kuwabara,35,68,32,54,54,66,70,51,39,2026-10-30T02:24:10.431489+00:00
+2000532471,Isaac Maben,Dynamo Douala,https://efem.club/players/2000532471-Isaac-Maben/,Isaac Maben,24,62,22,58,44,69,52,55,30,2026-10-30T02:24:11.640323+00:00
+2000532479,Marco Nde,Gazelle FC,https://efem.club/players/2000532479-Marco-Nde/,Marco Nde,50,65,38,59,54,71,49,58,34,2026-10-30T02:24:12.852613+00:00
+2000534464,Kirill Krasnokhod,Dinamo Moscow,https://efem.club/players/2000534464-Kirill-Krasnokhod/,Kirill Krasnokhod,35,64,24,62,46,67,55,50,36,2026-10-30T02:24:14.066702+00:00
+2000409882,Sogo Shiraishi,Free Agent,https://efem.club/players/2000409882-Sogo-Shiraishi/,Sogo Shiraishi,35,61,18,57,54,70,30,59,37,2026-10-30T02:24:15.258932+00:00
+2000532993,Riley Wallis,Ipswich FC,https://efem.club/players/2000532993-Riley-Wallis/,Riley Wallis,18,56,21,48,39,72,49,58,21,2026-10-30T02:24:16.456816+00:00
+2000408096,Ryuto Ito,Free Agent,https://efem.club/players/2000408096-Ryuto-Ito/,Ryuto Ito,28,55,19,61,51,67,36,58,35,2026-10-30T02:24:17.666396+00:00
+2000534676,Elion Lipovica,Ängelholms FF,https://efem.club/players/2000534676-Elion-Lipovica/,Elion Lipovica,24,59,18,58,46,73,37,60,26,2026-10-30T02:24:18.863085+00:00
+2000409071,So Asakura,Free Agent,https://efem.club/players/2000409071-So-Asakura/,So Asakura,27,52,23,60,49,73,47,51,30,2026-10-30T02:24:20.054288+00:00
+2000407979,Yusho Mori,Free Agent,https://efem.club/players/2000407979-Yusho-Mori/,Yusho Mori,27,54,20,45,50,66,40,49,19,2026-10-30T02:24:21.252674+00:00
+2000534994,Alfie Doran,Consett,https://efem.club/players/2000534994-Alfie-Doran/,Alfie Doran,17,51,16,48,39,71,40,56,16,2026-10-30T02:24:22.453084+00:00
+2000533567,Wong Tak Chon,MUST IPO,https://efem.club/players/2000533567-Wong-Tak-Chon/,Wong Tak Chon,26,57,17,44,38,71,43,47,24,2026-10-30T02:24:23.666445+00:00
+2000351894,Mateus Mané,Wolves,https://efem.club/players/2000351894-Mateus-Man%C3%A9/,Mateus Mané,73,71,53,72,69,74,62,76,55,2026-10-30T02:24:24.858526+00:00
+2000257061,Oskar Spiten-Nysæter,Molde,https://efem.club/players/2000257061-Oskar-Spiten-Nys%C3%A6ter/,Oskar Spiten-Nysæter,65,66,46,72,69,69,59,72,59,2026-10-30T02:24:26.022748+00:00
+2000402287,Hamza Abdelkarim,Al-Ahly,https://efem.club/players/2000402287-Hamza-Abdelkarim/,Hamza Abdelkarim,57,72,33,68,61,72,62,71,33,2026-10-30T02:24:27.216662+00:00
+2000290285,Artem Stepanov,Bayer 04,https://efem.club/players/2000290285-Artem-Stepanov/,Artem Stepanov,58,72,40,73,63,61,77,77,56,2026-10-30T02:24:28.428832+00:00
+2000411042,Anísio Cabral,Benfica,https://efem.club/players/2000411042-An%C3%ADsio-Cabral/,Anísio Cabral,67,71,42,71,69,78,73,76,48,2026-10-30T02:24:29.666506+00:00
+2000374643,Rodrigo Bacidalupe,Boca,https://efem.club/players/2000374643-Rodrigo-Bacidalupe/,Rodrigo Bacidalupe,52,71,38,75,59,73,61,66,46,2026-10-30T02:24:30.911091+00:00
+2000395183,Rémi Himbert,OL,https://efem.club/players/2000395183-R%C3%A9mi-Himbert/,Rémi Himbert,68,69,52,73,61,74,58,70,46,2026-10-30T02:24:32.163553+00:00
+2000216807,Mason Melia,Tottenham,https://efem.club/players/2000216807-Mason-Melia/,Mason Melia,66,67,44,72,67,69,64,77,53,2026-10-30T02:24:33.365524+00:00
+2000328040,Maxim Voronov,CSKA Moscow,https://efem.club/players/2000328040-Maxim-Voronov/,Maxim Voronov,62,64,47,64,62,73,69,71,68,2026-10-30T02:24:34.526976+00:00
+2000363430,Juan Riquelme Angulo,Independiente del Valle,https://efem.club/players/2000363430-Juan-Riquelme-Angulo/,Juan Riquelme Angulo,43,61,35,69,54,72,71,70,40,2026-10-30T02:24:35.726626+00:00
+2000375833,Arman Durmiši,Juventus,https://efem.club/players/2000375833-Arman-Durmi%C5%A1i/,Arman Durmiši,70,68,44,68,65,69,74,75,55,2026-10-30T02:24:36.920142+00:00
+2000354949,Gibson Adu,FC Bayern,https://efem.club/players/2000354949-Gibson-Adu/,Gibson Adu,57,56,29,71,55,47,60,66,58,2026-10-30T02:24:38.064412+00:00
+2000391589,Cristian Carrara,Inter,https://efem.club/players/2000391589-Cristian-Carrara/,Cristian Carrara,49,67,40,73,56,71,54,68,35,2026-10-30T02:24:39.217128+00:00
+2000320852,Erick Zambrano,Orense,https://efem.club/players/2000320852-Erick-Zambrano/,Erick Zambrano,67,67,36,69,55,71,57,75,46,2026-10-30T02:24:40.365145+00:00
+2000268652,Fletcher Boyd,Aston Villa,https://efem.club/players/2000268652-Fletcher-Boyd/,Fletcher Boyd,53,71,48,69,55,73,42,69,43,2026-10-30T02:24:41.725462+00:00
+2000336547,Vakhtang Salia,Newcastle,https://efem.club/players/2000336547-Vakhtang-Salia/,Vakhtang Salia,65,64,34,72,68,68,70,70,55,2026-10-30T02:24:42.933208+00:00
+2000376107,Kelvin Neijenhuis,Feyenoord,https://efem.club/players/2000376107-Kelvin-Neijenhuis/,Kelvin Neijenhuis,52,69,47,70,57,74,61,70,40,2026-10-30T02:24:44.090954+00:00
+2000422620,Enis Redzepi,VfB Stuttgart,https://efem.club/players/2000422620-Enis-Redzepi/,Enis Redzepi,61,70,32,68,68,67,74,71,55,2026-10-30T02:24:45.311294+00:00
+2000466026,Kim Hyeon-Oh,Daejeon,https://efem.club/players/2000466026-Kim-Hyeon-Oh/,Kim Hyeon-Oh,71,66,58,71,68,67,68,70,52,2026-10-30T02:24:46.531204+00:00
+2000514705,Liam van Nistelrooij,PSV,https://efem.club/players/2000514705-Liam-van-Nistelrooij/,Liam van Nistelrooij,50,63,45,64,52,72,67,68,44,2026-10-30T02:24:47.754239+00:00
+2000310444,Jamie Atangana,Servette,https://efem.club/players/2000310444-Jamie-Atangana/,Jamie Atangana,46,60,31,65,55,77,63,65,43,2026-10-30T02:24:48.975595+00:00
+2000332345,Malik Tubić,Schalke 04,https://efem.club/players/2000332345-Malik-Tubi%C4%87/,Malik Tubić,56,67,29,70,59,73,73,73,54,2026-10-30T02:24:50.189588+00:00
+2000378966,Dell,Bahia,https://efem.club/players/2000378966-Dell/,Dell,65,69,49,71,68,69,67,69,55,2026-10-30T02:24:51.407783+00:00
+2000485339,Santiago Sandoval,Chivas,https://efem.club/players/2000485339-Santiago-Sandoval/,Santiago Sandoval,58,65,48,70,62,70,51,62,67,2026-10-30T02:24:52.637053+00:00
+12096202,Ouérmi Camara,FC San Pédro,https://efem.club/players/12096202-Ou%C3%A9rmi-Camara/,Ouérmi Camara,47,68,37,68,49,68,65,64,36,2026-10-30T02:24:53.886792+00:00
+2000426369,Pierre Mounguengue,Paris SG,https://efem.club/players/2000426369-Pierre-Mounguengue/,Pierre Mounguengue,50,67,33,74,52,72,68,73,49,2026-10-30T02:24:55.167028+00:00
+2000530339,Geronimo Venloo,FC Utrecht,https://efem.club/players/2000530339-Geronimo-Venloo/,Geronimo Venloo,57,66,44,69,63,70,69,63,55,2026-10-30T02:24:56.441418+00:00
+2000291539,Pablo Agudín,Real Oviedo,https://efem.club/players/2000291539-Pablo-Agud%C3%ADn/,Pablo Agudín,61,66,41,70,54,73,50,64,32,2026-10-30T02:24:57.725545+00:00
+2000375622,Josiah Uwakhonye,Borussia M'gladbach,https://efem.club/players/2000375622-Josiah-Uwakhonye/,Josiah Uwakhonye,44,70,35,75,61,68,48,67,46,2026-10-30T02:24:59.124208+00:00
+2000418238,Maxim Kalabus,Mladá Boleslav,https://efem.club/players/2000418238-Maxim-Kalabus/,Maxim Kalabus,44,69,45,57,60,66,78,61,42,2026-10-30T02:25:00.381172+00:00
+2000459945,Sebastián Corradi,Talleres,https://efem.club/players/2000459945-Sebasti%C3%A1n-Corradi/,Sebastián Corradi,53,59,35,73,64,73,55,76,53,2026-10-30T02:25:01.586254+00:00
+2000395975,Simone Lontani,AC Milan,https://efem.club/players/2000395975-Simone-Lontani/,Simone Lontani,62,76,47,76,62,75,64,58,54,2026-10-30T02:25:07.429974+00:00
+2000445093,Damjan Đokanović,Vojvodina,https://efem.club/players/2000445093-Damjan-%C4%90okanovi%C4%87/,Damjan Đokanović,49,67,30,66,47,66,62,69,35,2026-10-30T02:25:08.596240+00:00
+2000481532,Andrey Fernandes,Vasco da Gama,https://efem.club/players/2000481532-Andrey-Fernandes/,Andrey Fernandes,66,66,44,71,62,71,56,60,58,2026-10-30T02:25:09.878873+00:00
+2000332588,Yll Gashi,FC Bayern,https://efem.club/players/2000332588-Yll-Gashi/,Yll Gashi,55,69,34,70,64,68,67,66,66,2026-10-30T02:25:11.090990+00:00
+2000368824,Joël-Anthony Keptoukoua,RWD Molenbeek,https://efem.club/players/2000368824-Jo%C3%ABl-Anthony-Keptoukoua/,Joël-Anthony Keptoukoua,68,73,59,67,66,77,68,62,53,2026-10-30T02:25:12.322484+00:00
+2000407852,Otis Caporusso,OGC Nice,https://efem.club/players/2000407852-Otis-Caporusso/,Otis Caporusso,53,66,31,73,60,71,62,66,42,2026-10-30T02:25:13.537109+00:00
+2000476111,Rayan Elloumi,Vancouver,https://efem.club/players/2000476111-Rayan-Elloumi/,Rayan Elloumi,59,64,44,71,58,69,66,69,46,2026-10-30T02:25:14.746197+00:00
+2000332931,David Juárez,Aldosivi,https://efem.club/players/2000332931-David-Ju%C3%A1rez/,David Juárez,70,63,53,65,54,71,57,72,54,2026-10-30T02:25:15.954676+00:00
+2000459182,Andrea Luongo,Torino,https://efem.club/players/2000459182-Andrea-Luongo/,Andrea Luongo,62,60,35,73,65,72,58,72,56,2026-10-30T02:25:17.202069+00:00
+2000518096,Jaime Josa,Osasuna,https://efem.club/players/2000518096-Jaime-Josa/,Jaime Josa,46,66,30,70,52,71,56,63,42,2026-10-30T02:25:18.350320+00:00
+2000298633,Artur Ukhan,Presov,https://efem.club/players/2000298633-Artur-Ukhan/,Artur Ukhan,51,67,42,71,50,71,55,67,37,2026-10-30T02:25:19.508907+00:00
+2000325576,Patrik Kovács,Fehérvár,https://efem.club/players/2000325576-Patrik-Kov%C3%A1cs/,Patrik Kovács,59,68,39,72,60,70,64,63,60,2026-10-30T02:25:20.740645+00:00
+2000252560,Braiden Graham,Everton,https://efem.club/players/2000252560-Braiden-Graham/,Braiden Graham,51,62,35,66,61,70,54,71,45,2026-10-30T02:25:21.949817+00:00
+2000287705,Leonardo Viviani,Bolívar,https://efem.club/players/2000287705-Leonardo-Viviani/,Leonardo Viviani,67,71,46,67,61,75,60,72,43,2026-10-30T02:25:23.083985+00:00
+2000294746,Zois Karargyris,AEK,https://efem.club/players/2000294746-Zois-Karargyris/,Zois Karargyris,59,67,49,71,63,62,66,72,54,2026-10-30T02:25:24.307610+00:00
+2000298955,Tanner Rosborough,New York,https://efem.club/players/2000298955-Tanner-Rosborough/,Tanner Rosborough,66,62,50,72,60,67,52,62,39,2026-10-30T02:25:25.529310+00:00
+2000330814,Diego Ngambia Dzonga,Borussia Dortmund,https://efem.club/players/2000330814-Diego-Ngambia-Dzonga/,Diego Ngambia Dzonga,68,58,33,72,55,66,64,59,37,2026-10-30T02:25:26.742380+00:00
+2000365350,Pablo Calle,Barcelona S.C.,https://efem.club/players/2000365350-Pablo-Calle/,Pablo Calle,59,67,35,71,50,71,55,66,41,2026-10-30T02:25:27.959830+00:00
+2000367049,Luciano Berg,Brown (Adrogué),https://efem.club/players/2000367049-Luciano-Berg/,Luciano Berg,53,76,43,70,59,69,61,59,57,2026-10-30T02:25:29.166455+00:00
+2000370075,Miguel Marulanda,Envigado F.C.,https://efem.club/players/2000370075-Miguel-Marulanda/,Miguel Marulanda,37,68,35,67,56,72,65,64,54,2026-10-30T02:25:30.381501+00:00
+2000383586,Juan José González,Villa Dálmine,https://efem.club/players/2000383586-Juan-Jos%C3%A9-Gonz%C3%A1lez/,Juan José González,69,69,59,65,52,71,59,72,55,2026-10-30T02:25:31.603315+00:00
+2000389019,Alexis Ciria,Real Madrid,https://efem.club/players/2000389019-Alexis-Ciria/,Alexis Ciria,46,70,42,71,59,72,55,68,41,2026-10-30T02:25:32.811879+00:00
+2000407413,Asier Bonel,Osasuna,https://efem.club/players/2000407413-Asier-Bonel/,Asier Bonel,49,72,39,71,60,73,68,64,34,2026-10-30T02:25:34.001416+00:00
+2000414242,Bradley Burrowes,Aston Villa,https://efem.club/players/2000414242-Bradley-Burrowes/,Bradley Burrowes,51,60,36,69,54,72,50,68,45,2026-10-30T02:25:35.148788+00:00
+2000489546,Vukota Isakovski,Mačva,https://efem.club/players/2000489546-Vukota-Isakovski/,Vukota Isakovski,48,66,38,68,69,69,64,67,49,2026-10-30T02:25:36.313650+00:00
+2000515559,Brandon Morán,Independiente Rivadavia,https://efem.club/players/2000515559-Brandon-Mor%C3%A1n/,Brandon Morán,55,73,52,62,59,71,63,59,43,2026-10-30T02:25:37.527341+00:00
+2000531258,Máximo Gándara,San Lorenzo,https://efem.club/players/2000531258-M%C3%A1ximo-G%C3%A1ndara/,Máximo Gándara,42,67,26,69,60,70,53,66,40,2026-10-30T02:25:38.799224+00:00
+2000330200,Ivan Križić,Hertha BSC,https://efem.club/players/2000330200-Ivan-Kri%C5%BEi%C4%87/,Ivan Križić,47,62,40,68,57,69,63,61,38,2026-10-30T02:25:39.959473+00:00
+2000374159,Zakaria El Kachati,sc Heerenveen,https://efem.club/players/2000374159-Zakaria-El-Kachati/,Zakaria El Kachati,49,74,36,66,59,69,61,62,52,2026-10-30T02:25:41.239393+00:00
+2000459460,Sebastián Gonzalez,Lanús,https://efem.club/players/2000459460-Sebasti%C3%A1n-Gonzalez/,Sebastián Gonzalez,40,65,37,70,54,67,63,70,34,2026-10-30T02:25:42.518072+00:00
+2000276764,Raphael Kosakiewic,TSV St. Johann,https://efem.club/players/2000276764-Raphael-Kosakiewic/,Raphael Kosakiewic,47,70,33,66,53,68,68,62,40,2026-10-30T02:25:43.754279+00:00
+2000344568,Sadiq Haruna,Free Agent,https://efem.club/players/2000344568-Sadiq-Haruna/,Sadiq Haruna,44,68,37,63,60,72,52,65,49,2026-10-30T02:25:44.966157+00:00
+2000386037,Michał Smoczyński,Warta Poznań,https://efem.club/players/2000386037-Micha%C5%82-Smoczy%C5%84ski/,Michał Smoczyński,63,68,40,59,54,73,67,72,49,2026-10-30T02:25:46.184698+00:00
+2000446635,Adam Tušek,České Budějovice,https://efem.club/players/2000446635-Adam-Tu%C5%A1ek/,Adam Tušek,43,70,36,64,54,68,68,68,42,2026-10-30T02:25:47.382765+00:00
+2000516837,Dyllan Bustamante,Bahia,https://efem.club/players/2000516837-Dyllan-Bustamante/,Dyllan Bustamante,41,70,36,64,56,69,63,68,36,2026-10-30T02:25:48.583718+00:00
+2000251657,Mauro Hämmerle,Augsburg,https://efem.club/players/2000251657-Mauro-H%C3%A4mmerle/,Mauro Hämmerle,49,63,32,65,55,66,60,69,30,2026-10-30T02:25:49.789774+00:00
+2000273341,Cristiano Gutiérrez,Junior,https://efem.club/players/2000273341-Cristiano-Guti%C3%A9rrez/,Cristiano Gutiérrez,44,65,26,68,55,71,66,66,40,2026-10-30T02:25:50.992428+00:00
+2000401480,Diego Claut,Deportivo Miranda,https://efem.club/players/2000401480-Diego-Claut/,Diego Claut,60,66,47,69,64,75,52,71,51,2026-10-30T02:25:52.208497+00:00
+2000414344,Kayke Santos,Athletico Paranaense,https://efem.club/players/2000414344-Kayke-Santos/,Kayke Santos,57,70,33,63,60,65,57,61,39,2026-10-30T02:25:53.422248+00:00
+2000420917,Gijs Groot,AZ,https://efem.club/players/2000420917-Gijs-Groot/,Gijs Groot,62,61,39,70,63,74,53,63,49,2026-10-30T02:25:54.627528+00:00
+2000423089,Carl-Anton Sticherling,VfL Wolfsburg,https://efem.club/players/2000423089-Carl-Anton-Sticherling/,Carl-Anton Sticherling,37,68,28,68,50,73,59,62,50,2026-10-30T02:25:55.840477+00:00
+2000427885,Henri Rothkegel,Fürth,https://efem.club/players/2000427885-Henri-Rothkegel/,Henri Rothkegel,49,71,35,62,59,70,62,69,44,2026-10-30T02:25:57.087597+00:00
+2000441379,Emanuele Modugno,AS Roma,https://efem.club/players/2000441379-Emanuele-Modugno/,Emanuele Modugno,44,61,30,64,55,72,67,67,40,2026-10-30T02:25:58.295639+00:00
+2000515462,Santiago Hegler,Vélez,https://efem.club/players/2000515462-Santiago-Hegler/,Santiago Hegler,61,66,39,68,61,72,54,66,50,2026-10-30T02:25:59.440739+00:00
+2000462175,Francisco Silveti,Estudiantes (LP),https://efem.club/players/2000462175-Francisco-Silveti/,Francisco Silveti,46,61,29,69,56,66,57,66,42,2026-10-30T02:26:00.660308+00:00
+2000471086,Sebastián Buitrago,Atlético Nacional,https://efem.club/players/2000471086-Sebasti%C3%A1n-Buitrago/,Sebastián Buitrago,44,65,29,65,58,66,60,65,39,2026-10-30T02:26:01.886421+00:00
+2000484560,Dylan Toranzo,Talleres,https://efem.club/players/2000484560-Dylan-Toranzo/,Dylan Toranzo,61,75,33,67,56,75,58,57,44,2026-10-30T02:26:03.182393+00:00
+2000497177,Uroš Živanovič,Příbram,https://efem.club/players/2000497177-Uro%C5%A1-%C5%BDivanovi%C4%8D/,Uroš Živanovič,60,72,52,59,58,67,56,68,49,2026-10-30T02:26:04.396497+00:00
+2000506183,Raoef Assady,sc Heerenveen,https://efem.club/players/2000506183-Raoef-Assady/,Raoef Assady,44,60,24,67,62,69,49,62,32,2026-10-30T02:26:05.616734+00:00
+2000368755,Mohamed Berzoimi,Westerlo,https://efem.club/players/2000368755-Mohamed-Berzoimi/,Mohamed Berzoimi,56,66,53,72,48,68,56,65,50,2026-10-30T02:26:06.828430+00:00
+2000395711,Rubén Gómez,Unionistas,https://efem.club/players/2000395711-Rub%C3%A9n-G%C3%B3mez/,Rubén Gómez,46,59,28,66,54,69,54,68,45,2026-10-30T02:26:08.049248+00:00
+2000436873,Jostyn Chancay,Manta,https://efem.club/players/2000436873-Jostyn-Chancay/,Jostyn Chancay,33,64,27,68,57,75,51,65,30,2026-10-30T02:26:09.239321+00:00
+2000417134,Djaota Luyet,Sion,https://efem.club/players/2000417134-Djaota-Luyet/,Djaota Luyet,60,62,38,64,60,70,53,59,45,2026-10-30T02:26:10.452350+00:00
+2000442556,Federico Tonti,Cesena,https://efem.club/players/2000442556-Federico-Tonti/,Federico Tonti,61,64,47,62,68,71,65,70,52,2026-10-30T02:26:11.807918+00:00
+2000464590,Derlis Almada,Libertad,https://efem.club/players/2000464590-Derlis-Almada/,Derlis Almada,37,64,31,72,52,69,59,69,26,2026-10-30T02:26:12.978728+00:00
+2000519455,Lucca,Grêmio,https://efem.club/players/2000519455-Lucca/,Lucca,51,64,50,60,58,71,67,74,48,2026-10-30T02:26:14.186371+00:00
+2000252635,Arley Ramos,Free Agent,https://efem.club/players/2000252635-Arley-Ramos/,Arley Ramos,50,70,34,71,56,75,53,57,39,2026-10-30T02:26:15.408992+00:00
+2000330432,Amos Gerth,VfL Bochum,https://efem.club/players/2000330432-Amos-Gerth/,Amos Gerth,43,56,27,63,43,70,49,65,41,2026-10-30T02:26:16.634306+00:00
+2000332331,David Creța,TSG Hoffenheim,https://efem.club/players/2000332331-David-Cre%C8%9Ba/,David Creța,37,65,31,68,60,75,49,58,37,2026-10-30T02:26:17.863346+00:00
+2000369123,Taeneal Brandy,Nottm Forest,https://efem.club/players/2000369123-Taeneal-Brandy/,Taeneal Brandy,60,58,56,62,67,75,58,70,57,2026-10-30T02:26:19.100949+00:00
+2000319441,David Isso,IF Brommapojkarna,https://efem.club/players/2000319441-David-Isso/,David Isso,48,55,53,68,56,71,61,72,48,2026-10-30T02:26:20.232306+00:00
+2000381441,Emiliano Domínguez,Liverpool F.C.,https://efem.club/players/2000381441-Emiliano-Dom%C3%ADnguez/,Emiliano Domínguez,48,60,46,68,49,72,49,66,39,2026-10-30T02:26:21.428812+00:00
+2000404632,Thomas Clementi,Renate,https://efem.club/players/2000404632-Thomas-Clementi/,Thomas Clementi,39,61,25,64,54,72,55,68,40,2026-10-30T02:26:22.637845+00:00
+2000443794,Vincent Okeke,Sunshine Stars,https://efem.club/players/2000443794-Vincent-Okeke/,Vincent Okeke,44,66,33,64,53,71,64,68,39,2026-10-30T02:26:23.820403+00:00
+2000454316,Igor Gosik,Molde,https://efem.club/players/2000454316-Igor-Gosik/,Igor Gosik,55,68,42,64,64,69,67,67,53,2026-10-30T02:26:25.048091+00:00
+2000480441,Nelson Romero,Guaraní (PAR),https://efem.club/players/2000480441-Nelson-Romero/,Nelson Romero,39,67,32,70,57,72,61,61,37,2026-10-30T02:26:26.290154+00:00
+2000504779,Grâce Mavoungou,AS Otôho,https://efem.club/players/2000504779-Gr%C3%A2ce-Mavoungou/,Grâce Mavoungou,70,67,47,70,62,76,49,63,45,2026-10-30T02:26:27.513942+00:00
+2000373863,Santino Coppola,Dep. Riestra,https://efem.club/players/2000373863-Santino-Coppola/,Santino Coppola,50,71,35,66,56,68,70,50,44,2026-10-30T02:26:28.750308+00:00
+2000378585,Adam Brett,Brighton,https://efem.club/players/2000378585-Adam-Brett/,Adam Brett,54,65,35,60,60,71,61,58,43,2026-10-30T02:26:29.978741+00:00
+2000391101,Dean Bell,Sparta Rotterdam,https://efem.club/players/2000391101-Dean-Bell/,Dean Bell,50,60,34,66,57,72,57,73,36,2026-10-30T02:26:31.128725+00:00
+2000393188,Fadiala Tounkara,EA Guingamp,https://efem.club/players/2000393188-Fadiala-Tounkara/,Fadiala Tounkara,39,58,39,59,48,74,69,61,35,2026-10-30T02:26:32.438119+00:00
+2000396414,Massaoly Diarra,SC Schiltigheim,https://efem.club/players/2000396414-Massaoly-Diarra/,Massaoly Diarra,36,67,26,69,50,70,67,69,38,2026-10-30T02:26:33.727543+00:00
+2000498976,Carlos Junior,Juventude,https://efem.club/players/2000498976-Carlos-Junior/,Carlos Junior,43,56,27,62,59,75,46,65,38,2026-10-30T02:26:34.962570+00:00
+2000503012,Rafael Markulin,Brežice,https://efem.club/players/2000503012-Rafael-Markulin/,Rafael Markulin,48,69,43,66,59,73,58,61,48,2026-10-30T02:26:36.257196+00:00
+2000505282,Lukas Følstad-Andersen,Follo,https://efem.club/players/2000505282-Lukas-F%C3%B8lstad-Andersen/,Lukas Følstad-Andersen,54,68,39,64,66,71,66,69,61,2026-10-30T02:26:37.527431+00:00
+2000507112,Damián Urbina,Los Andes,https://efem.club/players/2000507112-Dami%C3%A1n-Urbina/,Damián Urbina,51,66,45,70,52,77,48,60,40,2026-10-30T02:26:38.797717+00:00
+2000513161,Yanis Soh,Havre AC,https://efem.club/players/2000513161-Yanis-Soh/,Yanis Soh,47,66,37,64,48,71,51,69,38,2026-10-30T02:26:40.077738+00:00
+2000517607,Abdullahi Mohammad,Kwara Utd,https://efem.club/players/2000517607-Abdullahi-Mohammad/,Abdullahi Mohammad,45,54,23,67,52,73,50,67,45,2026-10-30T02:26:41.332941+00:00
+2000520087,Raed Belhaj Abdallah,ES Hammam-Sousse,https://efem.club/players/2000520087-Raed-Belhaj-Abdallah/,Raed Belhaj Abdallah,37,66,33,69,53,71,47,52,49,2026-10-30T02:26:42.638227+00:00
+2000527223,Abdoulie Njie,Başakşehir FK,https://efem.club/players/2000527223-Abdoulie-Njie/,Abdoulie Njie,48,67,24,70,54,70,65,64,34,2026-10-30T02:26:43.859316+00:00
+2000373770,Emiliano Daniele Toledo,Pro Patria,https://efem.club/players/2000373770-Emiliano-Daniele-Toledo/,Emiliano Daniele Toledo,50,75,36,69,52,72,43,62,37,2026-10-30T02:26:45.077523+00:00
+2000391109,Angelo Persichillo,Dep. Norte (MdP),https://efem.club/players/2000391109-Angelo-Persichillo/,Angelo Persichillo,63,64,42,63,59,74,48,59,49,2026-10-30T02:26:46.249956+00:00
+2000411605,Ante Bralić,Hajduk,https://efem.club/players/2000411605-Ante-Brali%C4%87/,Ante Bralić,53,60,52,65,62,65,71,69,51,2026-10-30T02:26:47.486488+00:00
+2000415534,Matej Tomić,Slaven Belupo,https://efem.club/players/2000415534-Matej-Tomi%C4%87/,Matej Tomić,63,69,31,71,60,68,46,62,36,2026-10-30T02:26:48.760852+00:00
+2000441264,Khays Guimba-Babot,Troyes,https://efem.club/players/2000441264-Khays-Guimba-Babot/,Khays Guimba-Babot,64,63,41,63,62,65,49,66,59,2026-10-30T02:26:49.979056+00:00
+2000453472,Santiago Ricca,Nacional,https://efem.club/players/2000453472-Santiago-Ricca/,Santiago Ricca,44,68,35,67,61,67,64,62,40,2026-10-30T02:26:51.326004+00:00
+2000476491,Thomas Jaimes,Aldosivi,https://efem.club/players/2000476491-Thomas-Jaimes/,Thomas Jaimes,61,61,31,62,51,73,56,64,36,2026-10-30T02:26:52.609332+00:00
+2000491049,Kamil Małota,Raków,https://efem.club/players/2000491049-Kamil-Ma%C5%82ota/,Kamil Małota,39,62,27,67,57,73,70,63,43,2026-10-30T02:26:53.855579+00:00
+2000502974,Bartosz Karliński,Korona,https://efem.club/players/2000502974-Bartosz-Karli%C5%84ski/,Bartosz Karliński,36,63,27,61,53,68,63,68,42,2026-10-30T02:26:55.163471+00:00
+2000235674,Santiago Mena,San Antonio de Varela,https://efem.club/players/2000235674-Santiago-Mena/,Santiago Mena,56,66,37,68,43,71,40,66,25,2026-10-30T02:26:56.443941+00:00
+2000418386,Giba Sesay,Strømsgodset,https://efem.club/players/2000418386-Giba-Sesay/,Giba Sesay,50,55,40,61,58,75,50,66,42,2026-10-30T02:26:57.721089+00:00
+2000437793,Kylan Midwood,Man City,https://efem.club/players/2000437793-Kylan-Midwood/,Kylan Midwood,61,63,17,63,50,70,50,54,41,2026-10-30T02:26:59.003294+00:00
+2000475257,Roko Jurjević,Solin,https://efem.club/players/2000475257-Roko-Jurjevi%C4%87/,Roko Jurjević,59,70,33,67,57,70,51,66,38,2026-10-30T02:27:00.155013+00:00
+2000490742,Pol Patiño,Cádiz CF,https://efem.club/players/2000490742-Pol-Pati%C3%B1o/,Pol Patiño,26,65,25,56,46,70,44,64,41,2026-10-30T02:27:01.407233+00:00
+2000504219,Christian Carpentieri,Frosinone,https://efem.club/players/2000504219-Christian-Carpentieri/,Christian Carpentieri,39,65,30,65,53,71,56,54,34,2026-10-30T02:27:02.844092+00:00
+2000381372,Alymamy Cissé,RFC Wetteren,https://efem.club/players/2000381372-Alymamy-Ciss%C3%A9/,Alymamy Cissé,38,64,28,63,52,72,68,58,38,2026-10-30T02:27:04.025382+00:00
+2000393276,Andri Karl Hammer,Grindavík,https://efem.club/players/2000393276-Andri-Karl-Hammer/,Andri Karl Hammer,31,63,31,64,55,71,50,65,28,2026-10-30T02:27:05.249861+00:00
+2000399541,Erwan Traoré,Rennes,https://efem.club/players/2000399541-Erwan-Traor%C3%A9/,Erwan Traoré,39,66,27,58,54,67,60,62,38,2026-10-30T02:27:06.564248+00:00
+2000417929,Karl Jesse,Energie Cottbus,https://efem.club/players/2000417929-Karl-Jesse/,Karl Jesse,53,62,38,61,53,66,57,72,42,2026-10-30T02:27:07.756234+00:00
+2000434387,Usman Abba,Wikki Tourist,https://efem.club/players/2000434387-Usman-Abba/,Usman Abba,55,56,41,62,59,69,56,71,39,2026-10-30T02:27:09.084713+00:00
+2000457962,Francisco Fernández,Peñarol,https://efem.club/players/2000457962-Francisco-Fern%C3%A1ndez/,Francisco Fernández,39,65,36,63,53,68,54,62,30,2026-10-30T02:27:10.289272+00:00
+2000463993,Ashton García,Liberia,https://efem.club/players/2000463993-Ashton-Garc%C3%ADa/,Ashton García,41,64,26,63,49,74,69,64,35,2026-10-30T02:27:11.733097+00:00
+2000488877,João Grando,Santos,https://efem.club/players/2000488877-Jo%C3%A3o-Grando/,João Grando,40,54,30,65,57,68,55,72,35,2026-10-30T02:27:12.936985+00:00
+2000509363,Filip Nilsson,Malmö FF,https://efem.club/players/2000509363-Filip-Nilsson/,Filip Nilsson,63,61,49,60,66,73,66,68,55,2026-10-30T02:27:14.163437+00:00
+2000268877,Massimo Turella,Ternana,https://efem.club/players/2000268877-Massimo-Turella/,Massimo Turella,56,57,55,61,64,75,53,66,43,2026-10-30T02:27:15.362851+00:00
+2000465283,Federico Tombacco,Caerano,https://efem.club/players/2000465283-Federico-Tombacco/,Federico Tombacco,26,58,20,64,55,73,57,69,39,2026-10-30T02:27:16.513736+00:00
+2000483717,Daði Fannar Hlífarsson,Leiknir,https://efem.club/players/2000483717-Da%C3%B0i-Fannar-Hl%C3%ADfarsson/,Daði Fannar Hlífarsson,52,66,41,65,51,69,59,62,42,2026-10-30T02:27:17.682267+00:00
+2000509580,Manuel De Marco,Udinese,https://efem.club/players/2000509580-Manuel-De-Marco/,Manuel De Marco,43,65,37,70,50,70,51,57,43,2026-10-30T02:27:18.881104+00:00
+2000519070,João Biasi,Santa Catarina,https://efem.club/players/2000519070-Jo%C3%A3o-Biasi/,João Biasi,49,69,34,58,54,70,65,60,48,2026-10-30T02:27:20.058474+00:00
+2000352841,Henry Tenggren,Karlbergs BK,https://efem.club/players/2000352841-Henry-Tenggren/,Henry Tenggren,53,56,39,67,56,75,61,73,45,2026-10-30T02:27:21.292252+00:00
+2000369491,Andre Le Prince Chedjou Fonkou,SAK Klagenfurt,https://efem.club/players/2000369491-Andre-Le-Prince-Chedjou-Fonkou/,Andre Le Prince Chedjou Fonkou,45,65,28,63,60,70,67,58,41,2026-10-30T02:27:22.526113+00:00
+2000422036,Rashaan Sewrutton,Telstar,https://efem.club/players/2000422036-Rashaan-Sewrutton/,Rashaan Sewrutton,39,64,28,63,42,72,53,65,32,2026-10-30T02:27:23.804970+00:00
+2000474895,Mohamed Abouzra,Sant Cugat,https://efem.club/players/2000474895-Mohamed-Abouzra/,Mohamed Abouzra,49,64,31,65,57,65,63,69,55,2026-10-30T02:27:25.089721+00:00
+2000478122,Noureldan Tamer,Al-Ahli,https://efem.club/players/2000478122-Noureldan-Tamer/,Noureldan Tamer,34,62,26,64,53,68,45,63,38,2026-10-30T02:27:26.369367+00:00
+2000484934,Kwanele Alfred,Lerumo Lions,https://efem.club/players/2000484934-Kwanele-Alfred/,Kwanele Alfred,39,62,33,66,53,71,56,65,34,2026-10-30T02:27:27.571134+00:00
+2000492202,Tebogo Moreri,Sundowns,https://efem.club/players/2000492202-Tebogo-Moreri/,Tebogo Moreri,40,65,29,67,48,72,59,59,40,2026-10-30T02:27:28.922457+00:00
+2000496466,Adrián Domínguez,Real Zaragoza,https://efem.club/players/2000496466-Adri%C3%A1n-Dom%C3%ADnguez/,Adrián Domínguez,38,64,35,62,58,66,59,67,39,2026-10-30T02:27:30.175067+00:00
+2000392892,Djibril Décordé,Basel,https://efem.club/players/2000392892-Djibril-D%C3%A9cord%C3%A9/,Djibril Décordé,47,64,33,60,58,74,65,60,38,2026-10-30T02:27:31.333067+00:00
+2000406562,Gorka Perea,Málaga,https://efem.club/players/2000406562-Gorka-Perea/,Gorka Perea,48,73,42,61,60,73,54,59,38,2026-10-30T02:27:32.556108+00:00
+2000411852,Antonio Perica,Rijeka,https://efem.club/players/2000411852-Antonio-Perica/,Antonio Perica,55,63,42,65,59,69,61,64,46,2026-10-30T02:27:33.751914+00:00
+2000416984,Nasrallah Kpeigouni,RAAL La Louvière,https://efem.club/players/2000416984-Nasrallah-Kpeigouni/,Nasrallah Kpeigouni,37,59,25,65,56,71,42,70,31,2026-10-30T02:27:35.006550+00:00
+2000448435,Junior Mbaku-Mbabit,Patro Eisden,https://efem.club/players/2000448435-Junior-Mbaku-Mbabit/,Junior Mbaku-Mbabit,36,64,25,56,53,67,64,63,34,2026-10-30T02:27:36.301421+00:00
+2000478689,Flórián Juhász,BVSC,https://efem.club/players/2000478689-Fl%C3%B3ri%C3%A1n-Juh%C3%A1sz/,Flórián Juhász,55,60,29,72,50,70,52,57,44,2026-10-30T02:27:37.565102+00:00
+2000451085,Serhii Volkov,FC 1980 Wien,https://efem.club/players/2000451085-Serhii-Volkov/,Serhii Volkov,34,62,21,50,52,72,56,58,27,2026-10-30T02:27:38.844382+00:00
+2000455006,Benjamin Ferner,SV Union Lind,https://efem.club/players/2000455006-Benjamin-Ferner/,Benjamin Ferner,50,53,32,61,46,72,43,62,32,2026-10-30T02:27:40.049095+00:00
+2000471868,Jaheem Darby,Portmore Utd,https://efem.club/players/2000471868-Jaheem-Darby/,Jaheem Darby,30,63,21,54,46,68,51,61,32,2026-10-30T02:27:41.274329+00:00
+2000481048,Hakim Musabbah,Mbale Heroes,https://efem.club/players/2000481048-Hakim-Musabbah/,Hakim Musabbah,34,50,23,62,52,70,53,65,31,2026-10-30T02:27:42.688776+00:00
+2000496779,Agusti Ardiansyah,Arema,https://efem.club/players/2000496779-Agusti-Ardiansyah/,Agusti Ardiansyah,34,63,20,46,48,69,42,70,34,2026-10-30T02:27:43.947322+00:00
+2000515934,Richard Nwosu,Free Agent,https://efem.club/players/2000515934-Richard-Nwosu/,Richard Nwosu,31,66,36,56,50,68,51,67,36,2026-10-30T02:27:45.242485+00:00
+2000275726,Ibby Olateju,Sporting Club Inkberrow,https://efem.club/players/2000275726-Ibby-Olateju/,Ibby Olateju,31,61,23,57,52,64,47,65,33,2026-10-30T02:27:46.445597+00:00
+2000441745,Bahromjon Homidov,Andijon FA,https://efem.club/players/2000441745-Bahromjon-Homidov/,Bahromjon Homidov,25,49,26,54,46,70,50,62,21,2026-10-30T02:27:47.653256+00:00
+2000443714,Nürkeldi Tustikbai,Jetisu,https://efem.club/players/2000443714-N%C3%BCrkeldi-Tustikbai/,Nürkeldi Tustikbai,33,54,23,60,43,73,38,64,24,2026-10-30T02:27:48.918741+00:00
+2000445566,Finley Lynch,Hertford,https://efem.club/players/2000445566-Finley-Lynch/,Finley Lynch,29,63,22,58,51,68,54,58,23,2026-10-30T02:27:50.116323+00:00
+2000447938,Tommy McNally,Stoke,https://efem.club/players/2000447938-Tommy-McNally/,Tommy McNally,41,65,27,56,55,71,60,60,47,2026-10-30T02:27:51.318630+00:00
+2000457974,Erjan Abakirov,Muras United,https://efem.club/players/2000457974-Erjan-Abakirov/,Erjan Abakirov,26,55,17,51,49,68,42,55,34,2026-10-30T02:27:52.471239+00:00
+2000471726,Altin Shabani,Ljuboten,https://efem.club/players/2000471726-Altin-Shabani/,Altin Shabani,31,52,21,54,50,69,57,60,37,2026-10-30T02:27:53.692845+00:00
+2000347830,Nikita Muravljov,FCI Levadia,https://efem.club/players/2000347830-Nikita-Muravljov/,Nikita Muravljov,34,58,22,59,47,74,63,63,25,2026-10-30T02:27:54.890520+00:00
+2000267207,Pietro Ammora,Settempeda,https://efem.club/players/2000267207-Pietro-Ammora/,Pietro Ammora,28,59,16,47,42,75,49,53,29,2026-10-30T02:27:56.131529+00:00
+2000370234,Anthony Avellano,Lincoln (GIB),https://efem.club/players/2000370234-Anthony-Avellano/,Anthony Avellano,33,62,27,42,41,72,52,62,28,2026-10-30T02:27:57.352024+00:00
+2000396315,Aaron Sterling,Leyton Orient,https://efem.club/players/2000396315-Aaron-Sterling/,Aaron Sterling,52,36,27,52,43,69,52,58,29,2026-10-30T02:27:58.563282+00:00
+2000403716,Gabriel Stinghi,Grassina,https://efem.club/players/2000403716-Gabriel-Stinghi/,Gabriel Stinghi,31,47,29,53,48,74,45,63,31,2026-10-30T02:27:59.758782+00:00
+2000419369,Masson Winn,East Fife,https://efem.club/players/2000419369-Masson-Winn/,Masson Winn,18,64,27,55,49,72,48,64,27,2026-10-30T02:28:00.971540+00:00
+2000495418,Gabriel Gomes,The Belval Belvaux,https://efem.club/players/2000495418-Gabriel-Gomes/,Gabriel Gomes,34,60,22,54,49,71,50,56,32,2026-10-30T02:28:02.189730+00:00
+2000503026,Mattia Gardin,Padova,https://efem.club/players/2000503026-Mattia-Gardin/,Mattia Gardin,26,58,19,42,41,71,41,66,26,2026-10-30T02:28:03.423932+00:00
+2000513633,Abdulazizxon Abdusalimov,Namangan viloyati FA,https://efem.club/players/2000513633-Abdulazizxon-Abdusalimov/,Abdulazizxon Abdusalimov,33,55,23,51,46,66,46,66,36,2026-10-30T02:28:04.592976+00:00
+2000514906,Luca Badea,Dunărea Giurgiu,https://efem.club/players/2000514906-Luca-Badea/,Luca Badea,26,58,24,55,38,70,62,66,32,2026-10-30T02:28:05.816781+00:00
+2000525179,Saian Tashimbetov,Khan Tengri,https://efem.club/players/2000525179-Saian-Tashimbetov/,Saian Tashimbetov,24,56,21,57,49,75,36,54,33,2026-10-30T02:28:07.020398+00:00
+2000530296,Yağız Tekin,Bld. Kütahyaspor,https://efem.club/players/2000530296-Ya%C4%9F%C4%B1z-Tekin/,Yağız Tekin,29,62,26,47,43,73,50,53,35,2026-10-30T02:28:08.223248+00:00
+2000383726,George Barker,Port Vale,https://efem.club/players/2000383726-George-Barker/,George Barker,35,59,28,59,49,64,61,62,28,2026-10-30T02:28:09.468632+00:00
+2000429700,Tristan Zion Roesdahl,Ringsted,https://efem.club/players/2000429700-Tristan-Zion-Roesdahl/,Tristan Zion Roesdahl,29,40,22,53,48,70,49,56,19,2026-10-30T02:28:10.627614+00:00
+2000475073,Pietro Dario,Chieri,https://efem.club/players/2000475073-Pietro-Dario/,Pietro Dario,22,55,24,60,39,69,54,65,26,2026-10-30T02:28:11.915557+00:00
+2000520711,Filippo Pelliconi,Sanpaimola,https://efem.club/players/2000520711-Filippo-Pelliconi/,Filippo Pelliconi,30,60,23,51,48,67,53,58,20,2026-10-30T02:28:13.092855+00:00
+2000295183,Louis Griffiths,Oxford United,https://efem.club/players/2000295183-Louis-Griffiths/,Louis Griffiths,35,60,20,61,50,69,52,52,33,2026-10-30T02:28:14.266153+00:00
+2000419558,Kingsley Arivboke,Olginatese,https://efem.club/players/2000419558-Kingsley-Arivboke/,Kingsley Arivboke,51,34,21,60,52,72,57,53,25,2026-10-30T02:28:15.419877+00:00
+2000479619,Marco Resinger,TSU Matrei,https://efem.club/players/2000479619-Marco-Resinger/,Marco Resinger,25,59,22,54,47,67,54,58,22,2026-10-30T02:28:16.652724+00:00
+2000507244,Alessio Varilotta,Vultur Rionero,https://efem.club/players/2000507244-Alessio-Varilotta/,Alessio Varilotta,24,60,23,50,43,72,57,55,22,2026-10-30T02:28:17.853963+00:00
+2000522688,Michael Garbi,Porto Viro,https://efem.club/players/2000522688-Michael-Garbi/,Michael Garbi,19,60,20,46,48,71,50,57,27,2026-10-30T02:28:19.011657+00:00
+2000522903,Filippo Fochesato,Montecchio Maggiore,https://efem.club/players/2000522903-Filippo-Fochesato/,Filippo Fochesato,29,61,15,54,41,71,54,56,23,2026-10-30T02:28:20.207765+00:00
+23342434,Ms Sukariani Pundut,Setia Perdana,https://efem.club/players/23342434-Ms-Sukariani-Pundut/,Ms Sukariani Pundut,25,58,22,54,48,76,43,59,33,2026-10-30T02:28:21.377346+00:00
+2000391878,Carlo Midwinter,Grimsby,https://efem.club/players/2000391878-Carlo-Midwinter/,Carlo Midwinter,36,59,33,52,49,63,74,48,38,2026-10-30T02:28:22.575154+00:00

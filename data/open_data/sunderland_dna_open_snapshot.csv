@@ -1,0 +1,10 @@
+Metric,Value,Unit,What it measures
+Match sample,10.0,matches,Available completed matches on the source page
+Possession,48.2,%,Territory / ball-control indicator
+Passes,389.8,per match,Build-up volume indicator
+Expected goals,1.6,per match,Chance-quality indicator
+Shots,14.7,per match,Final-third volume indicator
+Shots on target,4.8,per match,Shot-quality / execution indicator
+Corners,5.7,per match,Set-piece / width proxy
+Tackles,13.6,per match,Defensive activity proxy; not a pressing count
+Fouls,11.9,per match,Defensive aggression / game-state context

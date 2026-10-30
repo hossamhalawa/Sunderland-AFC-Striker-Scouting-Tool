@@ -1,0 +1,4 @@
+row_id,Name,Club,player_url,reason,retrieved_at_utc
+2000450242,Joseph M'Bock,FC RB Salzburg,https://efem.club/players/2000450242-Joseph-M'Bock/,"Name mismatch: source=""Joseph M'Bock""; page='Joseph M&#x27;Bock'",2026-10-30T02:10:19.123328+00:00
+2000254305,Daniel O'Sullivan,Newry City,https://efem.club/players/2000254305-Daniel-O'Sullivan/,"Name mismatch: source=""Daniel O'Sullivan""; page='Daniel O&#x27;Sullivan'",2026-10-30T02:20:13.645633+00:00
+12096016,N'Djicoura Bomba,CS Bamako,https://efem.club/players/12096016-N'Djicoura-Bomba/,"Name mismatch: source=""N'Djicoura Bomba""; page='N&#x27;Djicoura Bomba'",2026-10-30T02:25:02.866305+00:00
