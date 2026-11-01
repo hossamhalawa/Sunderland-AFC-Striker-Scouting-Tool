@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import html
 import json
+import io
 import math
 import re
 import unicodedata
@@ -14,6 +15,7 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
+import requests
 import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
@@ -282,99 +284,48 @@ st.markdown(
     }}
     .scout-reading strong {{ color: {WHITE}; }}
     .similarity-card {{
-        background: {WHITE};
-        border: 1px solid #E4E7EB;
-        border-radius: 16px;
-        padding: 14px;
-        margin: 0 0 12px;
-        box-shadow: 0 7px 18px rgba(17,17,17,.06);
-        min-height: 126px;
+        display:grid;
+        grid-template-columns: 30px 40px minmax(0,1fr) auto;
+        align-items:center;
+        gap:9px;
+        padding:9px 0;
+        border-bottom:1px solid #E5E7EB;
     }}
-    .similarity-rank {{
-        color: {GOLD};
-        font-size: 11px;
-        font-weight: 900;
-        letter-spacing: .08em;
-        text-transform: uppercase;
-    }}
-    .similarity-name {{
-        color: {NAVY};
-        font-size: 17px;
-        font-weight: 850;
-        line-height: 1.15;
-        margin: 3px 0;
-    }}
-    .similarity-meta {{ color: {MUTED}; font-size: 12px; line-height: 1.35; }}
+    .similarity-rank {{ color: {MUTED}; font-size: 11px; font-variant-numeric:tabular-nums; }}
+    .similarity-name {{ color: {NAVY}; font-size: 13px; font-weight: 800; line-height: 1.2; }}
+    .similarity-meta {{ color: {MUTED}; font-size: 11px; line-height: 1.35; margin-top:3px; }}
     .similarity-score {{
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        min-width: 58px;
-        height: 31px;
-        padding: 0 9px;
-        border-radius: 999px;
+        min-width: 44px;
+        padding: 4px 7px;
+        border-radius: 7px;
         background: rgba(227,6,19,.10);
         color: {GOLD};
         font-size: 14px;
         font-weight: 900;
         font-variant-numeric: tabular-nums;
     }}
-    .similarity-trait {{
-        margin-top: 8px;
-        padding-top: 8px;
-        border-top: 1px solid #EEF0F2;
-        color: #3F4650;
-        font-size: 12px;
-        line-height: 1.4;
-    }}
-    .visual-board-title {{
-        color: {NAVY};
-        font-size: 16px;
-        font-weight: 900;
-        margin: 12px 0 8px;
-    }}
-    .visual-board-note {{
-        color: {MUTED};
-        font-size: 12px;
-        line-height: 1.45;
-        margin: -2px 0 8px;
-    }}
-    .profile-card-title {{
-        color: {NAVY};
-        font-size: 15px;
-        font-weight: 900;
-        line-height: 1.15;
-        margin: 2px 0 4px;
-    }}
-    .profile-card-meta {{
-        color: {MUTED};
-        font-size: 11px;
-        line-height: 1.35;
-        min-height: 32px;
-    }}
-    .profile-card-score {{
-        color: {GOLD};
-        font-size: 12px;
-        font-weight: 900;
-        margin-top: 7px;
-    }}
-    .player-photo-wrap {{
-        width: 100%;
-        min-height: 102px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        margin-bottom: 8px;
-    }}
+    .similarity-trait {{ color: #3F4650; font-size: 11px; line-height: 1.35; margin-top:4px; }}
+    .visual-board-title {{ color: {NAVY}; font-size: 16px; font-weight: 900; margin: 12px 0 8px; }}
+    .profile-card-title {{ color: {NAVY}; font-size: 15px; font-weight: 900; line-height: 1.15; margin: 2px 0 4px; }}
+    .profile-card-meta {{ color: {MUTED}; font-size: 11px; line-height: 1.35; min-height: 32px; }}
+    .profile-card-score {{ color: {GOLD}; font-size: 12px; font-weight: 900; margin-top: 7px; }}
+    .player-photo-wrap {{ width:100%; display:flex; align-items:center; justify-content:flex-start; }}
     .player-photo {{
-        width: 94px;
-        height: 102px;
+        width: 40px;
+        height: 48px;
         object-fit: cover;
-        border-radius: 10px;
+        border-radius: 7px;
         border: 1px solid #E5E7EB;
         background: #F3F4F6;
         display: block;
     }}
+    .player-photo-fallback {{ width:40px; height:48px; display:none; place-items:center; border-radius:7px; background:#EEF0F2; color:#69717B; font-size:11px; font-weight:800; border:1px solid #E5E7EB; }}
+    .board-panel {{ background:#fff; border:1px solid #E2E5E9; border-radius:12px; padding:15px; }}
+    .board-panel-title {{ display:flex; justify-content:space-between; align-items:baseline; gap:8px; font-size:13px; font-weight:800; margin:0 0 10px; }}
+    .board-panel-note {{ color:{MUTED}; font-size:10px; font-weight:500; }}
     div[data-testid="stDataFrame"] {{
         border-radius: 14px;
         overflow: hidden;
@@ -430,27 +381,33 @@ def player_image_url(value: object) -> str:
     return url
 
 
+@st.cache_data(show_spinner=False, ttl=86400)
+def load_player_portrait(url: str) -> bytes | None:
+    """Fetch and validate a portrait server-side so dead image links never render broken."""
+    if not url or "fallback.png" in url.lower():
+        return None
+    try:
+        response = requests.get(url, timeout=8)
+        response.raise_for_status()
+        image_bytes = response.content
+        with Image.open(io.BytesIO(image_bytes)) as image:
+            image.verify()
+        return image_bytes
+    except Exception:
+        return None
+
+
 def render_player_image(row: pd.Series, width: int = 132) -> None:
-    """Show the pulled portrait with a local fallback instead of a broken-image tile."""
+    """Show the pulled player portrait, with a neutral player-only fallback."""
     img_url = player_image_url(row.get("image_url", ""))
-    fallback = logo_as_base64() if LOGO_PATH.exists() else ""
-    # The source dataset uses a shared fallback.png for players without a
-    # portrait. It is better to show the club mark than expose that remote
-    # placeholder as a noisy or broken network image.
-    if not img_url or "fallback.png" in img_url.lower():
-        if fallback:
-            st.markdown(
-                f'<div class="player-photo-wrap"><img class="player-photo" style="width:{int(width)}px;height:{int(width * 1.08)}px" src="{fallback}" alt="Player portrait"></div>',
-                unsafe_allow_html=True,
-            )
-        return
-    safe_url = html.escape(img_url, quote=True)
-    safe_fallback = html.escape(fallback, quote=True)
-    fallback_attr = f' onerror="this.onerror=null;this.src=\'{safe_fallback}\';"' if safe_fallback else ""
-    st.markdown(
-        f'<div class="player-photo-wrap"><img class="player-photo" style="width:{int(width)}px;height:{int(width * 1.08)}px" src="{safe_url}" alt="Player portrait" loading="lazy"{fallback_attr}></div>',
-        unsafe_allow_html=True,
-    )
+    name = str(row.get("Name", "Player")).strip()
+    initials = "".join(part[0] for part in name.split()[:2] if part) or "?"
+    placeholder = f'<div class="player-photo-wrap"><span class="player-photo-fallback" style="width:{int(width)}px;height:{int(width * 1.08)}px;display:grid">{html.escape(initials)}</span></div>'
+    image_bytes = load_player_portrait(img_url)
+    if image_bytes:
+        st.image(image_bytes, width=width)
+    else:
+        st.markdown(placeholder, unsafe_allow_html=True)
 
 
 def normalise_country_value(v: object) -> List[str]:
@@ -1135,7 +1092,9 @@ def continuous_profile_radar(rows: pd.DataFrame, title: str, benchmark_name: str
         labels = [EFEM_RADAR_LABELS[label] for label in EFEM_ATTRIBUTE_GROUPS]
         median = radar_baseline(rows.iloc[0], True)
     else:
-        labels = PHASES
+        # Keep the comparison radar readable inside the narrower right-hand
+        # board panel without changing the underlying phase metrics.
+        labels = ["Box threat", "Link-up", "Channel runs", "Wide play", "Aerial", "Pressing"]
         median = [50.0] * len(labels)
     theta = labels + [labels[0]]
     colors = [GOLD, NAVY, "#617188", "#7C3AED", "#00897B"]
@@ -1175,42 +1134,36 @@ def continuous_profile_radar(rows: pd.DataFrame, title: str, benchmark_name: str
         polar=dict(
             bgcolor="rgba(255,255,255,0)",
             radialaxis=dict(visible=True, range=[0, 100], tickvals=[0, 25, 50, 75, 100], gridcolor="#D7DEE9", tickfont=dict(color=MUTED, size=10)),
-            angularaxis=dict(gridcolor="#CBD3DE", linecolor="#CBD3DE", tickfont=dict(size=12, color=NAVY)),
+            angularaxis=dict(gridcolor="#CBD3DE", linecolor="#CBD3DE", tickfont=dict(size=10 if not full_only else 11, color=NAVY)),
         ),
         title=dict(text=title, font=dict(size=18, color=NAVY)),
         legend=dict(orientation="h", y=-0.13, x=0.5, xanchor="center", font=dict(size=11)),
         hovermode="closest",
     )
-    return fig_layout(fig, 485, bottom_legend=False)
+    fig = fig_layout(fig, 485, bottom_legend=False)
+    # Reserve breathing room for the polar labels, especially when this chart
+    # sits in the compact comparison column.
+    fig.update_layout(margin=dict(l=38, r=82, t=58, b=76))
+    return fig
 
 
 def render_profile_cards(rows: pd.DataFrame, benchmark_name: str | None = None) -> None:
-    """Show the real player portraits beside the profile labels and key score."""
+    """Compact portrait strip matching the comparison board layout."""
     if rows.empty:
         return
-    columns = st.columns(min(len(rows), 5))
+    columns = st.columns(min(len(rows), 4))
     for index, (_, row) in enumerate(rows.iterrows()):
         with columns[index % len(columns)]:
-            with st.container(border=True):
-                render_player_image(row, width=94)
-                name = html.escape(str(row.get("Name", "Player")))
-                club = html.escape(str(row.get("Club", "Unknown")))
-                role = html.escape(str(row.get("Best Role", "Striker")))
-                identity_bits = [role]
-                if pd.notna(row.get("Age", np.nan)):
-                    identity_bits.append(f"Age {int(row['Age'])}")
-                country = str(row.get("Country", "")).strip()
-                if country and country.lower() not in {"unknown", "nan"}:
-                    identity_bits.append(country)
-                positions = str(row.get("Positions", "")).strip()
-                if positions and positions.lower() not in {"unknown", "nan"}:
-                    identity_bits.append(positions)
-                meta = html.escape(" · ".join(identity_bits))
-                badge = " · Benchmark" if benchmark_name and str(row.get("Name", "")) == str(benchmark_name) else ""
+            name = html.escape(str(row.get("Name", "Player")))
+            role = html.escape(str(row.get("Best Role", "Striker")))
+            badge = " · Benchmark" if benchmark_name and str(row.get("Name", "")) == str(benchmark_name) else ""
+            photo_col, text_col = st.columns([0.30, 0.70], vertical_alignment="center")
+            with photo_col:
+                render_player_image(row, width=34)
+            with text_col:
                 st.markdown(
                     f"<div class='profile-card-title'>{name}{html.escape(badge)}</div>"
-                    f"<div class='profile-card-meta'>{club}<br>{meta}</div>"
-                    f"<div class='profile-card-score'>ST Fit {float(row.get('Sunderland AFC ST Fit', 0)):.1f}</div>",
+                    f"<div class='profile-card-meta'>{role} · ST Fit {float(row.get('Sunderland AFC ST Fit', 0)):.1f}</div>",
                     unsafe_allow_html=True,
                 )
 
@@ -2417,15 +2370,16 @@ elif page == "Compare Players":
         st.warning("Choose at least two players to compare.")
     else:
         comp = pool[pool["Name"].isin(selected_names)].drop_duplicates("Name").head(5)
-        st.markdown('<div class="visual-board-title">Selected striker board</div>', unsafe_allow_html=True)
-        render_profile_cards(comp)
-        radar_col, reading_col = st.columns([0.66, 0.34], vertical_alignment="top")
+        map_col, radar_col = st.columns([1, 1], gap="small", vertical_alignment="top")
+        with map_col:
+            st.markdown('<div class="board-panel-title"><strong>Role-family map</strong><span class="board-panel-note">Selected profiles highlighted</span></div>', unsafe_allow_html=True)
+            st.plotly_chart(scout_canvas_figure(pool, comp, ""), width="stretch", config={"displayModeBar": False})
+            st.markdown('<div class="board-panel-note">Grey points show the available player pool.</div>', unsafe_allow_html=True)
+            render_profile_cards(comp)
         with radar_col:
-            st.plotly_chart(continuous_profile_radar(comp, "Connected profile radar · selected players"), width="stretch")
-        with reading_col:
+            st.markdown('<div class="board-panel-title"><strong>Continuous profile radar</strong><span class="board-panel-note">0–100 · hover for detail</span></div>', unsafe_allow_html=True)
+            st.plotly_chart(continuous_profile_radar(comp, ""), width="stretch", config={"displayModeBar": False})
             st.markdown(profile_reading(comp), unsafe_allow_html=True)
-        st.plotly_chart(scout_canvas_figure(pool, comp, "Scout canvas · selected role families"), width="stretch")
-        st.markdown('<div class="visual-caption">Grey points are the available pool. Selected players are highlighted. Hover a point for player details.</div>', unsafe_allow_html=True)
 
         with st.expander("Open detailed attributes and exact comparison data"):
             if comp.apply(has_full_efem_attributes, axis=1).all():
@@ -2456,7 +2410,7 @@ elif page == "Compare Players":
                 "The aim is to show profile differences clearly: who offers more box threat, who links play better, who attacks channels, and who fits the tactical system more naturally.",
                 "This comparison should be used to support discussion, not as a final transfer decision without video and contextual scouting.",
             ],
-            figures=[("Scout canvas", scout_canvas_figure(pool, comp, "Scout canvas · selected role families")), ("Profile fingerprints", profile_strip_chart(comp, "Selected profile fingerprints"))],
+            figures=[("Scout canvas", scout_canvas_figure(pool, comp, "Scout canvas · selected role families")), ("Profile radar", continuous_profile_radar(comp, "Connected profile radar · selected players"))],
             tables=[("Comparison table", report_table(comp, comp_cols, 10))],
             filename="sunderland_afc_player_comparison_report.html",
             key="compare_report_download",
@@ -2781,71 +2735,63 @@ elif page == "Similarity Scouting":
 
     sims = similar_players(benchmark_row, candidate_pool, top_n=top_n)
 
-    b1, b2 = st.columns([0.30, 0.70], vertical_alignment="center")
-    with b1:
-        render_player_image(benchmark_row, width=132)
-        st.markdown(f"### Benchmark: {benchmark_row['Name']}")
-        st.markdown(f"**{player_identity_line(benchmark_row)}**")
-        st.markdown(f"<span class='tag'>{benchmark_row['Best Role']}</span><span class='tag'>{benchmark_row['Best System']}</span><span class='tag'>ST Fit {benchmark_row['Sunderland AFC ST Fit']:.1f}</span>", unsafe_allow_html=True)
-    with b2:
-        st.plotly_chart(profile_strip_chart(benchmark_row.to_frame().T, "Benchmark fingerprint"), width="stretch")
-
     if sims.empty:
         st.warning("No similar candidates found under the current filters. Try removing some filters or allowing current Sunderland AFC players.")
     else:
         sim_cols = ["Name","Club","Age","Country","Continent","Best Role","Scout Tag","Similarity Score","ST Fit Gap vs Benchmark","Scouting Opportunity","Sunderland AFC ST Fit","Hidden Gem Opportunity","Best System"]
         sim_comp = pd.concat([benchmark_row.to_frame().T, sims.head(4)], ignore_index=True)
-        st.plotly_chart(continuous_profile_radar(sim_comp, "Connected radar · benchmark vs closest profiles", benchmark_name=str(benchmark_row["Name"])), width="stretch")
-        st.markdown("### Similarity canvas")
-        st.plotly_chart(scout_canvas_figure(candidate_pool, sim_comp, "Benchmark and closest role families", benchmark_name=str(benchmark_row["Name"])), width="stretch")
-        st.markdown('<div class="visual-caption">The map shows role context. Hover a player to inspect the profile.</div>', unsafe_allow_html=True)
+        left, right = st.columns([1.17, 0.83], gap="small", vertical_alignment="top")
+        with left:
+            st.markdown('<div class="board-panel-title"><strong>Benchmark profile</strong><span class="board-panel-note">Portrait · continuous radar</span></div>', unsafe_allow_html=True)
+            identity_col, radar_col = st.columns([0.22, 0.78], vertical_alignment="center")
+            with identity_col:
+                render_player_image(benchmark_row, width=58)
+                st.markdown(f"**{html.escape(str(benchmark_row['Name']))}**")
+                st.caption(f"{html.escape(str(benchmark_row['Best Role']))} · ST Fit {benchmark_row['Sunderland AFC ST Fit']:.1f}")
+            with radar_col:
+                st.plotly_chart(continuous_profile_radar(benchmark_row.to_frame().T, ""), width="stretch", config={"displayModeBar": False})
+        with right:
+            st.markdown('<div class="board-panel-title"><strong>Closest profiles</strong><span class="board-panel-note">Ranked match</span></div>', unsafe_allow_html=True)
+            shortlist = sims.head(4).reset_index(drop=True)
+            for rank, candidate in shortlist.iterrows():
+                rank_col, photo_col, text_col, score_col = st.columns([0.08, 0.16, 0.58, 0.18], vertical_alignment="center")
+                with rank_col:
+                    st.markdown(f"<span class='similarity-rank'>{rank + 1:02}</span>", unsafe_allow_html=True)
+                with photo_col:
+                    render_player_image(candidate, width=34)
+                with text_col:
+                    st.markdown(
+                        f"<div class='similarity-name'>{html.escape(str(candidate['Name']))}</div>"
+                        f"<div class='similarity-meta'>{html.escape(str(candidate.get('Best Role', 'Striker')))} · {html.escape(str(candidate.get('Club', 'Unknown')))}</div>",
+                        unsafe_allow_html=True,
+                    )
+                with score_col:
+                    st.markdown(f"<span class='similarity-score'>{float(candidate['Similarity Score']):.0f}%</span>", unsafe_allow_html=True)
 
-        with st.expander("Open detailed similarity evidence"):
-            alignment_left, alignment_right = st.columns([0.54, 0.46], vertical_alignment="top")
-            with alignment_left:
-                st.plotly_chart(profile_strip_chart(sim_comp, "Benchmark vs closest profile fingerprints"), width="stretch")
-            with alignment_right:
-                st.plotly_chart(similarity_alignment_chart(benchmark_row, sims.head(4)), width="stretch")
+            delta_rows = []
+            benchmark_values = np.asarray(profile_phase_values(benchmark_row), dtype=float)
+            for _, candidate in shortlist.head(3).iterrows():
+                deltas = np.asarray(profile_phase_values(candidate), dtype=float) - benchmark_values
+                dimension_index = int(np.argmax(np.abs(deltas)))
+                delta_rows.append((str(candidate["Name"]), PHASES[dimension_index], float(deltas[dimension_index])))
+            st.markdown('<div class="board-panel-title" style="margin-top:12px"><strong>Profile differences</strong></div>', unsafe_allow_html=True)
+            for name, phase, delta in delta_rows:
+                sign = "+" if delta >= 0 else "−"
+                color_class = "similarity-score" if delta >= 0 else "similarity-rank"
+                st.markdown(
+                    f"<div class='rf-mini-row'><span>{html.escape(name)} · {html.escape(phase)}</span><b class='{color_class}'>{sign}{abs(delta):.0f}</b></div>",
+                    unsafe_allow_html=True,
+                )
+            top_match = shortlist.iloc[0]
+            st.markdown(
+                f"<div class='scout-reading'><div class='eyebrow'>Match reason</div>"
+                f"<strong>{html.escape(str(top_match['Name']))}</strong> · {similarity_trait_reading(benchmark_row, top_match)}</div>",
+                unsafe_allow_html=True,
+            )
 
-        top_match = sims.iloc[0]
-        st.markdown(
-            f"""
-            <div class="navy-card">
-            <b>Closest match:</b> <b>{top_match['Name']}</b> · <b>{top_match['Similarity Score']:.1f}%</b><br>
-            {similarity_trait_reading(benchmark_row, top_match)}
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-
-        st.markdown("### Recommended similar profiles")
-        cards = sims.head(min(top_n, 12)).reset_index(drop=True)
-        for start in range(0, len(cards), 2):
-            columns = st.columns(2)
-            for offset, column in enumerate(columns):
-                card_index = start + offset
-                if card_index >= len(cards):
-                    continue
-                candidate = cards.iloc[card_index]
-                with column:
-                    photo_col, copy_col = st.columns([0.20, 0.80], vertical_alignment="center")
-                    with photo_col:
-                        render_player_image(candidate, width=66)
-                    with copy_col:
-                        st.markdown(
-                            f"""
-                            <div class="similarity-card">
-                                <div class="similarity-rank">#{card_index + 1} · closest profile</div>
-                                <div class="similarity-name">{html.escape(str(candidate['Name']))}</div>
-                                <div class="similarity-meta">{html.escape(player_identity_line(candidate))} · {html.escape(str(candidate['Best Role']))}</div>
-                                <div style="margin-top:8px"><span class="similarity-score">{float(candidate['Similarity Score']):.1f}%</span></div>
-                                <div class="similarity-trait">{similarity_trait_reading(benchmark_row, candidate)}</div>
-                            </div>
-                            """,
-                            unsafe_allow_html=True,
-                        )
-
-        with st.expander("Open exact ranked data"):
+        with st.expander("Open role map and full ranked data"):
+            st.plotly_chart(scout_canvas_figure(candidate_pool, sim_comp, "Benchmark and closest role families", benchmark_name=str(benchmark_row["Name"])), width="stretch")
+            st.plotly_chart(similarity_alignment_chart(benchmark_row, sims.head(4)), width="stretch")
             st.dataframe(report_table(sims, sim_cols, top_n), width="stretch", hide_index=True)
 
         page_report_download(
