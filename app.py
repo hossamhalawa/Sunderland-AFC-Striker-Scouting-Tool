@@ -327,6 +327,37 @@ st.markdown(
         font-size: 12px;
         line-height: 1.4;
     }}
+    .visual-board-title {{
+        color: {NAVY};
+        font-size: 16px;
+        font-weight: 900;
+        margin: 12px 0 8px;
+    }}
+    .visual-board-note {{
+        color: {MUTED};
+        font-size: 12px;
+        line-height: 1.45;
+        margin: -2px 0 8px;
+    }}
+    .profile-card-title {{
+        color: {NAVY};
+        font-size: 15px;
+        font-weight: 900;
+        line-height: 1.15;
+        margin: 2px 0 4px;
+    }}
+    .profile-card-meta {{
+        color: {MUTED};
+        font-size: 11px;
+        line-height: 1.35;
+        min-height: 32px;
+    }}
+    .profile-card-score {{
+        color: {GOLD};
+        font-size: 12px;
+        font-weight: 900;
+        margin-top: 7px;
+    }}
     div[data-testid="stDataFrame"] {{
         border-radius: 14px;
         overflow: hidden;
@@ -1061,6 +1092,100 @@ def radar_chart(row: pd.Series, title: str = "Player phase profile") -> go.Figur
         title=dict(text=title, font=dict(size=20, color=NAVY)),
     )
     return fig_layout(fig, 405)
+
+
+def continuous_profile_radar(rows: pd.DataFrame, title: str, benchmark_name: str | None = None) -> go.Figure:
+    """Render a filled, connected radar for the selected profiles.
+
+    The selected profiles share one axis system so their silhouettes can be
+    compared directly.  A genuine median ring is drawn as a light dotted
+    outline; it is never used to inflate a player's raw level.
+    """
+    if rows.empty:
+        return go.Figure()
+    full_only = rows.apply(has_full_efem_attributes, axis=1).all()
+    if full_only:
+        labels = [EFEM_RADAR_LABELS[label] for label in EFEM_ATTRIBUTE_GROUPS]
+        median = radar_baseline(rows.iloc[0], True)
+    else:
+        labels = PHASES
+        median = [50.0] * len(labels)
+    theta = labels + [labels[0]]
+    colors = [GOLD, NAVY, "#617188", "#7C3AED", "#00897B"]
+    fill_colors = ["rgba(227,6,19,.18)", "rgba(17,17,17,.12)", "rgba(97,113,136,.14)", "rgba(124,58,237,.12)", "rgba(0,137,123,.12)"]
+    fig = go.Figure()
+    fig.add_trace(go.Scatterpolar(
+        r=median + [median[0]],
+        theta=theta,
+        mode="lines",
+        name="Striker-universe median",
+        line=dict(color="#8893A2", width=2, dash="dot"),
+        hovertemplate="<b>Universe median</b><br>%{theta}: %{r:.0f}/100<extra></extra>",
+    ))
+    for idx, (_, row) in enumerate(rows.iterrows()):
+        if full_only:
+            _, values, details, _ = radar_profile(row)
+        else:
+            values = profile_phase_values(row)
+            details = ["Shared Sunderland AFC phase model"] * len(labels)
+        color = colors[idx % len(colors)]
+        name = str(row.get("Name", "Player"))
+        is_benchmark = bool(benchmark_name) and name == str(benchmark_name)
+        fig.add_trace(go.Scatterpolar(
+            r=values + [values[0]],
+            theta=theta,
+            mode="lines+markers",
+            name=("Benchmark · " if is_benchmark else "") + name,
+            fill="toself",
+            fillcolor=fill_colors[idx % len(fill_colors)],
+            line=dict(color=color, width=4 if is_benchmark else 3),
+            marker=dict(size=8 if is_benchmark else 6, color=color, line=dict(color=WHITE, width=1.5)),
+            opacity=0.90 if is_benchmark else 0.68,
+            customdata=details + [details[0]],
+            hovertemplate=f"<b>{html.escape(name)}</b><br>%{{theta}}: %{{r:.1f}}/100<br><span style='font-size:11px'>%{{customdata}}</span><extra></extra>",
+        ))
+    fig.update_layout(
+        polar=dict(
+            bgcolor="rgba(255,255,255,0)",
+            radialaxis=dict(visible=True, range=[0, 100], tickvals=[0, 25, 50, 75, 100], gridcolor="#D7DEE9", tickfont=dict(color=MUTED, size=10)),
+            angularaxis=dict(gridcolor="#CBD3DE", linecolor="#CBD3DE", tickfont=dict(size=12, color=NAVY)),
+        ),
+        title=dict(text=title, font=dict(size=18, color=NAVY)),
+        legend=dict(orientation="h", y=-0.13, x=0.5, xanchor="center", font=dict(size=11)),
+        hovermode="closest",
+    )
+    return fig_layout(fig, 485, bottom_legend=False)
+
+
+def render_profile_cards(rows: pd.DataFrame, benchmark_name: str | None = None) -> None:
+    """Show the real player portraits beside the profile labels and key score."""
+    if rows.empty:
+        return
+    columns = st.columns(min(len(rows), 5))
+    for index, (_, row) in enumerate(rows.iterrows()):
+        with columns[index % len(columns)]:
+            with st.container(border=True):
+                render_player_image(row, width=94)
+                name = html.escape(str(row.get("Name", "Player")))
+                club = html.escape(str(row.get("Club", "Unknown")))
+                role = html.escape(str(row.get("Best Role", "Striker")))
+                identity_bits = [role]
+                if pd.notna(row.get("Age", np.nan)):
+                    identity_bits.append(f"Age {int(row['Age'])}")
+                country = str(row.get("Country", "")).strip()
+                if country and country.lower() not in {"unknown", "nan"}:
+                    identity_bits.append(country)
+                positions = str(row.get("Positions", "")).strip()
+                if positions and positions.lower() not in {"unknown", "nan"}:
+                    identity_bits.append(positions)
+                meta = html.escape(" · ".join(identity_bits))
+                badge = " · Benchmark" if benchmark_name and str(row.get("Name", "")) == str(benchmark_name) else ""
+                st.markdown(
+                    f"<div class='profile-card-title'>{name}{html.escape(badge)}</div>"
+                    f"<div class='profile-card-meta'>{club}<br>{meta}</div>"
+                    f"<div class='profile-card-score'>ST Fit {float(row.get('Sunderland AFC ST Fit', 0)):.1f}</div>",
+                    unsafe_allow_html=True,
+                )
 
 
 def multi_radar(rows: pd.DataFrame, title: str) -> go.Figure:
@@ -2265,6 +2390,15 @@ elif page == "Compare Players":
         st.warning("Choose at least two players to compare.")
     else:
         comp = pool[pool["Name"].isin(selected_names)].drop_duplicates("Name").head(5)
+        st.markdown('<div class="visual-board-title">Selected striker board</div>', unsafe_allow_html=True)
+        st.markdown('<div class="visual-board-note">صور اللاعبين الحقيقية بجانب الرادار المتصل؛ كل لاعب يظل على مقياس 0–100 نفسه، وخط الـmedian مرجع بصري فقط.</div>', unsafe_allow_html=True)
+        render_profile_cards(comp)
+        radar_col, reading_col = st.columns([0.66, 0.34], vertical_alignment="top")
+        with radar_col:
+            st.plotly_chart(continuous_profile_radar(comp, "Connected profile radar · selected players"), width="stretch")
+        with reading_col:
+            st.markdown(profile_reading(comp), unsafe_allow_html=True)
+            st.markdown('<div class="small-note">المساحة المظللة هي مستوى اللاعب الفعلي؛ لا يوجد تحويل إلى نسب مئوية مصطنعة أو نقاط مضافة.</div>', unsafe_allow_html=True)
         st.plotly_chart(scout_canvas_figure(pool, comp, "Scout canvas · selected role families"), width="stretch")
         st.markdown('<div class="visual-caption">Grey points are the available pool. Selected players are highlighted. Hover a point for player details.</div>', unsafe_allow_html=True)
 
@@ -2272,7 +2406,6 @@ elif page == "Compare Players":
         with c1:
             st.plotly_chart(profile_strip_chart(comp, "Selected profile fingerprints"), width="stretch")
         with c2:
-            st.markdown(profile_reading(comp), unsafe_allow_html=True)
             st.markdown('<div class="small-note">Each tile uses the same 0–100 phase scale. Hover for the exact value.</div>', unsafe_allow_html=True)
 
         with st.expander("Open detailed attributes and exact comparison data"):
@@ -2643,6 +2776,10 @@ elif page == "Similarity Scouting":
     else:
         sim_cols = ["Name","Club","Age","Country","Continent","Best Role","Scout Tag","Similarity Score","ST Fit Gap vs Benchmark","Scouting Opportunity","Sunderland AFC ST Fit","Hidden Gem Opportunity","Best System"]
         sim_comp = pd.concat([benchmark_row.to_frame().T, sims.head(4)], ignore_index=True)
+        st.markdown('<div class="visual-board-title">Benchmark and closest profiles</div>', unsafe_allow_html=True)
+        st.markdown('<div class="visual-board-note">كل بطاقة تعرض صورة اللاعب نفسها، والرادار المتصل يوضح شكل التطابق والاختلاف على نفس المحاور.</div>', unsafe_allow_html=True)
+        render_profile_cards(sim_comp, benchmark_name=str(benchmark_row["Name"]))
+        st.plotly_chart(continuous_profile_radar(sim_comp, "Connected radar · benchmark vs closest profiles", benchmark_name=str(benchmark_row["Name"])), width="stretch")
         st.markdown("### Similarity canvas")
         st.plotly_chart(scout_canvas_figure(candidate_pool, sim_comp, "Benchmark and closest role families", benchmark_name=str(benchmark_row["Name"])), width="stretch")
         st.markdown('<div class="visual-caption">The map shows role context. Hover a player to inspect the profile.</div>', unsafe_allow_html=True)
