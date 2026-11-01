@@ -3,7 +3,6 @@ from __future__ import annotations
 import base64
 import html
 import json
-import io
 import math
 import re
 import unicodedata
@@ -15,10 +14,8 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
-import requests
 import streamlit as st
 import streamlit.components.v1 as components
-from PIL import Image
 
 # -----------------------------
 # App configuration
@@ -366,7 +363,7 @@ def clean_positions(value: object) -> str:
 
 
 def player_image_url(value: object) -> str:
-    """Use the original portrait URL where available, avoiding a fragile image proxy."""
+    """Use the original high-resolution portrait behind EFEM's thumbnail URL."""
     if pd.isna(value):
         return ""
     url = str(value).strip()
@@ -381,33 +378,30 @@ def player_image_url(value: object) -> str:
     return url
 
 
-@st.cache_data(show_spinner=False, ttl=86400)
-def load_player_portrait(url: str) -> bytes | None:
-    """Fetch and validate a portrait server-side so dead image links never render broken."""
-    if not url or "fallback.png" in url.lower():
-        return None
-    try:
-        response = requests.get(url, timeout=8)
-        response.raise_for_status()
-        image_bytes = response.content
-        with Image.open(io.BytesIO(image_bytes)) as image:
-            image.verify()
-        return image_bytes
-    except Exception:
-        return None
-
-
 def render_player_image(row: pd.Series, width: int = 132) -> None:
-    """Show the pulled player portrait, with a neutral player-only fallback."""
+    """Render the source portrait in the browser so app-server network limits cannot hide it."""
     img_url = player_image_url(row.get("image_url", ""))
     name = str(row.get("Name", "Player")).strip()
     initials = "".join(part[0] for part in name.split()[:2] if part) or "?"
-    placeholder = f'<div class="player-photo-wrap"><span class="player-photo-fallback" style="width:{int(width)}px;height:{int(width * 1.08)}px;display:grid">{html.escape(initials)}</span></div>'
-    image_bytes = load_player_portrait(img_url)
-    if image_bytes:
-        st.image(image_bytes, width=width)
+    # These two source files were independently checked and return HTTP 404;
+    # keep the other original portraits browser-loaded, without broken tiles.
+    known_missing = ("2000253519.png", "2000334928.png")
+    if img_url and "fallback.png" not in img_url.lower() and not any(key in img_url for key in known_missing):
+        safe_url = html.escape(img_url, quote=True)
+        safe_name = html.escape(name, quote=True)
+        st.markdown(
+            f'<div class="player-photo-wrap"><img class="player-photo" '
+            f'style="width:{int(width)}px;height:{int(width * 1.08)}px" '
+            f'src="{safe_url}" alt="{safe_name}" loading="lazy" referrerpolicy="no-referrer"></div>',
+            unsafe_allow_html=True,
+        )
     else:
-        st.markdown(placeholder, unsafe_allow_html=True)
+        st.markdown(
+            f'<div class="player-photo-wrap"><span class="player-photo-fallback" '
+            f'style="width:{int(width)}px;height:{int(width * 1.08)}px;display:grid">'
+            f'{html.escape(initials)}</span></div>',
+            unsafe_allow_html=True,
+        )
 
 
 def normalise_country_value(v: object) -> List[str]:
@@ -1689,10 +1683,13 @@ def build_scouting_report_html(row: pd.Series) -> str:
     logo_src = logo_as_base64()
     image_html = ""
     portrait_url = player_image_url(row.get("image_url", ""))
-    if portrait_url:
-        image_html = f'<img class="player-img" src="{html.escape(portrait_url)}" />'
-    elif logo_src:
-        image_html = f'<img class="player-img" src="{logo_src}" />'
+    name = str(row.get("Name", "Player")).strip()
+    initials = "".join(part[0] for part in name.split()[:2] if part) or "?"
+    known_missing = ("2000253519.png", "2000334928.png")
+    if portrait_url and "fallback.png" not in portrait_url.lower() and not any(key in portrait_url for key in known_missing):
+        image_html = f'<img class="player-img" src="{html.escape(portrait_url, quote=True)}" alt="{html.escape(name, quote=True)}" />'
+    else:
+        image_html = f'<div class="player-img player-img-fallback" aria-label="{html.escape(name, quote=True)}">{html.escape(initials)}</div>'
 
     radar_html = radar_chart(row, "Radar overview").to_html(full_html=False, include_plotlyjs="cdn")
     phase_html = phase_bar(row).to_html(full_html=False, include_plotlyjs=False)
@@ -1721,6 +1718,7 @@ body {{font-family: Arial, sans-serif; margin: 0; background:#F6F8FB; color:#111
 .card {{background:white; border:1px solid #E5E7EB; border-radius:22px; padding:22px; box-shadow:0 12px 30px rgba(11,31,58,.08); margin-top:18px;}}
 .hero {{display:grid; grid-template-columns:160px 1fr 360px; gap:20px; align-items:center;}}
 .player-img {{width:140px; height:140px; object-fit:contain; border-radius:20px; background:#EEF2F7;}}
+.player-img-fallback {{display:grid; place-items:center; color:#6B7280; font-size:32px; font-weight:800;}}
 .kpi-grid {{display:grid; grid-template-columns:repeat(4,1fr); gap:12px;}}
 .kpi {{border-top:5px solid #E30613; background:#FFFFFF; padding:14px; border-radius:18px; box-shadow:0 8px 18px rgba(11,31,58,.08);}}
 .kpi small {{display:block; color:#6B7280; text-transform:uppercase; font-weight:800; letter-spacing:.06em;}}
@@ -2808,3 +2806,4 @@ elif page == "Similarity Scouting":
             filename="sunderland_afc_similarity_scouting_report.html",
             key="similarity_report_download",
         )
+
