@@ -358,6 +358,23 @@ st.markdown(
         font-weight: 900;
         margin-top: 7px;
     }}
+    .player-photo-wrap {{
+        width: 100%;
+        min-height: 102px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 8px;
+    }}
+    .player-photo {{
+        width: 94px;
+        height: 102px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px solid #E5E7EB;
+        background: #F3F4F6;
+        display: block;
+    }}
     div[data-testid="stDataFrame"] {{
         border-radius: 14px;
         overflow: hidden;
@@ -414,16 +431,26 @@ def player_image_url(value: object) -> str:
 
 
 def render_player_image(row: pd.Series, width: int = 132) -> None:
-    """Show every available player image at the highest available resolution."""
+    """Show the pulled portrait with a local fallback instead of a broken-image tile."""
     img_url = player_image_url(row.get("image_url", ""))
-    if img_url:
-        try:
-            st.image(img_url, width=width)
-            return
-        except Exception:
-            pass
-    if LOGO_PATH.exists():
-        st.image(str(LOGO_PATH), width=width)
+    fallback = logo_as_base64() if LOGO_PATH.exists() else ""
+    # The source dataset uses a shared fallback.png for players without a
+    # portrait. It is better to show the club mark than expose that remote
+    # placeholder as a noisy or broken network image.
+    if not img_url or "fallback.png" in img_url.lower():
+        if fallback:
+            st.markdown(
+                f'<div class="player-photo-wrap"><img class="player-photo" style="width:{int(width)}px;height:{int(width * 1.08)}px" src="{fallback}" alt="Player portrait"></div>',
+                unsafe_allow_html=True,
+            )
+        return
+    safe_url = html.escape(img_url, quote=True)
+    safe_fallback = html.escape(fallback, quote=True)
+    fallback_attr = f' onerror="this.onerror=null;this.src=\'{safe_fallback}\';"' if safe_fallback else ""
+    st.markdown(
+        f'<div class="player-photo-wrap"><img class="player-photo" style="width:{int(width)}px;height:{int(width * 1.08)}px" src="{safe_url}" alt="Player portrait" loading="lazy"{fallback_attr}></div>',
+        unsafe_allow_html=True,
+    )
 
 
 def normalise_country_value(v: object) -> List[str]:
@@ -2391,22 +2418,14 @@ elif page == "Compare Players":
     else:
         comp = pool[pool["Name"].isin(selected_names)].drop_duplicates("Name").head(5)
         st.markdown('<div class="visual-board-title">Selected striker board</div>', unsafe_allow_html=True)
-        st.markdown('<div class="visual-board-note">صور اللاعبين الحقيقية بجانب الرادار المتصل؛ كل لاعب يظل على مقياس 0–100 نفسه، وخط الـmedian مرجع بصري فقط.</div>', unsafe_allow_html=True)
         render_profile_cards(comp)
         radar_col, reading_col = st.columns([0.66, 0.34], vertical_alignment="top")
         with radar_col:
             st.plotly_chart(continuous_profile_radar(comp, "Connected profile radar · selected players"), width="stretch")
         with reading_col:
             st.markdown(profile_reading(comp), unsafe_allow_html=True)
-            st.markdown('<div class="small-note">المساحة المظللة هي مستوى اللاعب الفعلي؛ لا يوجد تحويل إلى نسب مئوية مصطنعة أو نقاط مضافة.</div>', unsafe_allow_html=True)
         st.plotly_chart(scout_canvas_figure(pool, comp, "Scout canvas · selected role families"), width="stretch")
         st.markdown('<div class="visual-caption">Grey points are the available pool. Selected players are highlighted. Hover a point for player details.</div>', unsafe_allow_html=True)
-
-        c1, c2 = st.columns([0.68, 0.32], vertical_alignment="top")
-        with c1:
-            st.plotly_chart(profile_strip_chart(comp, "Selected profile fingerprints"), width="stretch")
-        with c2:
-            st.markdown('<div class="small-note">Each tile uses the same 0–100 phase scale. Hover for the exact value.</div>', unsafe_allow_html=True)
 
         with st.expander("Open detailed attributes and exact comparison data"):
             if comp.apply(has_full_efem_attributes, axis=1).all():
@@ -2776,19 +2795,17 @@ elif page == "Similarity Scouting":
     else:
         sim_cols = ["Name","Club","Age","Country","Continent","Best Role","Scout Tag","Similarity Score","ST Fit Gap vs Benchmark","Scouting Opportunity","Sunderland AFC ST Fit","Hidden Gem Opportunity","Best System"]
         sim_comp = pd.concat([benchmark_row.to_frame().T, sims.head(4)], ignore_index=True)
-        st.markdown('<div class="visual-board-title">Benchmark and closest profiles</div>', unsafe_allow_html=True)
-        st.markdown('<div class="visual-board-note">كل بطاقة تعرض صورة اللاعب نفسها، والرادار المتصل يوضح شكل التطابق والاختلاف على نفس المحاور.</div>', unsafe_allow_html=True)
-        render_profile_cards(sim_comp, benchmark_name=str(benchmark_row["Name"]))
         st.plotly_chart(continuous_profile_radar(sim_comp, "Connected radar · benchmark vs closest profiles", benchmark_name=str(benchmark_row["Name"])), width="stretch")
         st.markdown("### Similarity canvas")
         st.plotly_chart(scout_canvas_figure(candidate_pool, sim_comp, "Benchmark and closest role families", benchmark_name=str(benchmark_row["Name"])), width="stretch")
         st.markdown('<div class="visual-caption">The map shows role context. Hover a player to inspect the profile.</div>', unsafe_allow_html=True)
 
-        alignment_left, alignment_right = st.columns([0.54, 0.46], vertical_alignment="top")
-        with alignment_left:
-            st.plotly_chart(profile_strip_chart(sim_comp, "Benchmark vs closest profile fingerprints"), width="stretch")
-        with alignment_right:
-            st.plotly_chart(similarity_alignment_chart(benchmark_row, sims.head(4)), width="stretch")
+        with st.expander("Open detailed similarity evidence"):
+            alignment_left, alignment_right = st.columns([0.54, 0.46], vertical_alignment="top")
+            with alignment_left:
+                st.plotly_chart(profile_strip_chart(sim_comp, "Benchmark vs closest profile fingerprints"), width="stretch")
+            with alignment_right:
+                st.plotly_chart(similarity_alignment_chart(benchmark_row, sims.head(4)), width="stretch")
 
         top_match = sims.iloc[0]
         st.markdown(
